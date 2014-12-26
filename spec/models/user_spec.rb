@@ -1,5 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe User, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  let(:user) {User.new(email_address: 'colleen@email.com', password: "password")}
+
+  it "is invalid without an email address" do
+    user.email_address = nil
+    expect(user).not_to be_valid
+  end
 end
