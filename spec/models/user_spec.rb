@@ -7,4 +7,5 @@ RSpec.describe User, :type => :model do
     user.email_address = nil
     expect(user).not_to be_valid
   end
+
 end
