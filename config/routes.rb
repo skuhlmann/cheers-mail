@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
 
-  root 'episodes#index'
+  root 'home#index'
 
-  resources :users, path: '/admin/users'
+  get '/admin', to: 'admin/base_admin#index', as: :admin_index
 
-  resources :episodes, only: [:index]
+  namespace :admin do
+    resources :users, only: [:destroy, :update, :create, :new, :edit, :show]
+    resources :episodes, :subscriptions
+  end
 
   get 'login',     to: 'sessions#new'
   post '/login',    to: 'sessions#create'
