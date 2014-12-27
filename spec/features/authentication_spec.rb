@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'the authentication process', type: :feature do
 
-  let(:user)  {User.create(email_address: "colleen@email.com")}
+  let(:user)  {User.create(email_address: "colleen@email.com", password: "password")}
   let(:admin_user)  {User.create(email_address: "sam@email.com", admin: true, password: "password")}
 
   it "can login and view the users page if admin" do

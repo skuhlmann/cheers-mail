@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root 'episodes#index'
 
-  resources :users
+  resources :users, path: '/admin/users'
 
   resources :episodes, only: [:index]
 
