@@ -1,0 +1,25 @@
+<h1>All Subscriptions</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email address</th>
+      <th>Date Added</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @subscriptions.each do |subscription| %>
+      <tr>
+        <td><%= subscription.name %></td>
+        <td><%= subscription.email_address %></td>
+        <td><%= subscription.created_at.strftime("%B %d, %Y") %></td>
+        <td><%= link_to 'Delete', admin_subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= render 'new_form' %>
+

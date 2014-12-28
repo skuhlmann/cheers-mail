@@ -16,5 +16,6 @@ class Admin::BaseAdminController < ActionController::Base
 
   def index
     @users = User.all
+    @recent_subscriptions = Subscription.recent
   end
 end

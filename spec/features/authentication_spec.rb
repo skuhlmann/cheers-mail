@@ -13,12 +13,12 @@ describe 'the authentication process', type: :feature do
     page.fill_in('password', with: 'password')
     page.click_button('Login')
 
-    expect(current_path).to eq(users_path)
+    expect(current_path).to eq(admin_index_path)
     expect(page).to have_content('colleen@email.com')
   end
 
   it "can not access user sections if not logged in" do
-    visit users_path
+    visit admin_index_path
 
     expect(current_path).to eq(root_path)
     expect(page).to have_content("Unauthorized")

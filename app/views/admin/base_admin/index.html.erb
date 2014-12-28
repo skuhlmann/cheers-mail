@@ -9,7 +9,6 @@
       <th colspan="2"></th>
     </tr>
   </thead>
-
   <tbody>
     <% @users.each do |user| %>
       <tr>
@@ -22,6 +21,30 @@
   </tbody>
 </table>
 
-<br>
-
 <%= link_to 'New User', new_admin_user_path %>
+
+<h2>Recent Subscriptions</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email address</th>
+      <th>Date added</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @recent_subscriptions.each do |subscription| %>
+    <tr>
+      <td><%= subscription.name %></td>
+      <td><%= subscription.email_address %></td>
+      <td><%= subscription.created_at.strftime("%B %d, %Y") %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<%= link_to "View full subscription list", admin_subscriptions_path %>
+
+
+
+

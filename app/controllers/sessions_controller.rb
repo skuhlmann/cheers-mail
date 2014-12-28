@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by(email_address: params[:email_address])
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to users_path
+      redirect_to admin_index_path
     else
       flash[:errors] = "INVALID CREDENTIALS"
       render :new
