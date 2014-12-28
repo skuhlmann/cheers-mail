@@ -26,4 +26,15 @@ describe 'the admin user flow', type: :feature do
     expect(current_path).to eq("/admin/subscriptions")
     expect(page).to have_text("coll@email.com")
   end
+
+  it "can subscribe someone to the list" do
+    visit admin_index_path
+    page.click_link("View full subscription list")
+    page.fill_in('subscription_email_address', with: 'leonardo@email.com')
+    page.fill_in('subscription_name', with: 'Leo')
+    page.click_button('Create Subscription')
+    expect(page).to have_content("Leo")
+  end
+
+
 end
