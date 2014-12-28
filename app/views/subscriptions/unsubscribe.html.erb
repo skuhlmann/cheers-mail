@@ -1,0 +1,7 @@
+<h1>Unsubscribe</h1>
+
+<%= form_for @subscription, url: {action: "destroy"}, html: {method: :delete} do |f| %>
+  <%= f.label(:email_address, "Email Address") %>
+  <%= f.text_field(:email_address) %>
+  <%= f.submit "Unsubscribe me" %>
+<% end %>
