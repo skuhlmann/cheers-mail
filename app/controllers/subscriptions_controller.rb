@@ -11,9 +11,12 @@ class SubscriptionsController < ApplicationController
 
   def destroy
     @subscription = Subscription.find_by(email_address: subscription_params["email_address"])
-    binding.pry
-    @subscription.destroy
-    redirect_to admin_subscriptions_path, notice: 'Subscription was successfully destroyed.'
+    unless @subscription == nil
+      @subscription.destroy
+      redirect_to root_path, notice: "You've been unsubscribed."
+    else
+      redirect_to unsubscribe_path, notice: "The email address provided is not currently subscribed."
+    end
   end
 
   def unsubscribe
