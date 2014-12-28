@@ -25,6 +25,9 @@ class Admin::SubscriptionsController < Admin::BaseAdminController
   end
 
   private
+    def set_subscription
+      @subscription = Subscription.find(params[:id])
+    end
 
     def subscription_params
       params.require(:subscription).permit(:name, :email_address)
