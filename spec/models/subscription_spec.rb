@@ -21,6 +21,17 @@ RSpec.describe Subscription, :type => :model do
     expect(second_subscription).not_to be_valid
   end
 
+  it "is invalid with a bad email address" do
+    subscription.email_address = "sam"
+    expect(subscription).to_not be_valid
+
+    subscription.email_address = "sam.com"
+    expect(subscription).to_not be_valid
+
+    subscription.email_address = "@gmail"
+    expect(subscription).to_not be_valid
+  end
+
   it "return the most recent 3 subscriptions" do
     first = Subscription.create(email_address: 'sam@email.com', name: "Sam")
     second = Subscription.create(email_address: 'joe@email.com', name: "Joe")
