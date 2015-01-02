@@ -36,5 +36,17 @@ describe 'the admin user flow', type: :feature do
     expect(page).to have_content("Leo")
   end
 
+  it "can add a new series" do
+    visit admin_index_path
+    page.click_button('Add a show')
+    expect(current_path).to eq(new_admin_episode_path)
+    page.fill_in('show_title', with: "Cheers")
+    page.fill_in('episode_amount', with: "11")
+    page.click_button("Add Show")
+    expect(current_path).to eq("/admin/espisodes/1")
+    expect(page).to have_content("Cheers")
+    expect(page).to have_content("Gary's Old Towne Tap")
+  end
+
 
 end

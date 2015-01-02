@@ -10,13 +10,15 @@ class WikiParser < ActiveRecord::Base
 
   def self.collect_data(titles)
     default_params[:titles] = titles
-    response = HTTParty.get(base_uri, query: default_params)
-    stuff = parse_summaries(response)
-    binding.pry
+    summaries(responses).map { |summary| summary.split("\n").first.gsub(/[]}=\/{|*+\\\[<>]/, "")}
   end
 
-  def self.parse_summaries(response)
+  def self.responses
+     HTTParty.get(base_uri, query: default_params)
+  end
+
+  def self.summaries(response)
     response["query"]["pages"]["36249764"]["revisions"].first["*"].split("ShortSummary")
   end
-
 end
+

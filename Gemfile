@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'unicorn'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
+gem 'foreigner'
 
 group :development, :test do
   gem 'nokogiri'
