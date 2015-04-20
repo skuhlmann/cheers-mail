@@ -17,6 +17,6 @@ class Admin::BaseAdminController < ActionController::Base
   def index
     @users = User.all
     @recent_subscriptions = Subscription.recent
-    @series = Episodes.pluck(:series_title).distinct
+    @series = Series.order(name: :asc)
   end
 end

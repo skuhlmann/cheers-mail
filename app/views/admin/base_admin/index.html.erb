@@ -22,11 +22,17 @@
 
 <%= link_to "View full subscription list", admin_subscriptions_path %>
 
+<hr>
 <h2>Current Series</h2>
 <ul>
   <% @series.each do |series| %>
-    <li><%= series %> | <%= link_to "View episodes", admin_series_path(series) %></li>
+    <li><%= series.name %> | <%= link_to "View episodes", admin_series_path(series) %></li>
+  <% end %>
+</ul>
 
+<%= link_to "Add a new series", new_admin_series_path %>
+
+<hr>
 <h2>Users</h2>
 <table>
   <thead>

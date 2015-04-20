@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   namespace :admin do
     resources :users, only: [:destroy, :update, :create, :new, :edit, :show]
-    resources :episodes, :subscriptions
+    resources :episodes, :subscriptions, :series
   end
 
   resources :subscriptions, only: [:create]
