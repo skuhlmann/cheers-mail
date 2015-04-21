@@ -18,11 +18,4 @@ RSpec.describe Series, :type => :model do
     expect(new_series.name).to eq("Seinfeld")
     expect(another_series.name).to eq("Who's The Boss")
   end
-
-  it "creates tries to create episodes" do
-    new_series = Series.create(name: "seinfeld", seasons: 1)
-    #vcr a call to wikiservice to get 1st seinfeld episode"
-
-    expect(new_series.episodes.count).to eq(13)
-  end
 end
