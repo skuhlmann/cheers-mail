@@ -24,6 +24,9 @@ group :development, :test do
   gem 'selenium'
   gem 'binding_of_caller'
   gem 'launchy'
+end
+
+group :test do
   gem 'database_cleaner'
   gem 'simplecov'
   gem 'vcr'

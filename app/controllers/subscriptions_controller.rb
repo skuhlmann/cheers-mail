@@ -2,6 +2,7 @@ class SubscriptionsController < ApplicationController
 
   def create
     @subscription = Subscription.new(subscription_params)
+    @subscription.series_ids = params[:series_ids]
     if @subscription.save
       redirect_to root_path, notice: "You've been subscribed."
     else
