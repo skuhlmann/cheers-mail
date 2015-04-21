@@ -36,5 +36,20 @@ describe 'the admin user flow', type: :feature do
     expect(page).to have_content("Leo")
   end
 
+  it "can add a new series" do
+    visit admin_index_path
+    page.click_link('Add a new series')
+    expect(current_path).to eq(new_admin_series_path)
 
+    VCR.use_cassette("admin_series") do
+      page.fill_in('series_name', with: "Cheers")
+      page.fill_in('series_seasons', with: "11")
+      page.click_button("Create Series")
+
+      series = Series.last
+      expect(current_path).to eq(admin_series_path(series))
+      expect(page).to have_content("Cheers")
+      expect(page).to have_content("Gary's Old Towne Tap")
+    end
+  end
 end

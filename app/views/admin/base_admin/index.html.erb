@@ -1,27 +1,4 @@
 <h1>Admin Homepage</h1>
-<h2>Listing users</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Email address</th>
-      <th>Admin</th>
-      <th colspan="2"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.email_address %></td>
-        <td><%= user.admin %></td>
-        <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
-        <td><%= link_to 'Delete', admin_user_path(user), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<%= link_to 'New User', new_admin_user_path %>
 
 <h2>Recent Subscriptions</h2>
 <table>
@@ -44,6 +21,40 @@
 </table>
 
 <%= link_to "View full subscription list", admin_subscriptions_path %>
+
+<hr>
+<h2>Current Series</h2>
+<ul>
+  <% @series.each do |series| %>
+    <li><%= series.name %> | <%= link_to "View episodes", admin_series_path(series) %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Add a new series", new_admin_series_path %>
+
+<hr>
+<h2>Users</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Email address</th>
+      <th>Admin</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.email_address %></td>
+        <td><%= user.admin %></td>
+        <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
+        <td><%= link_to 'Delete', admin_user_path(user), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'New User', new_admin_user_path %>
 
 
 

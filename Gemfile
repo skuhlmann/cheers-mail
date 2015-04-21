@@ -13,6 +13,7 @@ gem 'spring',        group: :development
 gem 'unicorn'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
+gem 'foreigner'
 
 group :development, :test do
   gem 'nokogiri'
@@ -23,6 +24,10 @@ group :development, :test do
   gem 'selenium'
   gem 'binding_of_caller'
   gem 'launchy'
+  gem 'database_cleaner'
+  gem 'simplecov'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :production, :staging do

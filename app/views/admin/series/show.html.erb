@@ -1,0 +1,13 @@
+<h1><%= @series.name %> :: Admin</h1>
+
+<% unless @series.episodes.empty? %>
+  <h2>Episode content</h2>
+  <% @series.episodes.each do |episode| %>
+    <ul>
+      <li>Season: <%= episode.season %></li>
+      <li>Summary: <%= episode.summary %></li>
+    </ul>
+  <% end %>
+<% else %>
+  <p>We couldn't find any episodes for this series</p>
+<% end %>
