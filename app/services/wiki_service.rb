@@ -13,22 +13,23 @@ class WikiService
 
   def collect_data(titles)
     default_params[:titles] = titles
-    summaries(responses).map { |summary| summary.split("\n").first.gsub(/[\]}=\/{|*+\\\[<>]/, "")}.drop(1)
+    summaries(responses).map { |summary| summary.split("\n")
+                                                .first.gsub(/[\]}=\/{|*+\\\[<>]/, "") }
+                                                .drop(1)
   end
 
   private
 
   def responses
-     HTTParty.get(base_uri, query: default_params)
+    HTTParty.get(base_uri, query: default_params)
   end
 
   def summaries(response)
-    response["query"]["pages"][page_id(response)]["revisions"].first["*"].split("ShortSummary")
+    response["query"]["pages"][page_id(response)]["revisions"].first["*"]
+                                                              .split("ShortSummary")
   end
 
   def page_id(response)
     response["query"]["pages"].keys.first
   end
-
 end
-

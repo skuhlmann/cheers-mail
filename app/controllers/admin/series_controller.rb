@@ -1,5 +1,4 @@
 class Admin::SeriesController < Admin::BaseAdminController
-
   def new
     @series = Series.new
   end
