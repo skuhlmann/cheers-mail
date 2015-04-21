@@ -24,6 +24,10 @@ group :development, :test do
   gem 'selenium'
   gem 'binding_of_caller'
   gem 'launchy'
+  gem 'database_cleaner'
+  gem 'simplecov'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :production, :staging do
