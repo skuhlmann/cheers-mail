@@ -7,6 +7,7 @@
       <p>Season: <%= episode.season %></p>
       <p>Summary: <%= episode.summary %></p>
       <%= link_to "Edit episode summary", edit_admin_episode_path(episode) %>
+      <%= button_to "Delete episode", admin_episode_path(episode), method: :delete, data: { confirm: "Are you sure?" } %>
 
     </div>
   <% end %>

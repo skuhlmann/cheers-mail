@@ -74,4 +74,17 @@ describe 'the admin user flow', type: :feature do
     expect(page).to have_content("New summary")
     expect(page).not_to have_content("lorem ipsum")
   end
+
+  it "can delete a single episode" do
+    visit admin_index_path
+    page.click_link("View Cheers episodes")
+    expect(page).to have_content("lorem ipsum")
+
+    page.click_button("Delete episode", match: :first)
+
+    series = Series.last
+
+    expect(current_path).to eq(admin_series_path(series))
+    expect(page).not_to have_content("lorem ipsum")
+  end
 end

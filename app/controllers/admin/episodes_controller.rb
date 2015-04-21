@@ -13,6 +13,12 @@ class Admin::EpisodesController < Admin::BaseAdminController
     end
   end
 
+  def destroy
+    @episode = Episode.find(params[:id])
+    @episode.destroy
+    redirect_to admin_series_path(@episode.series), notice: 'Episode was deleted.'
+  end
+
   private
 
   def episode_params
