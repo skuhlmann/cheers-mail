@@ -1,3 +1,4 @@
+Add a subscriber
 <%= form_for([:admin, @subscription]) do |f| %>
   <% if @subscription.errors.any? %>
     <div id="error_explanation">
@@ -19,6 +20,17 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
+
+  Add a show:
+
+  <% @series.each do |series| %>
+    <div class="field">
+      <%= check_box_tag "series_ids[]", series.id %>
+      <%= label_tag series.id, series.name %>
+    </div>
+  <% end %>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>

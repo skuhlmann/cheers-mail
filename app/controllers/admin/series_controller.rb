@@ -5,6 +5,7 @@ class Admin::SeriesController < Admin::BaseAdminController
 
   def show
     @series = Series.find(params[:id])
+    @episodes = @series.episodes.order(:season)
   end
 
   def create

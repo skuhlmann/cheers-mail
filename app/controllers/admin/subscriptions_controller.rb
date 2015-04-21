@@ -3,6 +3,7 @@ class Admin::SubscriptionsController < Admin::BaseAdminController
   def index
     @subscriptions = Subscription.all
     @subscription = Subscription.new
+    @series = Series.order(:name)
   end
 
   def new
@@ -11,6 +12,7 @@ class Admin::SubscriptionsController < Admin::BaseAdminController
 
   def create
     @subscription = Subscription.new(subscription_params)
+    @subscription.series_ids = params[:series_ids]
     if @subscription.save
       redirect_to admin_subscriptions_path, notice: 'Subscription was successfully created.'
     else

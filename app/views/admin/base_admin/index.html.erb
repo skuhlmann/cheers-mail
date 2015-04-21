@@ -26,7 +26,7 @@
 <h2>Current Series</h2>
 <ul>
   <% @series.each do |series| %>
-    <li><%= series.name %> | <%= link_to "View episodes", admin_series_path(series) %></li>
+    <li><%= series.name %> | <%= link_to "View #{series.name} episodes", admin_series_path(series) %></li>
   <% end %>
 </ul>
 

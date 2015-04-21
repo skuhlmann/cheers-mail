@@ -1,0 +1,999 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&rvprop=content&titles=Friends_(season_1)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Powered-By:
+      - HHVM/3.3.1
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1113121515, 1296696801
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '15179'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 21 Apr 2015 21:14:43 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp1068 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Arvada:39.8620:-105.1435:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: ASCII-8BIT
+      string: '{"query":{"normalized":[{"from":"Friends_(season_1)","to":"Friends
+        (season 1)"}],"pages":{"22716229":{"pageid":22716229,"ns":0,"title":"Friends
+        (season 1)","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        mdy dates|date=May 2012}}\n{{Infobox television season\n |season_name  = Friends
+        (season 1)\n |bgcolour     = #0160bc\n |fgcolour     = white\n |image        =
+        [[File:Friends Season 1 DVD.jpg|250px]]\n |caption      = ''''Friends''''
+        Season 1 DVD cover\n |country      = United States\n |num_episodes = 24\n
+        |network      = [[NBC]]\n |first_aired  = {{Start date|1994|09|22}}\n |last_aired   =
+        {{End date|1995|5|18}}\n |region_1     = {{Start date|2002|4|30}}\n |region_2     =
+        {{Start date|2004|10|25}}\n |region_3     = <!-- {{Start date|yyyy|mm|dd}}
+        -->\n |region_4     = {{Start date|2006|10|4}}\n |region_5     = <!-- {{Start
+        date|yyyy|mm|dd}} -->\n |region_A     = <!-- {{Start date|yyyy|mm|dd}} -->\n
+        |region_B     = <!-- {{Start date|yyyy|mm|dd}} -->\n |region_C     = <!--
+        {{Start date|yyyy|mm|dd}} -->\n |next_season  = [[Friends (season 2)|Season
+        2]]\n |episode_list = [[List of Friends episodes|List of ''''Friends'''' episodes]]\n}}\nThe
+        ''''''first season'''''' of ''''[[Friends]]'''', an American [[sitcom]] created
+        by [[David Crane (producer)|David Crane]] and [[Marta Kauffman]], premiered
+        on [[NBC]] on September 22, 1994.\n\n''''Friends'''' was produced by [[Bright/Kauffman/Crane
+        Productions]], in association with [[Warner Bros. Television]]. The season
+        contains 24 episodes and concluded airing on May 18, 1995.\n\n==Season synopsis==\nThis
+        season introduces the six main characters: [[Rachel Green]], [[Monica Geller]],
+        [[Phoebe Buffay]], [[Joey Tribbiani]], [[Chandler Bing]] and [[Ross Geller]].
+        Rachel, who left her fianc\u00e9 at the altar on her wedding day, has come
+        to New York and ends up living with Monica. It establishes early on in the
+        season that Ross has been in love with Rachel since the two characters attended
+        high school. Several episodes revolve around his attempts to tell her how
+        he feels. Meanwhile, Ross''s estranged lesbian ex-wife Carol is pregnant with
+        his baby. This puts Ross and Carol''s lesbian life partner, Susan, in an awkward
+        position. Due to the loneliness Ross brings home Marcel, a capucin monkey.<ref>{{cite
+        web|first=Angie|title=\"Friends\" The One with the Monkey|url=http://www.imdb.com/title/tt0583630/plotsummary|accessdate=12
+        November 2012}}</ref> When the baby is born at the end of the season, Ross,
+        Carol, and Susan agree to name him Ben after a name tag on a janitor''s uniform
+        worn by Phoebe. The episodic nature of the season sees the characters learning
+        moral lessons about life and having multiple dates, many of which go wrong
+        (Monica dates a minor in one episode), yet each episode still ended happily.
+        The recurring character of Janice is introduced as a girlfriend Chandler breaks
+        up with in an early episode but frequently returns to throughout the next
+        two seasons. Ross leaves for a fossil dig in China at the end of the season,
+        but when Chandler lets it slip about Ross''s continuing feelings for Rachel
+        on her birthday, she is shocked to find out. She rushes off to the airport
+        to tell him about her feelings, only to find out that he has a new girlfriend.\n\n==Production==\n{{see
+        also|The Pilot (Friends)}}\n\n===Writing===\nIn the weeks after NBC''s pick
+        up of ''''Friends'''', Crane, Kauffman and Bright reviewed sent-in scripts
+        that writers had originally prepared for other series, mainly unproduced ''''[[Seinfeld]]''''
+        episodes.<ref name=\"friendsborn\">{{cite web |url=http://query.nytimes.com/gst/fullpage.html?res=9A01E5DF1E38F930A15756C0A962958260&sec=&spon=&pagewanted=all
+        |title=A Sitcom is Born: Only Time Will Tell the Road to Prime Time |accessdate=January
+        1, 2009 |author=Kolbert, Elizabeth |date=May 23, 1994 |publisher=New York
+        Times}}</ref> Kauffman and Crane hired a team of seven young writers because
+        \"When you''re 40, you can''t do it anymore. The networks and studios are
+        looking for young people coming in out of college.\"<ref>{{cite web |url=http://articles.latimes.com/2001/jun/10/entertainment/ca-8511
+        |title=No Experience Wanted |accessdate=January 4, 2009 |author=Shayne, Bob
+        |date=June 10, 2001 |publisher=[[Los Angeles Times]]}}</ref> The creators
+        felt that utilizing six equal characters, rather than emphasizing one or two,
+        would allow for \"myriad story lines and give the show legs\".<ref name=\"friendsorigin2\">{{cite
+        web |url=http://www.baltimoresun.com/topic/bal-friends-buzz0502,0,495484.story?page=2
+        |title=They leave as they began: With a buzz |page=2|accessdate=December 23,
+        2008|author=Jicha, Tom |date=May 2, 2004 |publisher=[[The Baltimore Sun]]}}</ref>
+        The majority of the storyline ideas came from the writers, although the actors
+        added ideas.<ref name=\"friendswrit\">{{cite web |url=http://www.usatoday.com/community/chat/2002-04-23-friends.htm
+        |title=''''Friends'''': Kevin Bright |accessdate=December 28, 2008 |date=January
+        1, 2005|publisher=[[USA Today]]}}</ref> The writers originally planned a big
+        love story between Joey and Monica, as they intended them to be the most sexual
+        of the characters in the series pitch. The idea of a romantic interest between
+        Ross and Rachel emerged during the period when Kauffman and Crane wrote the
+        pilot script.<ref name=\"friendsorigins1\">{{cite web|url=http://www.msnbc.msn.com/id/4899445/|title=''''Friends''''
+        creators share show''s beginnings|publisher=[[MSNBC]]|author=Lauer, Matt|date=May
+        4, 2005}}</ref>\n\n===Cast===\n[[David Schwimmer]] was the first actor to
+        be cast.<ref name=\"W209\">Wild, p. 209</ref> He was in Chicago doing a stage
+        adaptation of ''''[[The Master and Margarita]]'''' when his agent offered
+        him the audition. He was not interested in doing television after a bad experience
+        appearing in ''''[[Monty (TV series)|Monty]]'''', but changed his mind when
+        he learned that it was an ensemble script.<ref>Wild, p. 177</ref> Unknown
+        to him, Crane and Kauffman had remembered him from when he auditioned for
+        an earlier pilot of theirs; they had written the part of Ross with Schwimmer
+        in mind to play him.<ref name=\"W209\"/>  Crane and Kauffman wanted Joey to
+        be \"a guy''s guy\" who loves \"women, sports, women, New York, women\". [[Matt
+        LeBlanc]] was given the part after he auditioned using the \"grab a spoon\"
+        scene.<ref name=\"BrightFT\"/><ref name=\"Kolbert2\">Kolbert, Elizabeth (April
+        6, 1994). \"[http://query.nytimes.com/gst/fullpage.html?res=9503E1DC1F3FF935A35757C0A962958260&sec=&spon=&pagewanted=all
+        Finding the Absolutely Perfect Actor: The High-Stress Business of Casting]\".
+        ''''The New York Times''''.</ref> As the Joey character was not developed
+        much in the script, LeBlanc used his experience playing \"this Italian, kind
+        of dim character\" from ''''[[Vinnie & Bobby]]''''.<ref>Wild, p. 115</ref>\n[[File:Courteney
+        Cox 1995.jpg|thumb|upright|left|Courteney Cox was the best-known cast member
+        during casting]]\n\n[[Courteney Cox]] was the most well-known of the six main
+        actors. She was called in expecting to read for the part of Rachel. After
+        reading for Monica instead, she won the role.<ref>Cox Arquette, Courteney,
+        ''''Friends: Final Thoughts''''</ref> [[Nancy McKeon]] also read for the part.<ref>Wild,
+        p. 53</ref> [[Jennifer Aniston]] read for the part of Rachel after initially
+        being considered for Monica. Her commitment as an actress on the television
+        series ''''Muddling Through'''' left her part in ''''Friends'''' in doubt;
+        ''''Muddling Through'''' was not scheduled to be broadcast by CBS until mid-1994,
+        after NBC''s announcement of whether ''''Friends'''' would be [[greenlight|greenlit]]
+        for a series. If ''''Muddling Through'''' became a ratings success, the role
+        of Rachel would have needed recasting, as the producer of ''''Muddling Through''''
+        would not allow Aniston to be released from her contract. A deal was eventually
+        struck and, within three days of first auditioning, Aniston got the role.<ref>Brownfield,
+        Paul; Dana Calvo (May 8, 2002). \"[http://articles.latimes.com/2002/may/08/entertainment/et-bubble8
+        Nervous Time for the TV Set]\". ''''The Los Angeles Times''''.</ref><ref>Aniston,
+        Jennifer, ''''Larry King Live''''</ref>\n\n[[Chandler Bing]] and Phoebe had
+        originally been written as more secondary characters who were just there to
+        provide humor around the other four. They had become part of the core group
+        by the time casting concluded.<ref name=\"W146\">Wild, p. 146</ref><ref name=\"KFT\">Kauffman,
+        Marta, ''''Friends: Final Thoughts''''</ref> [[Matthew Perry]] had previously
+        worked with Kauffman and Crane on an episode of ''''Dream On'''', and requested
+        an audition when he identified with the character. He was turned down at first,
+        but was granted an audition after his new television series ''''LAX 2194''''
+        was not picked up by a network.<ref name=\"W146\"/> [[Lisa Kudrow]] won the
+        role of Phoebe because the producers liked her as Ursula, the waitress in
+        ''''[[Mad About You]]''''.<ref name=\"BrightFT\">Bright, Kevin S., ''''Friends:
+        Final Thoughts''''</ref>{{ref label|note02|b|^}} She was second to be cast,
+        though there was about a month between her and Schwimmer being signed on.<ref
+        name=\"W209\"/> Many of the actors seen at the auditions were \"too theatrical\"
+        in performing comedy;<ref name=\"Kolbert2\"/> Crane described the six successful
+        actors as being the only ones who \"nailed\" their parts.<ref name=\"CraneFT\">Crane,
+        David, ''''Friends: Final Thoughts''''</ref> The six actors met for the first
+        time altogether at the [[read-through]] on April 28, 1994.<ref>Kudrow, Lisa,
+        ''''Friends: Final Thoughts''''</ref><ref>Staff (May 6, 2004). \"[http://www.hollywoodreporter.com/hr/search/article_display.jsp?vnu_content_id=1000504086
+        ''Friends'' timeline]{{dead link|date=September 2013}}\" (subscription). ''''The
+        Hollywood Reporter''''.</ref>\n\n===Filming===\nThe first season was shot
+        on Stage 5 at Warner Bros. Studios in [[Burbank, California]].<ref>{{cite
+        web |url=http://nl.newsbank.com/nl-search/we/Archives?p_product=AASB&p_theme=aasb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0EAD97908003E2DA&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM
+        |title=''''Friends'''' wins friends with caffeine-fueled energy |accessdate=January
+        3, 2009 |author=Endrst, James |date=February 23, 1995 |publisher=[[Austin
+        American-Statesman]]|registration=yes}}</ref> The NBC executives had worried
+        that the coffee house setting was too hip and asked for the series to be set
+        in a diner, but eventually consented to the coffee house concept.<ref name=\"friendsorigins1\"/>
+        The opening title sequence was filmed in a fountain at the Warner Bros. Ranch
+        at 4:00 am, while it was particularly cold for a Burbank morning.<ref>[http://www.nytimes.com/2005/11/27/nyregion/thecity/27fyi.html?pagewanted=print
+        Keep Your Left Up] MICHAEL POLLAK. November 27, 2005. F. Y. I.</ref> At the
+        beginning of the second season, production moved to the larger Stage 24, which
+        was renamed \"The Friends Stage\" after the series finale.<ref name=\"finalechina\">{{cite
+        web |url=http://www.chinadaily.com.cn/english/doc/2004-05/08/content_328725.htm
+        |title=52 millon friends see off ''''Friends'''' |accessdate=December 31,
+        2008 |date=May 8, 2004 |publisher=[[China Daily]]}}</ref> Filming for the
+        series began in the summer of 1994 in front of a live audience, who were given
+        a summary of the series to familiarize themselves with the six main characters,<ref
+        name=\"friendsorigins1\"/> while a hired comedian entertained them between
+        takes.<ref name=\"filmhours\"/> Each 22-minute episode took six hours to film\u2014twice
+        the length of most sitcom tapings\u2014mainly due to the several retakes and
+        rewrites of the script.<ref name=\"filmhours\">{{cite web |url=http://www.enquirer.com/editions/2002/01/27/tem_friends_grows_in.html
+        |title=''''Friends'''' grows in stature, ratings |accessdate=January 5, 2009
+        |author=Kiesewetter, John |date=January 27, 2002 |publisher=[[The National
+        Enquirer]]}}</ref>\n\n==Reception==\nEarly reviews of the series were mixed.
+        Tom Feran of ''''[[The Plain Dealer]]'''' wrote that the series traded \"vaguely
+        and less successfully on the hanging-out style of ''''Seinfeld''''\",<ref>Feran,
+        Tom (September 22, 1994). \"New Series Softens Dabney Coleman\u2014A Little\",
+        ''''[[The Plain Dealer]]'''', [[Advance Publications|Newhouse Newspapers]].
+        Retrieved January 4, 2009.</ref> while Ann Hodges of the ''''[[Houston Chronicle]]''''
+        called it \"the new ''''Seinfeld'''' wannabe, but it will never be as funny
+        as ''''Seinfeld''''.\"<ref name=\"Hodges\">Hodges, Ann (September 22, 1994).
+        \"NBC sitcoms make Thursday less funny\", ''''[[Houston Chronicle]]'''', [[Hearst
+        Corporation|Hearst Newspapers]]. Retrieved January 4, 2009.</ref> In the ''''[[Los
+        Angeles Daily News]]'''', [[Ray Richmond]] named the series as \"one of the
+        brighter comedies of the new season\",<ref name=\"rayreview\">Richmond, Ray
+        (September 22, 1994). \"[http://nl.newsbank.com/nl-search/we/Archives?p_product=LA&p_theme=la&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0EF66B174A1CE015&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM
+        Season Premiere of ''''Friends'''' Leaves Room to Grow]\", (Registration required).
+        ''''[[Los Angeles Daily News]]'''', [[Los Angeles Newspaper Group]]. Retrieved
+        January 4, 2009.</ref> and the ''''[[Los Angeles Times]]'''' called it \"flat-out
+        the best comedy series of the new season\".<ref>Rosenberg, Howard (September
+        22, 1994). \"[http://pqasb.pqarchiver.com/latimes/access/59621450.html?dids=59621450:59621450&FMT=ABS&FMTS=ABS:FT&date=Sep+22%2C+1994&author=HOWARD+ROSENBERG&pub=Los+Angeles+Times+(pre-1997+Fulltext)&desc=TV+Reviews+NBC%27s+Strongest+Evening+of+the+Week+Has+Its+Weak+Spot&pqatl=google
+        NBC''s Strongest Evening of the Week Has Its Weak Spot]\", (Registration required).
+        ''''[[Los Angeles Times]]'''', [[Tribune Company]]. Retrieved January 4, 2009.</ref>
+        ''''[[Chicago Sun-Times]]''''{{''}} Ginny Holbert found Joey and Rachel''s
+        characteristics to be underdeveloped,<ref>Holbert, Ginny (September 22, 1994).
+        \"[http://nl.newsbank.com/nl-search/we/Archives?p_product=CSTB&p_theme=cstb&p_action=search&p_maxdocs=200&p_topdoc=1&p_text_direct-0=0EB421DE1111933C&p_field_direct-0=document_id&p_perpage=10&p_sort=YMD_date:D&s_trackval=GooglePM
+        X Marks Spot For ''''Friends'''' On Thursday]\". (Registration required).
+        ''''[[Chicago Sun-Times]]''''. Retrieved January 4, 2009.</ref> while Richmond
+        commended the cast as a \"likeable, youth ensemble\" with \"good chemistry\"<ref
+        name=\"rayreview\"/> Robert Bianco of ''''[[USA Today]]'''' was complimentary
+        of Schwimmer, calling him \"terrific\". He also praised the female leads,
+        but was concerned that Perry''s role as Chandler was \"undefined\" and that
+        LeBlanc was \"relying too much on the same brain-dead stud routine that was
+        already tired the last two times he tried it\".<ref name=\"Bianco\">Bianco,
+        Robert (September 22, 1994). \"Six ''''Friends'''' Sittin'' Around, Talking\",
+        ''''[[Pittsburgh Post-Gazette]]''''.</ref> The authors of ''''Friends Like
+        Us: The Unofficial Guide to Friends'''' thought that the cast was \"trying
+        just a little too hard\", in particular Perry and Schwimmer.<ref>Sangster,
+        p. 14</ref>\n\n===Awards and Nominations===\n''''''''''[[47th Primetime Emmy
+        Awards]]''''''''''\n*Nomination for Outstanding Comedy Series\n*Nomination
+        for Outstanding Supporting Actor in a Comedy Series (David Schwimmer) (Episode:
+        \"The One with the Blackout\")\n*Nomination for Outstanding Supporting Actress
+        in a Comedy Series (Lisa Kudrow) (Episode: \"The One with the Monkey\")\n*Nomination
+        for Outstanding Guest Actress in a Comedy Series (Christina Pickles) (Episode:
+        \"The One Where Nana Dies Twice\")\n*Nomination for Outstanding Directing
+        for a Comedy Series (James Burrows) (Episode: \"The One with the Blackout\")\n*Nomination
+        for Outstanding Writing for a Comedy Series (Jeff Greenstein, Jeff Strauss)
+        (Episode: \"The One Where Underdog Gets Away\")\n\n''''''''''[[11th TCA Awards]]''''''''''\n*Nomination
+        for Outstanding Achievement in Comedy\n\n''''''''''[[Writers Guild of America
+        Awards]]''''''''''\n*Nomination for Best Comedy Episode (Jeff Greenstein &
+        Jeff Strauss) (Episode: \"The One Where Underdog Gets Away\")\n\n''''''''''[[Directors
+        Guild of America Awards]]''''''''''\n*Nomination for Outstanding Directing
+        for a Comedy Series (James Burrows) (Episode: \"The One with the Birth\")\n\n==Cast
+        and characters==\n{{see also|List of Friends characters}}\n::''''(In particular,
+        [[Characters of Friends#Introduced in season 1]] or [[List of Friends characters#Only
+        in season 1|#Only in season 1]])''''\n{{col-begin}}\n{{col-3}}\n\n===Main
+        cast===\n* [[Jennifer Aniston]] as [[Rachel Green]] (24 episodes)\n* [[Courteney
+        Cox]] as [[Monica Geller]] (24 episodes)\n* [[Lisa Kudrow]] as [[Phoebe Buffay]]
+        (24 episodes)\n* [[Matt LeBlanc]] as [[Joey Tribbiani]] (24 episodes)\n* [[Matthew
+        Perry]] as [[Chandler Bing]] (24 episodes)\n* [[David Schwimmer]] as [[Ross
+        Geller]] (24 episodes)\n{{col-3}}\n\n===Recurring cast===\n* [[Anita Barone]]/[[Jane
+        Sibbett]] as [[Carol Willick]]\n* [[Mitchell Whitfield]] as [[Barry Farber
+        (Friends)|Barry Farber]]\n* [[Cosimo Fusco]] as [[Paolo (Friends)|Paolo]]\n*
+        [[Maggie Wheeler]] as [[Janice Hosenstein]]\n* [[Jessica Hecht]] as [[Susan
+        Bunch]]\n* [[Vincent Ventresca]] as [[Fun Bobby]]\n* [[James Michael Tyler]]
+        as [[Gunther (Friends)|Gunther]]\n* [[Elliott Gould]] as [[Jack Geller]] (episodes
+        2, 8 & 17)\n* [[Christina Pickles]] as [[Judy Geller]] (episodes 2 & 8)\n*
+        [[Larry Hankin]] as [[Mr. Heckles]]\n{{col-3}}\n\n===Guest stars===\n* [[Merrill
+        Markoe]] as Marsha, Ross'' boss\n* [[Jill Goodacre]] as herself\n* [[Hank
+        Azaria]] as [[David (Friends)|David]]\n* [[Morgan Fairchild]] as [[Nora Bing]]\n*
+        [[Fisher Stevens]] as Roger\n* [[Jon Lovitz]] as Steve\n* [[Helen Hunt]] as
+        Jamie Buchman\n* [[Leila Kenzle]] as Fran Devanow\n* [[George Clooney]] as
+        Dr. Mitchell\n* [[Noah Wyle]] as Dr. Rusell\n* [[Jennifer Grey]] as Mindy\n*
+        [[Claudia Shear]] as Fake Monica\n* [[Leah Remini]] as Lydia\n* [[Jonathan
+        Silverman]] as Dr. Franzblau\n* [[Corinne Bohrer]] as Melanie\n* [[Tommy Blaze]]
+        as Carl\n* [[Lauren Tom]] as Julie\n* [[Sofia Milos]] as Aurora\n* [[Jennifer
+        Grant]] as Nina\n* [[John Allen Nelson]] as Paul the Wine Guy\n* [[Geoffrey
+        Lower]] as Alan\n* [[Beth Grant]] as Lizzy  \n* [[Marianne Hagan]] as Joanne,
+        Rachel''s Friend\n* [[Michele Maika]] as Kiki, Rachel''s Friend\n* [[Leesa
+        Bryte]] as Leslie, Rachel''s Friend\n{{col-end}}\n\n==Episodes==\n{{see also|List
+        of Friends episodes}}\n<onlyinclude>\n{| class=\"wikitable plainrowheaders\"  style=\"width:100%;
+        margin-right:0;\"\n|-\n! scope=\"col\" style=\"background:#0160bc; color:#fff;\"|
+        No. in<br>series\n! scope=\"col\" style=\"background:#0160bc; color:#fff;\"|
+        No. in<br>season\n! scope=\"col\" style=\"background:#0160bc; color:#fff;\"|
+        Title\n! scope=\"col\" style=\"background:#0160bc; color:#fff;\"| Directed
+        by\n! scope=\"col\" style=\"background:#0160bc; color:#fff;\"| Written by\n!
+        scope=\"col\" style=\"background:#0160bc; color:#fff;\"| Original air date\n!
+        scope=\"col\" style=\"background:#0160bc; color:#fff;\"| Production<br/>code\n!
+        scope=\"col\" style=\"background:#0160bc; color:#fff;\"| U.S. viewers<br>(millions)\n|-\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = [[The Pilot (Friends)|Pilot]]\n|
+        RTitle = {{#tag:ref|Alternate titles given to the pilot episode are \"The
+        One Where Monica Gets a Roommate\", \"The One Where It All Began\" and \"The
+        First One\".{{sfn|Sangster & Bailey|p=11}}|group=lower-alpha}}\n| DirectedBy
+        = [[James Burrows]]\n| WrittenBy = [[David Crane (producer)|David Crane]]
+        & [[Marta Kauffman]]\n| OriginalAirDate = {{Start date|1994|9|22}}\n| EpisodeNumber
+        = 1\n| EpisodeNumber2 = 1\n| ProdCode = 456650\n |Viewers=21.5<ref name=\"sep-nov94\">{{cite
+        news|title=Nielsen Ratings|newspaper=[[USA Today]]|publisher=[[Gannett Company]]|url=http://anythingkiss.com/pi_feedback_challenge/Ratings/19940919-19941204_TVRatings.pdf|accessdate=October
+        15, 2013}}</ref>\n| ShortSummary = Rachel leaves her fiance, Barry, at the
+        altar and decides to move in with her old friend Monica after meeting the
+        gang in the coffee place ''Central Perk.'' Everyone watches Spanish soap operas
+        at Monica''s place. Monica, meanwhile, sleeps with Paul the ''Wine Guy'' from
+        her work, who turns out to be less than sincere and lies to get her into bed.
+        Chandler and Joey try to get Ross back into dating who is reeling from his
+        divorce from Carol as he found out she is a lesbian. Ross reveals his high
+        school crush on Rachel and mentions asking her out. Rachel discovers independence
+        isn''t as easy as she thought and gets a job at the coffee house as a waitress.\n|
+        LineColor = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n|
+        Title = [[The One with the Sonogram at the End]]\n| DirectedBy = James Burrows\n|
+        WrittenBy = David Crane & Marta Kauffman\n| OriginalAirDate = {{Start date|1994|9|29}}\n|
+        EpisodeNumber = 2\n| EpisodeNumber2 = 2\n| ProdCode = 456652\n |Viewers=20.2<ref
+        name=\"sep-nov94\"/>\n| ShortSummary = Carol, Ross'' lesbian ex-wife, tells
+        him at work that she is pregnant with his child and when he attends the sonogram,
+        is stunned to learn that she wants to give the baby her and her lesbian lover''s
+        last names. Monica nearly has a breakdown from stressing when her and Ross''
+        parents come for dinner. Ross and Rachel console each other, as she has to
+        return her engagement ring to Barry and finds out that he and her maid of
+        honor Mindy, went on her honeymoon.\n| LineColor =0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with the Thumb\n| DirectedBy = James
+        Burrows\n| WrittenBy = Jeffrey Astrof & Mike Sikowitz\n| OriginalAirDate =
+        {{Start date|1994|10|6}}\n| EpisodeNumber = 3\n| EpisodeNumber2 = 3\n| ProdCode
+        = 456651\n |Viewers=19.5<ref name=\"sep-nov94\"/>\n| ShortSummary = Monica
+        becomes irritated when everyone likes her new boyfriend Alan, more than she
+        does. Chandler starts smoking again and when the group complains, he diverts
+        their attention to their own faults. Phoebe gets money put into her bank account
+        that isn''t hers and when she complains she gets more so she gives it to her
+        homeless friend who buys her a can of soda, only to find a thumb in the can
+        of soda. Phoebe uses the money from the soda company to pay Chandler to quit
+        smoking.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List of Friends
+        episodes\n| Title = The One with George Stephanopoulos\n| DirectedBy = James
+        Burrows\n| WrittenBy = [[Alexa Junge]]\n| OriginalAirDate = {{Start date|1994|10|13}}\n|
+        EpisodeNumber = 4\n| EpisodeNumber2 = 4\n| ProdCode = 456654\n |Viewers=19.7<ref
+        name=\"sep-nov94\"/>\n| ShortSummary = Ross, upset about it being the anniversary
+        of his first time sleeping with Carol, goes to a [[New York Rangers|Rangers]]
+        game with Chandler and Joey and gets hit in the face by a puck, and is taken
+        to the hospital. There, Ross reveals Carol is the only woman he''s ever slept
+        with. Rachel gets her first pay check but is angry that most of her money
+        went to FICA, and also gets a visit from her old friends, which depresses
+        her further about her new life. To cheer her up, Monica and Phoebe have a
+        slumber party which isn''t very fun due to Rachel''s depressed state, until
+        the girls spy on [[George Stephanopoulos]], whose pizza was delivered to them
+        by mistake, across the street.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with the East German Laundry Detergent\n|
+        WrittenBy = [[Jeff Greenstein]] & Jeff Strauss\n| DirectedBy = [[Pamela Fryman]]\n|
+        OriginalAirDate = {{Start date|1994|10|20}}\n| EpisodeNumber = 5\n| EpisodeNumber2
+        = 5\n| ProdCode = 456653\n |Viewers=18.6<ref name=\"sep-nov94\"/>\n| ShortSummary
+        = Chandler and Phoebe decide to break up with Janice and Tony at the same
+        time, and Phoebe''s goes well but Chandler has a harder time requiring Phoebe''s
+        help. Ross arranges to do laundry with Monica and Rachel but Monica cancels
+        leaving just the two of them. Rachel reveals she''s never done laundry before
+        but Ross helps her stand up to a woman and Ross gets his first kiss with Rachel.
+        Joey wants to go out with his ex-girlfriend (Angela) who now has a boyfriend
+        (Bob), so he arranges for Monica and him to double-date with them by leading
+        Monica to believe that Angela and Bob are siblings and therefore Angela''s
+        actual boyfriend is Monica''s date. This creates much confusion when Monica
+        sees Angela and her \"brother\" being ''inappropriate'' but it eventually
+        works out for Joey.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with the Butt\n| DirectedBy = [[Arlene
+        Sanford]]\n| WrittenBy = Adam Chase & Ira Ungerleider\n| OriginalAirDate =
+        {{Start date|1994|10|27}}\n| EpisodeNumber = 6\n| EpisodeNumber2 = 6\n| ProdCode
+        = 456655\n |Viewers=18.2<ref name=\"sep-nov94\"/>\n| ShortSummary = Everyone
+        attends Joey''s new musical where Chandler meets a beautiful and exotic Italian
+        woman, Aurora, and asks her out. He finds out she is married and already has
+        another boyfriend and is thrilled at the prospect of having \"all the fun
+        and none of the responsibility\" in this [[polyamorous]] relationship. However,
+        when she picks up another he learns that it''s not all it''s cracked up to
+        be and can''t take it. Joey gets picked up at the musical by the ''Estelle
+        Leonard Talent Agency,'' which finally gets him a film role as a stand-in
+        for Al Pacino''s butt double. However, he loses the job because he overacts.
+        Rachel cleans the apartment by herself for the first time, but when she moves
+        furniture around Monica starts obsessing.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One with the Blackout\n|
+        DirectedBy = James Burrows\n| WrittenBy= Jeffrey Astrof & Mike Sikowitz\n|
+        OriginalAirDate = {{Start date|1994|11|3}}\n| EpisodeNumber = 7\n| EpisodeNumber2
+        = 7\n| ProdCode = 456656\n |Viewers=23.5<ref name=\"sep-nov94\"/>\n| ShortSummary
+        = During a New York City-wide power outage, while the gang is hanging at Monica
+        and Rachel''s apartment, Ross tries to share his loving feelings with Rachel
+        but is attacked by a cat. Rachel and Phoebe begin searching for the cat''s
+        owner, but when Mr. Heckles tries to claim the cat he spooks it. The cat turns
+        out to belong to Paolo, a dark, attractive Italian hunk who lives in the building
+        and doesn''t speak much English and Rachel falls for him immediately. Meanwhile,
+        Chandler is trapped in an ATM vestibule with ''Victoria''s Secret'' model
+        [[Jill Goodacre]] and he desperately tries to impress her. (This episode was
+        tied to the [[Mad About You]] season 3 episode ''''Pandora''s Box'''' which
+        depicted the cause of the city-wide blackout.)\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One Where Nana Dies Twice\n|
+        DirectedBy = James Burrows\n| WrittenBy= Marta Kauffman & David Crane\n| OriginalAirDate
+        = {{Start date|1994|11|10}}\n| EpisodeNumber = 8\n| EpisodeNumber2 = 8\n|
+        ProdCode = 456657\n |Viewers=21.1<ref name=\"sep-nov94\"/>\n| ShortSummary
+        = Ross and Monica go to the bedside of their passed grandmother, who momentarily
+        returns to life. Meanwhile, one of Chandler''s colleagues tries to fix him
+        up on a date with a man and Chandler finds out that a lot of people think
+        he''s gay when they first meet him and he tries to find out why. The gang
+        goes to Ross and Monica''s Nana''s funeral, where Monica confronts her mother
+        about her critical attitude. Ross falls into an open grave and hurts his back,
+        resulting in him getting a bit loopy on muscle relaxers.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One Where Underdog Gets
+        Away\n| DirectedBy= James Burrows\n| WrittenBy= Jeff Greenstein & Jeff Strauss\n|
+        OriginalAirDate = {{Start date|1994|11|17}}\n| EpisodeNumber = 9\n| EpisodeNumber2
+        = 9\n| ProdCode = 456659\n |Viewers=23.1<ref name=\"sep-nov94\"/>\n| ShortSummary
+        = Ross finds out Susan talks to the unborn baby and decides he must too. Monica
+        plans a lovely, quiet Thanksgiving feast for the gang in her apartment because
+        Ross and Monica''s parents are away, but her plans go awry. Phoebe joins them
+        because she celebrates Thanksgiving with her grandmother in December. Joey
+        poses for a health poster, but later finds out he''s become the V.D. poster
+        boy and so his family thinks he has V.D. and he joins them too. Chandler plans
+        to boycott Thanksgiving because his parents announced their divorce on Thanksgiving
+        when he was younger. The ''Underdog'' balloon breaks free during the parade
+        and everyone goes to the roof to watch and get locked out of Monica''s apartment
+        meaning the dinner gets burned. Rachel had planned to go skiing in Vail with
+        her family, but misses her flight home and joins them too. Everyone ends up
+        eating Chandler''s cheese sandwiches for dinner.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One with the Monkey\n|
+        DirectedBy = [[Peter Bonerz]]\n| WrittenBy = Adam Chase & Ira Ungerleider\n|
+        OriginalAirDate = {{Start date|1994|12|15}}\n| EpisodeNumber = 10\n| EpisodeNumber2
+        = 10\n| ProdCode = 456661\n |Viewers=19.9<ref name=\"dec-feb95\">{{cite news|title=Nielsen
+        Ratings|newspaper=[[USA Today]]|publisher=[[Gannett Company]]|url=http://anythingkiss.com/pi_feedback_challenge/Ratings/19941205-19950305_TVRatings.pdf|accessdate=October
+        15, 2013}}</ref>\n| ShortSummary = Everyone makes a pact not to bring dates
+        to their New Year''s Eve party but everyone breaks the no-date pact except
+        Ross. While performing at Central Perk, Phoebe confronts some noisy scientist
+        guys and ends up dating one of them, David ([[Hank Azaria]]), whom she brings
+        to the party. Their relationship develops well until he gets offered a grant
+        to go to Minsk and has to choose whether to stay with her or go for career
+        making research. Monica invites ''Fun'' Bobby, but he just lost his grandfather
+        and cries all evening. Joey''s date is a single mom, Sandy, whom he met whilst
+        working as an elf in a department store and brings her children to the party,
+        but ends up with David''s friend. Rachel plans to bring Paulo who was supposed
+        to fly in earlier than expected, but he misses his flight and Rachel gets
+        into a fight at the airport. Chandler snaps and asks Janice to be his date,
+        but he breaks up with her again. Ross arrives at the party bringing his new
+        companion, a monkey named Marcel, who seems to take no interest in Ross at
+        all. No one has anyone to kiss at midnight, so Joey ends up kissing Chandler.\n|
+        LineColor = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n|
+        Title = The One with Mrs. Bing\n| DirectedBy = James Burrows\n| WrittenBy
+        = Alexa Junge\n| OriginalAirDate = {{Start date|1995|1|5}}\n| EpisodeNumber
+        = 11\n| EpisodeNumber2 = 11\n| ProdCode = 456660\n |Viewers=26.6<ref name=\"dec-feb95\"/>\n|
+        ShortSummary = Chandler''s flamboyant romance-novelist mother ([[Morgan Fairchild]])
+        comes to New York for a visit, and Joey catches Ross making the mistake of
+        kissing her in a restaurant, after getting himself drunk when he sees Rachel
+        bring Paolo. Monica and Phoebe see a guy who they like who''s passing the
+        street when Monica shouts after him the guy turns and is hit by a car. They
+        both fight for him while he is in the coma.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One with the Dozen Lasagnas\n|
+        DirectedBy = [[Paul Lazarus]]\n| WrittenBy = Jeffrey Astrof & Mike Sikowitz
+        & Adam Chase & Ira Ungerleider\n| OriginalAirDate = {{Start date|1995|1|12}}\n|
+        EpisodeNumber = 12\n| EpisodeNumber2 = 12\n| ProdCode = 456658\n |Viewers=24.0<ref
+        name=\"dec-feb95\"/>\n| ShortSummary = Everyone knows the sex of Ross'' baby
+        except for Ross, who does not want to find out until it''s born. Rachel''s
+        relationship with Paolo hits a snag when he makes a pass at Phoebe. Monica
+        makes a dozen lasagnas for her aunt, only to discover that her aunt does not
+        eat meat.\n| LineColor = 0160bc\n}}\n|-\n{{Episode list/sublist|List of Friends
+        episodes\n| Title = The One with the Boobies\n| DirectedBy = [[Alan Myerson]]\n|
+        WrittenBy = Alexa Junge\n| OriginalAirDate = {{Start date|1995|1|19}}\n| EpisodeNumber
+        = 13\n| EpisodeNumber2 = 13\n| ProdCode = 456664\n |Viewers=25.8<ref name=\"dec-feb95\"/>\n|
+        ShortSummary = After Chandler accidentally sees Rachel wandering around topless
+        after her shower, a chain reaction of nudity ensues when she tries to even
+        the score by seeing him naked. She sees Joey naked, who then sees Monica naked,
+        who then sees Joey''s father naked. Joey finds himself playing parent when
+        he has to decide whether to hide his father''s affair from his mom. And no
+        one can stand Phoebe''s new boyfriend, an irritating psychologist named Roger
+        ([[Fisher Stevens]]).\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with the Candy Hearts\n| DirectedBy
+        = James Burrows\n| WrittenBy = [[Bill Lawrence (producer)|Bill Lawrence]]\n|
+        OriginalAirDate = {{Start date|1995|2|9}}\n| EpisodeNumber = 14\n| EpisodeNumber2
+        = 14\n| ProdCode = 456667\n |Viewers=23.8<ref name=\"dec-feb95\"/>\n| ShortSummary
+        = Ross'' first date in nine years is on Valentine''s Day with a beautiful
+        neighbor. Carol and Susan, also out on a romantic date, end up at the same
+        restaurant where Ross ends up kissing Carol. Joey sets Chandler up on a blind
+        date-with Janice and they end up sleeping together. Chandler ends up breaking
+        up with Janice on Valentine''s Day. And Phoebe, Monica and Rachel decide to
+        spend the holiday burning mementos of their past boyfriends which causes a
+        fire.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n|
+        Title = The One with the Stoned Guy\n| DirectedBy = Alan Myerson\n| WrittenBy
+        = Jeff Greenstein & Jeff Strauss\n| OriginalAirDate = {{Start date|1995|2|16}}\n|
+        EpisodeNumber = 15\n| EpisodeNumber2 = 15\n| ProdCode = 456663\n |Viewers=24.8<ref
+        name=\"dec-feb95\"/>\n| ShortSummary = Monica cooks a gourmet meal for a restaurateur
+        named Steve ([[Jon Lovitz]]), who is looking for a new chef. Unfortunately,
+        he''s stoned and would just as well eat taco shells as her haute cuisine.
+        After working as a data processing permanent temp for five years, Chandler
+        gets promoted to data processing supervisor, then quits. He takes his job
+        back when he is offered more money. Ross has a date with a beautiful colleague
+        named Celia ([[Melora Hardin]]) and gives new meaning to the term \"spanking
+        the monkey,\" when he brings her back to his place to meet Marcel. Celia is
+        willing to have sex with him, but only if he talks dirty to her which he cannot
+        do so he asks Joey for help.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with Two Parts: Part 1\n| DirectedBy=
+        [[Michael Lembeck]]\n| WrittenBy= Marta Kauffman & David Crane\n| OriginalAirDate
+        = {{Start date|1995|2|23}}\n| EpisodeNumber = 16\n| EpisodeNumber2 = 16\n|
+        RowColor=On\n| ProdCode = 456665\n |Viewers=26.1<ref name=\"dec-feb95\"/>\n|
+        ShortSummary = Joey falls for Phoebe''s twin sister, Ursula, making Phoebe
+        feel neglected. Meanwhile, Chandler finds himself between a rock and a hard
+        place, when he is told to fire an employee he is attracted to. Ross has doubts
+        about parenthood when he attends [[Lamaze]] classes with Carol and Susan.
+        Meanwhile, Monica tries to fix her TV after Marcel puts the TV on \"[[Second
+        audio program|SAP]]\" function to Spanish, which she cannot turn off. After
+        weeks of procrastinating, Rachel finally takes down the Christmas lights on
+        their balcony, only to fall off the balcony and sprain her ankle.\n| LineColor
+        = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n| Title = The
+        One with Two Parts: Part 2\n| DirectedBy= [[Michael Lembeck]]\n| WrittenBy=
+        Marta Kauffman & David Crane\n| OriginalAirDate = {{Start date|1995|2|23}}\n|
+        EpisodeNumber = 17\n| EpisodeNumber2 = 17\n| RowColor=On\n| ProdCode = 456666\n
+        |Viewers=30.5<ref name=\"dec-feb95\"/>\n| ShortSummary = At the hospital,
+        Rachel, who has no [[Health insurance in the United States|health insurance]],
+        convinces Monica into trading identities with her so she can use Monica''s
+        coverage. The girls end up trying to date two cute doctors ([[George Clooney]]
+        & [[Noah Wyle]]). Ursula dumps Joey, but plans not to tell him, so Phoebe
+        disguises herself as her twin sister to dump Joey and make sure he does not
+        get hurt. Ross doubts that he will ever feel like a father. Marcel swallows
+        Scrabble tiles and Ross takes care of him making him feel like he would be
+        a good father after that.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with All the Poker\n| DirectedBy =
+        James Burrows\n| WrittenBy= Jeffrey Astrof & Mike Sikowitz\n| OriginalAirDate
+        = {{Start date|1995|3|2}}\n| EpisodeNumber = 18\n| EpisodeNumber2 = 18\n|
+        RowColor=Off\n| ProdCode = 456662\n |Viewers=30.4<ref name=\"dec-feb95\"/>\n|
+        ShortSummary = Tired of being referred to by customers as \"Excuse me,\" Rachel
+        interviews for a job as an assistant buyer at Saks Fifth Avenue. She also
+        sees another side of the usually docile Ross when the girls face the boys
+        during a not-so-friendly game of poker after some help from Monica''s aunt.\n|
+        LineColor = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n|
+        Title = The One Where the Monkey Gets Away\n| DirectedBy = Peter Bonerz\n|
+        WrittenBy= Jeffrey Astrof & Mike Sikowitz\n| OriginalAirDate = {{Start date|1995|3|9}}\n|
+        EpisodeNumber = 19\n| EpisodeNumber2 = 19\n| RowColor=On\n| ProdCode = 456668\n
+        |Viewers=29.4<ref name=\"mar-may95\">{{cite news|title=Nielsen Ratings|newspaper=[[USA
+        Today]]|publisher=[[Gannett Company]]|url=http://anythingkiss.com/pi_feedback_challenge/Ratings/19950306-19950528_TVRatings.pdf|accessdate=October
+        15, 2013}}</ref>\n| ShortSummary = The gang searches frantically for Marcel,
+        who slipped out of the apartment while Rachel was baby-sitting him. Rachel,
+        who does not know that Marcel is an illegal pet, ends up calling Animal Safety.
+        This annoys Ross. The woman who comes to take away Marcel turns out to be
+        an old class-mate of Rachel & Monica. After Marcel is found and safe, Ross
+        finally gets up the courage to try to woo Rachel. But just when it looks like
+        the two might actually spend a romantic evening alone together, Barry, Rachel''s
+        ex-fiance, barges into the apartment declaring his love for her.\n| LineColor
+        = 0160bc\n}}\n{{Episode list/sublist|List of Friends episodes\n| Title = The
+        One with the Evil Orthodontist\n| DirectedBy = Peter Bonerz\n| WrittenBy =
+        Doty Abrams\n| OriginalAirDate = {{Start date|1995|4|6}}\n| EpisodeNumber
+        = 20\n| EpisodeNumber2 = 20\n| RowColor=Off\n| ProdCode = 456669\n |Viewers=30.0<ref
+        name=\"mar-may95\"/>\n| ShortSummary = Rachel and Barry start dating again,
+        which is slightly awkward because he''s now engaged to Mindy, who wants Rachel
+        to be her maid of honor. But when Rachel finds out that Mindy and Barry had
+        an affair while she was engaged to Barry, the two women decide to call Barry
+        out on it. Meanwhile, Chandler goes nuts when a woman he likes won''t return
+        his phone calls. The friends become annoyed after they discover someone is
+        spying on them from the building across the street.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One with the Fake Monica\n|
+        DirectedBy = [[Gail Mancuso]]\n| WrittenBy = Adam Chase & Ira Ungerleider\n|
+        OriginalAirDate = {{Start date|1995|4|27}}\n| EpisodeNumber = 21\n| EpisodeNumber2
+        = 21\n| RowColor=On\n| ProdCode = 456671\n |Viewers=28.4<ref name=\"mar-may95\"/>\n|
+        ShortSummary = When Monica''s credit card is stolen, she, along with Phoebe
+        and Rachel, decide to catch the thief, but Monica begins a friendship with
+        her. Joey enlists his friends to help him come up with a less ethnic-sounding
+        stage name. And when Ross finds out that Marcel has reached sexual maturity
+        and needs to be with other monkeys, he tries to get him accepted into the
+        \"Harvard of zoos\", with an emotional goodbye.\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One with the Ick Factor\n|
+        DirectedBy = [[Robby Benson]]\n| WrittenBy = Alexa Junge\n| OriginalAirDate
+        = {{Start date|1995|5|4}}\n| EpisodeNumber = 22\n| EpisodeNumber2 = 22\n|
+        RowColor=Off\n| ProdCode = 456670\n |Viewers=29.9<ref name=\"mar-may95\"/>\n|
+        ShortSummary = After losing his virginity to her, Monica''s boyfriend Ethan
+        reveals that he''s a high school senior, not a college senior. Rachel has
+        erotic dreams about Joey and Chandler, making Ross both disgusted and envious.
+        And when Phoebe temps as Chandler''s secretary, she finds out that no one
+        at work likes him anymore.\n| LineColor = 0160bc\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n| Title = The One with the Birth\n| DirectedBy = James
+        Burrows\n| WrittenBy = ''''Story'''': David Crane & Marta Kauffman<br />''''Teleplay'''':
+        Jeff Greenstein & Jeff Strauss\n| OriginalAirDate = {{Start date|1995|5|11}}\n|
+        EpisodeNumber = 23\n| EpisodeNumber2 = 23\n| RowColor=On\n| ProdCode = 456672\n
+        |Viewers=28.7<ref name=\"mar-may95\"/>\n| ShortSummary = Carol goes into labor,
+        prompting Monica to begin thinking about having a baby of her own. When Ross
+        and Susan cannot stop bickering over who gets to help Carol more, Phoebe drags
+        both of them into a closet to settle their differences \u2013 but all three
+        end up getting locked in just as Carol is about to give birth to the baby.
+        Rachel flirts with an OB/GYN who has a love-hate relationship with women''s
+        private parts due to seeing them every day at work. Joey ends up assisting
+        birth for a single mother (played by [[Leah Remini]]).\n| LineColor = 0160bc\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n| Title = The One Where Rachel Finds
+        Out\n| DirectedBy = [[Kevin Bright|Kevin S. Bright]]\n| WrittenBy = Chris
+        Brown\n| OriginalAirDate = {{Start date|1995|5|18}}\n| EpisodeNumber = 24\n|
+        EpisodeNumber2 = 24\n| RowColor=Off\n| ProdCode = 456673\n |Viewers=31.3<ref
+        name=\"mar-may95\"/>\n| ShortSummary = Ross has to go to China for a fossil
+        dig before Rachel''s birthday. Chandler tells Ross to find another girl and
+        get over Rachel. Ross tells Chandler to give Rachel his present, and then
+        leaves. Joey''s new girlfriend, Melanie ([[Corinne Bohrer]]) wants to go to
+        bed with him, but Joey''s participation in a fertility study is preventing
+        this. During Rachel''s birthday party, Chandler accidentally lets it slip
+        that Ross is in love with her, and a big decision presents itself.\n| LineColor
+        = 0160bc\n}}\n|}</onlyinclude>\n\n==Notes==\n{{reflist|group=lower-alpha}}\n\n==References==\n{{reflist|30em}}\n\n*{{cite
+        book|last1=Sangster|last2= Bailey|first1=Jim |first2=David|title=Friends Like
+        Us: The Unofficial Guide to Friends|year=2000|publisher=Virgin Publishing|location=London|isbn=0753504391|edition=Second|ref
+        = {{sfnRef|Sangster & Bailey}}}}\n\n{{Friends}}\n{{ScreenActorsGuildAwards
+        EnsembleTVComedy 1994\u20131999}}\n\n{{DEFAULTSORT:Friends (Season 1)}}\n[[Category:Friends
+        (season 1) episodes| ]]\n[[Category:Friends seasons|01]]\n[[Category:1994
+        television seasons]]\n[[Category:1995 television seasons]]"}]}}}}'
+    http_version: 
+  recorded_at: Tue, 21 Apr 2015 21:14:43 GMT
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&rvprop=content&titles=Friends_(season_2)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Powered-By:
+      - HHVM/3.3.1
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1195335368, 617279510
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '10160'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 21 Apr 2015 21:14:43 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp1052 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Arvada:39.8620:-105.1435:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: ASCII-8BIT
+      string: '{"query":{"normalized":[{"from":"Friends_(season_2)","to":"Friends
+        (season 2)"}],"pages":{"27713419":{"pageid":27713419,"ns":0,"title":"Friends
+        (season 2)","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{Use
+        mdy dates|date=May 2012}}\n{{Infobox television season\n |season_name  = Friends
+        (season 2)\n |bgcolour     = #d8342b\n |fgcolour     = white\n |image        =
+        [[File:Friends Season 2 DVD.jpg|250px]]\n |caption      = ''''Friends''''
+        Season 2 DVD cover\n |country      = United States\n |num_episodes = 24\n
+        |network      = [[NBC]]\n |first_aired  = {{Start date|1995|9|21}}\n |last_aired   =
+        {{End date|1996|5|16}}\n |region_1     = {{Start date|2002|10|3}}\n |region_2     =
+        {{Start date|2000|5|29}}\n |region_3     = <!-- {{Start date|yyyy|mm|dd}}
+        -->\n |region_4     = {{Start date|2006|10|4}}\n |region_5     = <!-- {{Start
+        date|yyyy|mm|dd}} -->\n |region_A     = <!-- {{Start date|yyyy|mm|dd}} -->\n
+        |region_B     = <!-- {{Start date|yyyy|mm|dd}} -->\n |region_C     = <!--
+        {{Start date|yyyy|mm|dd}} -->\n |prev_season  = [[Friends (season 1)|Season
+        1]]\n |next_season  = [[Friends (season 3)|Season 3]]\n |episode_list = [[List
+        of Friends episodes|List of ''''Friends'''' episodes]]\n}}\n\nThe ''''''second
+        season'''''' of ''''[[Friends]]'''', an American [[situation comedy]] created
+        by [[David Crane (producer)|David Crane]] and [[Marta Kauffman]], premiered
+        on [[NBC]] on September 21, 1995. ''''Friends'''' was produced by [[Bright/Kauffman/Crane
+        Productions]], in association with [[Warner Bros. Television]]. The season
+        contains 24 episodes and concluded airing on May 16, 1996. ''''[[TV Guide]]''''
+        placed the season 31st on their list of 100 all-time greatest television seasons,
+        and one of the three seasons of Friends on the list.\n\n==Season synopsis==\n\nUnlike
+        the first season, this season features more serialized storylines{{fact|date=September
+        2014}}; it begins when Rachel discovers that Ross \"dumped\" her for Julie,
+        a woman he knew from grad school. Julie returns for several episodes early
+        in the season. Rachel''s attempts to tell Ross she likes him mirror his own
+        failed attempts in the first season, but she accidentally lets it slip out
+        in a drunken voicemail message. When Ross finds out, he dumps Julie, but Rachel
+        is angry because of a list of bad things that he wrote about her to help him
+        decide between the two of them. Eventually, a prom video reveals that Ross
+        intended to take Rachel to the prom when her date was late. This makes Rachel
+        forgive him and they begin a relationship that lasts into the following season.\n\nJoey,
+        a struggling actor in the first season, gets a part in a fictionalized version
+        of the soap opera Days of Our Lives but loses the part soon after when he
+        angers the writers by saying in an interview that he writes many of his own
+        lines. Tom Selleck begins a recurring guest role as Dr. Richard Burke. Richard,
+        a friend of Monica and Ross''s parents who is recently divorced and with grown
+        children, is 21 years older than Monica but despite this they date for the
+        second half of the season. In the season finale, they end the relationship
+        when they realize that he does not want any more children and she does.\n\nThe
+        second season also served to deepen Chandler and Joey''s friendship. This
+        becomes especially apparent in the episodes in which Joey temporarily moves
+        out and a man named Eddie Menuek moves in. Chandler is disgusted that Eddie
+        does not like what he likes, and has trouble bonding with him, so he allows
+        Joey to move in and pretends that Eddie never lived there. Eddie''s mental
+        illness causes him to believe that he really has never met Chandler when Chandler
+        insists this is the case and leaves him alone. Another surprise comes when
+        Chandler falls in love with a woman over the Internet and when he goes to
+        meet her at Central Perk, Janice his ex walks in. Despite this, they decide
+        to get back together, for real this time.\n\nThis is the only season (excluding
+        the final season) of the entire series in which the season finale does not
+        lead to the immediate beginning of the first episode of the following season.\n\n==Cast
+        and characters==\n{{see also|List of Friends characters}}\n::''''(In particular,
+        [[Characters of Friends#Introduced in season 2]] or [[List of Friends characters#Only
+        in season 2|#Only in season 2]])''''\n{{col-begin}}\n{{col-3}}\n\n===Main
+        cast===\n* [[Jennifer Aniston]] as [[Rachel Green]] (24 episodes)\n* [[Courteney
+        Cox]] as [[Monica Geller]] (24 episodes)\n* [[Lisa Kudrow]] as [[Phoebe Buffay]]
+        (24 episodes)\n* [[Matt LeBlanc]] as [[Joey Tribbiani]] (24 episodes)\n* [[Matthew
+        Perry]] as [[Chandler Bing]] (24 episodes)\n* [[David Schwimmer]] as [[Ross
+        Geller]] (24 episodes)\n{{col-3}}\n\n===Recurring cast===\n* [[Lauren Tom]]
+        as [[Julie (Friends)|Julie]]\n* [[Mike Hagerty]] as [[Mr. Treeger]]\n* [[Tom
+        Selleck]] as [[Richard Burke (Friends)|Richard Burke]]\n* [[Adam Goldberg]]
+        as [[Eddie Menuek]]\n* [[Jane Sibbett]] as [[Carol Willick]]\n* [[Jessica
+        Hecht]] as [[Susan Bunch]]\n* [[June Gable]] as [[Estelle Leonard]]\n* [[James
+        Michael Tyler]] as [[Gunther (Friends)|Gunther]]\n{{col-3}}\n\n===Guest stars===\n*
+        [[Maggie Wheeler]] as [[Janice Hosenstein]]\n* [[Cosimo Fusco]] as [[Paolo
+        (Friends)|Paolo]]\n* [[Marlo Thomas]] as [[Sandra Green]]\n* [[Ron Leibman]]
+        as [[Leonard Green (Friends)|Leonard Green]]\n* [[Elliott Gould]] as [[Jack
+        Geller]] (episodes 14 & 16)\n* [[Christina Pickles]] as [[Judy Geller]] (episodes
+        14 & 16)\n* [[Vincent Ventresca]] as [[Fun Bobby]]\n* [[Giovanni Ribisi]]
+        as Frank Buffay, Jr.\n* Joel Beeson as The Hombre Man (Todd)\n* [[Emily Procter]]
+        as Annabel\n* [[Brittney Powell]] as Jade\n* [[Chris Young (actor)|Chris Young]]
+        as Steven Fishman\n* [[Steve Zahn]] as Duncan\n* [[Brooke Shields]] as Erika\n*
+        [[Jean-Claude Van Damme]] as himself\n* [[Julia Roberts]] as Susie\n* [[Charlie
+        Sheen]] as Ryan\n* [[Chrissie Hynde]] as Stephanie Schiffer\n* [[Arye Gross]]
+        as Michael\n\n{{col-end}}\n\n== Episodes ==\n{{see also|List of Friends episodes}}\n<onlyinclude>\n{|
+        class=\"wikitable plainrowheaders\"  style=\"width:100%; margin-right:0;\"\n|-\n!
+        scope=\"col\" style=\"background:#d8342b; color:#fff;\"| No. in<br />series\n!
+        scope=\"col\" style=\"background:#d8342b; color:#fff;\"| No. in<br />season\n!
+        scope=\"col\" style=\"background:#d8342b; color:#fff;\"| Title\n! scope=\"col\"
+        style=\"background:#d8342b; color:#fff;\"| Directed by\n! scope=\"col\" style=\"background:#d8342b;
+        color:#fff;\"| Written by\n! scope=\"col\" style=\"background:#d8342b; color:#fff;\"|
+        Original air date\n! scope=\"col\" style=\"background:#d8342b; color:#fff;\"|
+        Production<br />code(s)\n! scope=\"col\" style=\"background:#d8342b; color:#fff;\"|
+        U.S. viewers<br>(millions) \n|-\n{{Episode list/sublist|List of Friends episodes\n|EpisodeNumber=25\n|EpisodeNumber2=1\n|ProdCode=457301\n
+        |Viewers=32.1<ref name=\"tripod1\">{{cite web|url=http://newmusicandmore.tripod.com/friendsratings02.html
+        |title=Friends Nielsen Ratings Archive - Season Two |publisher=Newmusicandmore.tripod.com
+        |date= |accessdate=2014-07-31}}</ref>\n|Title=The One with Ross''s New Girlfriend\n|OriginalAirDate={{Start
+        date|1995|9|21}}\n|WrittenBy=Jeffrey Astrof & Mike Sikowitz\n|DirectedBy=[[Michael
+        Lembeck]]\n|ShortSummary=Rachel decides to tell Ross that she loves him and
+        waits for him at the airport, not knowing he is returning with a new girlfriend
+        named Julie ([[Lauren Tom]]) thanks to Chandler''s advice. Chandler feels
+        guilty because he told Rachel that Ross loves her after he had advised Ross
+        to get over his feelings for her. Joey and Chandler get their hair cut by
+        Phoebe, and Monica wants her hair cut too, but Phoebe gives her an awful haircut.
+        Chandler needs a suit, so Joey takes him to his tailor, who touches Chandler
+        inappropriately. Chandler tells Joey of this, but Joey insists that is how
+        pants are measured. Ross annoys everyone by talking about Julie, and Rachel
+        becomes so desperate and upset that she spends the night with her old lover,
+        Paolo, the Italian \"stud\" from Season 1.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=26\n|EpisodeNumber2=2\n|ProdCode=457302\n
+        |Viewers=29.8<ref name=\"tripod1\"/>   \n|Title=The One with the Breast Milk\n|OriginalAirDate={{Start
+        date|1995|9|28}}\n|WrittenBy=Adam Chase & Ira Ungerleider\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=The guys are uncomfortable with Carol breastfeeding
+        Ben, and the situation is made worse by Joey and Phoebe tasting it. Rachel
+        is uncomfortable with Monica''s growing friendship with Julie. At his day
+        job, Joey competes with a fellow cologne spritzer for the affection of a beautiful
+        colleague ([[Emily Procter]]).\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=27\n|EpisodeNumber2=3\n|ProdCode=457303\n
+        |Viewers=30.2<ref name=\"tripod1\"/>    \n|Title=The One Where Heckles Dies\n|OriginalAirDate={{Start
+        date|1995|10|5}}\n|WrittenBy=[[Michael Curtis (TV producer)|Michael Curtis]]
+        & Gregory S. Malins\n|DirectedBy=[[Kevin Bright|Kevin S. Bright]]\n| ShortSummary=Chandler
+        refuses a date with a woman from work, claiming that it is because her nostrils
+        are too big, but truthfully he is trying to escape a potentially serious relationship.
+        When Rachel and Monica''s downstairs neighbour Mr. Heckles dies and leaves
+        all his belongings to Monica and Rachel, Chandler discovers eerie similarities
+        between his life and the life of Heckles. Not wanting to end up alone like
+        Heckles did, he calls Janice in hopes to rekindle their relationship, only
+        to learn that she is married with a baby on the way. Ross and Phoebe have
+        a dispute over the progression of evolution when Phoebe says it''s \"Too Easy\".\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=28\n|EpisodeNumber2=4\n|ProdCode=457305\n
+        |Viewers=28.1<ref name=\"tripod1\"/>\n|Title=The One with Phoebe''s Husband\n|OriginalAirDate={{Start
+        date|1995|10|12}}\n|WrittenBy=[[Alexa Junge]]\n|DirectedBy=[[Gail Mancuso]]\n|ShortSummary=The
+        gang is amazed to learn that Phoebe married a gay Canadian ice dancer Duncan
+        ([[Steve Zahn]]) to help him get his green card. Phoebe thinks that she still
+        cares for him, but then he shows up asking for a divorce as he lied to himself
+        about being gay and wants to marry someone else. Interesting facts are revealed
+        about the others, too: Joey starred in a porn film and Chandler has a third
+        nipple. Ross seeks relationship advice from Rachel after revealing that he
+        and Julie have yet to consummate their relationship. Rachel, because she still
+        loves Ross, gives him bad advice, hoping that he and Julie will break up as
+        a result. Unfortunately for Rachel, Joey also gives Ross advice.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=29\n|EpisodeNumber2=5\n|ProdCode=457304    \n
+        |Viewers=28.3<ref name=\"tripod1\"/>\n|Title=The One with Five Steaks and
+        an Eggplant\n|OriginalAirDate={{Start date|1995|10|19}}\n|WrittenBy=Chris
+        Brown\n|DirectedBy=[[Ellen Gittelsohn]]\n|ShortSummary=When a sexy woman calls
+        the wrong number, Chandler seeks to make the most of the situation. Income
+        issues divide the friends: the well-off Ross, Chandler and Monica versus the
+        not-so-well-off Phoebe, Rachel and Joey. Monica loses her job after accepting
+        \"gifts\" from her restaurant''s meat supplier.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=30\n|EpisodeNumber2=6\n|ProdCode=457306   \n
+        |Viewers=30.2<ref name=\"tripod1\"/> \n|Title=The One with the Baby on the
+        Bus\n|OriginalAirDate={{Start date|1995|11|2}}\n|WrittenBy=Betsy Borns\n|DirectedBy=Gail
+        Mancuso\n|ShortSummary=When Ross has an allergic reaction to Monica''s kiwi-lime
+        pie, Chandler and Joey are asked to baby-sit Ross''s son, Ben. While using
+        Ben to help them try to pick up girls, they accidentally leave him on a bus.
+        Although they later locate him, they are not sure the baby is really Ben.
+        Phoebe loses her Central Perk singing gig to a professional singer ([[Chrissie
+        Hynde]]), and she becomes a street singer in front of the caf\u00e9. <br />
+        [[Lea Thompson]] from ''''[[Caroline in the City]]'''' makes an appearance,
+        not as her character Caroline but as a woman with a gay brother interested
+        in where Joey and Chandler adopted Ben. Also, [[Giovanni Ribisi]], who in
+        later episodes portrays [[Frank Buffay Jr.]], appears in this episode as a
+        stranger who dropped a condom in Phoebe''s guitar case and comes back to get
+        it for \"an emergency.\" The personality of this character is rather similar
+        to Frank Jr''s; though not confirmed, they are possibly the same person. [[Catherine
+        Bell (actress)|Catherine Bell]] also appears as Robin, one of the girls in
+        the bus.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List of Friends episodes\n|EpisodeNumber=31\n|EpisodeNumber2=7\n|ProdCode=457307  \n
+        |Viewers=30.5<ref name=\"tripod1\"/>  \n|Title=The One Where Ross Finds Out\n|OriginalAirDate={{Start
+        date|1995|11|9}}\n|WrittenBy=Michael Borkow\n|DirectedBy=[[Peter Bonerz]]\n|ShortSummary=A
+        drunken Rachel is persuaded to call Ross and reveals her feelings for him
+        on his answering machine. When he finds out, he must make the choice between
+        her and Julie. Meanwhile, Monica finds work as Chandler''s personal trainer
+        and Phoebe has a hard time trying to get her boyfriend to have sex with her.
+        She seeks Joey''s advice. Ross and Rachel argue, and Ross says that he is
+        not leaving Julie. At the end of the episode Ross and Rachel kiss.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=32\n|EpisodeNumber2=8\n|ProdCode=457308
+        \n |Viewers=32.9<ref name=\"tripod1\"/>   \n|Title=The One with the List\n|OriginalAirDate={{Start
+        date|1995|11|16}}\n|WrittenBy=[[David Crane (producer)|David Crane]] & [[Marta
+        Kauffman]]\n|DirectedBy=[[Mary Kay Place]]\n|ShortSummary=Ross is still compelled
+        to make a choice between his childhood crush Rachel and his current lover
+        Julie, and enlists Joey and Chandler''s help in making a list of the pros
+        and cons of each. He chooses Rachel, but she finds the list and gets angry
+        with Ross. Meanwhile, Monica gets a job making food with a disgusting synthetic
+        chocolate substitute called Mockolate.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=33\n|EpisodeNumber2=9\n|ProdCode=457309    \n
+        |Viewers=27.8<ref name=\"tripod1\"/>\n|Title=The One with Phoebe''s Dad\n|OriginalAirDate={{Start
+        date|1995|12|14}}\n|WrittenBy=Jeffrey Astrof & Mike Sikowitz\n|DirectedBy=Kevin
+        S. Bright\n|ShortSummary=It''s Christmas time and Monica tries tipping with
+        cookies, rather than cash, with mixed results. Phoebe learns that the guy
+        in the pictures her grandmother keeps around is not her father but the Macy''s
+        photo frame model. She tries to track down her real father, but in the end
+        she feels that she is not ready to meet him. Chandler and Joey wait too late
+        to shop for presents, and are forced to buy gifts from a gas station. Ross
+        asks Rachel to make a list about him, but he is offended when she calls him
+        obsessive.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List of Friends
+        episodes\n|EpisodeNumber=34\n|EpisodeNumber2=10\n|ProdCode=457311  \n |Viewers=32.2<ref
+        name=\"tripod1\"/>  \n|Title=The One with Russ\n|OriginalAirDate={{Start date|1996|1|4}}\n|WrittenBy=Ira
+        Ungerleider\n|DirectedBy=[[Thomas Schlamme]]\n|ShortSummary=Monica gets back
+        together with Fun Bobby, who has a drinking problem. She successfully helps
+        him give up drinking, but then he is unhappy and not fun anymore. Joey gets
+        chosen to play the role of Dr. Drake Ramoray, a neurosurgeon on ''''[[Days
+        of Our Lives]]'''' after he sleeps with the casting lady. Rachel begins dating
+        a guy named Russ, who bears an uncanny resemblance to Ross (both roles were
+        played by [[David Schwimmer]], yet Russ is credited as being played by \"Snaro\",
+        a pseudonym of Schwimmer''s and a tribute to a friend). Eventually, Rachel
+        dumps Russ, telling him he reminds her of someone, though she doesn''t tell
+        him about his resemblance to Ross. In the end Russ and Julie ([[Lauren Tom]])
+        hook up.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List of Friends episodes\n|EpisodeNumber=35\n|EpisodeNumber2=11\n|ProdCode=457312\n
+        |Viewers= 31.6<ref name=\"tripod1\"/>\n|Title=[[The One with the Lesbian Wedding]]\n|OriginalAirDate={{Start
+        date|1996|1|18}}\n|WrittenBy=Doty Abrams\n|DirectedBy=Thomas Schlamme\n|ShortSummary=Carol
+        and Susan get married, providing Monica with a job: catering the wedding.
+        Phoebe is possessed by the spirit of an eighty-two-year-old massage client
+        who dies in the middle of a session. Rachel''s mother ([[Marlo Thomas]]) comes
+        to visit and announces that she has decided to divorce her husband, Rachel''s
+        father.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List of Friends episodes\n|EpisodeNumber=36/37\n|EpisodeNumber2=12/13\n|RowColor=on\n|ProdCode=457313/457314\n|Viewers=52.9<ref
+        name=\"tripod1\"/>\n|Title=[[The One After the Superbowl]]\n|OriginalAirDate={{Start
+        date|1996|1|28}}{{#tag:ref|These episodes originally aired as a single double-length
+        episode but are sometimes split into two episodes for syndication, reruns
+        and DVD presentation.|name=DVD|group=lower-alpha}}\n|WrittenBy=''''Part 1'''':
+        Jeffrey Astrof & Mike Sikowitz<br/>''''Part 2'''': Michael Borkow\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=Ross goes to visit Marcel while on a trip to California,
+        and finds that the monkey is working in commercials. Joey gets his first fan
+        letter and ends up dating the woman ([[Brooke Shields]]) who sent it. She
+        turns out to be a mentally ill stalker who thinks that the happenings on ''''Days
+        of Our Lives'''' are real. Phoebe is asked by a man ([[Chris Isaak]]) to sing
+        for the children at a library, but their parents are horrified by her morbid
+        lyrics. However, the kids like the songs and come to the caf\u00e9 to listen
+        to her. Rachel and Monica compete for the affections of [[Jean-Claude Van
+        Damme]] after meeting him on a movie set. Chandler meets a former schoolmate
+        ([[Julia Roberts]]), a makeup artist, who seems to be attracted to him but
+        it turns out that Chandler once embarrassed her and she just wants to get
+        revenge. An excited Joey gets a role as an extra in the movie, and Ross and
+        Marcel go on a whirlwind tour of the city.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=38\n|EpisodeNumber2=14\n|ProdCode=457310\n
+        |Viewers=33.6<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=[[The One with
+        the Prom Video]]\n|OriginalAirDate={{Start date|1996|2|1}}\n|WrittenBy=Alexa
+        Junge\n|DirectedBy=[[James Burrows]]\n|ShortSummary=After getting his big
+        break with ''''Days of Our Lives'''', Joey pays Chandler back with $812 and
+        an extremely tacky engraved gold bracelet. Also, an unemployed Monica is hard
+        up for money. A home video from Monica and Rachel''s prom night reveals that
+        Monica was previously overweight, and that Rachel had a large nose. Rachel
+        seemed to have been stood up by her prom date, so Ross puts on his father''s
+        tuxedo to take her to prom himself, but Rachel''s date shows up and they leave
+        before she learns of Ross''s plans. The video then shows a speechless and
+        devastated Ross standing at the top of the stairs. The candor of Ross''s heartbreak
+        compels Rachel to kiss Ross.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=39\n|EpisodeNumber2=15\n|ProdCode=457315\n
+        |Viewers=32.9<ref name=\"tripod1\"/>\n|RowColor=on\n|Title=The One Where Ross
+        and Rachel...You Know\n|OriginalAirDate={{Start date|1996|2|8}}\n|WrittenBy=Michael
+        Curtis & Gregory S. Malins\n|DirectedBy=Michael Lembeck\n|ShortSummary=Joey
+        buys a big screen TV and two leather recliners with his newfound money, resulting
+        in him and Chandler spending two days watching TV and never getting out of
+        the chairs. Monica has a catering job for an ophthalmologist and a friend
+        of her parents, the attractive Dr. Richard Burke ([[Tom Selleck]]), and later
+        they go on a date. Ross and Rachel attempt to have their first real date,
+        but it''s difficult for Rachel to overcome their long friendship. As they
+        tried to schedule another date, Ross has an emergency at the museum and ends
+        up having sex with Rachel for the first time.\nThe episode introduces [[Tom
+        Selleck]] in a recurring guest role that led to an Emmy Award nomination for
+        [[Primetime Emmy Award for Outstanding Guest Actor - Comedy Series|Outstanding
+        Guest Actor in a Comedy Series]] in 2000.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=40\n|EpisodeNumber2=16\n|ProdCode=457316\n
+        |Viewers=31.1<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=The One Where
+        Joey Moves Out\n|OriginalAirDate={{Start date|1996|2|15}}\n|WrittenBy=Betsy
+        Borns\n|DirectedBy=Michael Lembeck\n|ShortSummary=Joey thinks he needs to
+        move out of Chandler''s apartment and wants to get a new one to ''give him
+        time to think''. Monica struggles to tell her parents about her relationship
+        with Richard. Rachel and Phoebe want to get a tattoo. Phoebe chickens out
+        and Rachel gets a heart.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=41\n|EpisodeNumber2=17\n|ProdCode=457317\n
+        |Viewers=30.2<ref name=\"tripod1\"/>\n|RowColor=on\n|Title=The One Where Eddie
+        Moves In\n|OriginalAirDate={{Start date|1996|2|22}}\n|WrittenBy=Adam Chase\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=Phoebe is discovered by a record producer who wants
+        to make her song \"Smelly Cat\" a video, but who secretly dubs in the voice
+        of a more talented (but less attractive) woman. Ross''s new relationship with
+        Rachel makes Monica feel like she''s living with her brother again... and
+        she hates it. And Joey considers moving back in with Chandler, but Chandler
+        already has a new roommate, Eddie.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=42\n|EpisodeNumber2=18\n|ProdCode=457318\n
+        |Viewers=30.1<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=[[The One Where
+        Dr. Ramoray Dies]]\n|OriginalAirDate={{Start date|1996|3|21}}\n|WrittenBy=''''Story'''':
+        Alexa Junge<br />''''Teleplay'''': Michael Borkow\n|DirectedBy=Michael Lembeck\n|ShortSummary=Joey
+        finds out the hard way that it''s not wise to boast falsely; his soap opera
+        character is scripted to fall down an elevator shaft and die after Joey brags
+        of writing his own lines in an interview. Phoebe helps Chandler bond with
+        his new roommate...to Chandler''s horror. And sexual history dominates the
+        discussion between two couples\u2014Monica and Richard, and Ross and Rachel.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=43\n|EpisodeNumber2=19\n|ProdCode=457319\n
+        |Viewers= 31.2<ref name=\"tripod1\"/>\n|RowColor=on\n|Title=The One Where
+        Eddie Won''t Go\n|OriginalAirDate={{Start date|1996|3|28}}\n|WrittenBy=Michael
+        Curtis & Gregory S. Malins\n|DirectedBy=Michael Lembeck\n|ShortSummary=Creeped
+        out by his bizarre new roommate, Eddie, Chandler demands that he move out.
+        Eddie agrees, but doesn''t move out \u2014 nor does he even remember the conversation,
+        as he is obviously mentally ill, imagining he and Chandler took a trip to
+        Las Vegas and believing it to have really happened. Joey has trouble coming
+        to grips with the death of Dr. Ramoray and the accompanying change in his
+        lifestyle. And a new book on empowerment for women inspires the female friends
+        to have a \"goddess meeting.\" Joey moves back in with Chandler, they kick
+        out Eddie and they make up with each other.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=44\n|EpisodeNumber2=20\n|ProdCode=457320\n
+        |Viewers=27.4<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=The One Where
+        Old Yeller Dies\n|OriginalAirDate={{Start date|1996|4|4}}\n|WrittenBy=''''Story'''':
+        Michael Curtis & Gregory S. Malins<br />''''Teleplay'''': Adam Chase\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=Phoebe''s world view is shattered when she learns how
+        ''''[[Old Yeller]]'''' really ends. She watches all the films her mother didn''t
+        let her watch and becomes depressed. Monica becomes jealous when Richard begins
+        hanging out with other people: namely, Joey and Chandler. However, this is
+        short lived as Joey and Chandler confess to thinking of Richard as a fatherly
+        figure, when Richard was under the impression that they were just buddies.
+        Rachel becomes stressed out when she learns that Ross has planned their whole
+        life together.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List of Friends
+        episodes\n|EpisodeNumber=45\n|EpisodeNumber2=21\n|ProdCode=457321\n |Viewers=24.7<ref
+        name=\"tripod1\"/>\n|RowColor=on\n|Title=The One with the Bullies\n|OriginalAirDate={{Start
+        date|1996|4|25}}\n|WrittenBy=[[Brian Buckner]] & [[Sebastian Jones]]\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=Chandler and Ross run into two bullies at the coffee
+        shop, one of whom steals Chandler''s hat. Monica, down to her last few dollars
+        of savings, plays the stock market based solely on the ticker symbols to avoid
+        taking a job at a tacky 1950s themed diner. Phoebe makes multiple attempts
+        to visit her birth father, but instead she meets her half-brother, Frank Buffay
+        Jr., and learns that her father hasn''t been home for four years. Monica eventually
+        loses her savings due to her unwise investments, and is forced to work at
+        the [[Moondance Diner]], dressed in a ridiculous costume and dancing on the
+        counter to songs by [[The Village People]].\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=46\n|EpisodeNumber2=22\n|ProdCode=457322\n
+        |Viewers=25.5<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=The One with the
+        Two Parties\n|OriginalAirDate={{Start date|1996|5|2}}\n|WrittenBy=Alexa Junge\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=The gang plans a surprise party for Rachel, but the
+        real surprise is when both of her estranged parents show up for the same party.\n|LineColor=d8342b\n}}\n{{Episode
+        list/sublist|List of Friends episodes\n|EpisodeNumber=47\n|EpisodeNumber2=23\n
+        |Viewers=26.1<ref name=\"tripod1\"/>\n|ProdCode=457324\n|RowColor=on\n|Title=The
+        One with the Chicken Pox\n|OriginalAirDate={{Start date|1996|5|9}}\n|WrittenBy=Brown
+        Mandell\n|DirectedBy=Michael Lembeck\n|ShortSummary=Phoebe catches [[chicken
+        pox]] just as her old flame Ryan ([[Charlie Sheen]]) arrives in town on leave
+        from the Navy. Even though he hasn''t yet had chicken pox, he can''t stand
+        to be apart and they both spend the rest of the time sick and trying to not
+        scratch at the sores. Joey gets a job at Chandler''s office but decides to
+        play it as a role. The character he creates, Joseph, has a wife and kids and
+        ultimately blames Chandler for his own screw ups. Monica is upset that Richard
+        doesn''t have a \"thing\": an unexplainable quirk. He eventually comes up
+        with one to ease her mind.\n|LineColor=d8342b\n}}\n{{Episode list/sublist|List
+        of Friends episodes\n|EpisodeNumber=48\n|EpisodeNumber2=24\n|ProdCode=457323\n
+        |Viewers=29.0<ref name=\"tripod1\"/>\n|RowColor=off\n|Title=The One with Barry
+        and Mindy''s Wedding\n|OriginalAirDate={{Start date|1996|5|16}}\n|WrittenBy=''''Story'''':
+        Ira Ungerleider<br />''''Teleplay'''': Brown Mandell\n|DirectedBy=Michael
+        Lembeck\n|ShortSummary=Rachel agrees to be maid of honor at her ex-fianc\u00e9''s
+        wedding, but a fashion ''''[[faux pas]]'''' focuses attention away from the
+        bride. To get a role in Warren Beatty''s new movie, Joey needs to practice
+        kissing guys. Monica ponders her future with Richard and Chandler falls for
+        a mystery woman on the Internet who turns out to be his ex-girlfriend, Janice.
+        Richard doesn''t want to have children, but Monica does, so she breaks up
+        with him.\n|LineColor=d8342b\n}}\n|}</onlyinclude>\n\n==Awards and Nominations==\n''''''''''[[48th
+        Primetime Emmy Awards]]''''''''''\n*Nomination for Outstanding Comedy Series\n*Nomination
+        for Outstanding Guest Actress in a Comedy Series (Marlo Thomas) (Episode:
+        \"The One with the Lesbian Wedding\")\n*''''''Award for Outstanding Directing
+        for a Comedy Series (Michael Lembeck) (Episode: \"The One After the Superbowl\")''''''\n\n''''''''''[[53rd
+        Golden Globe Awards]]''''''''''\n*Nomination for Best Comedy Series\n*Nomination
+        for Best Supporting Actress in a Series, Miniseries, or TV Movie (Lisa Kudrow)\n\n''''''''''[[2nd
+        Screen Actors Guild Awards]]''''''''''\n*Nomination for Outstanding Performance
+        by a Female Actor in a Comedy Series (Lisa Kudrow)\n*''''''Award for Outstanding
+        Performance by an Ensemble in a Comedy Series (Regular Cast)''''''\n\n==Notes==\n{{reflist|group=lower-alpha}}\n\n==
+        References ==\n{{Reflist}}\n\n== External links ==\n* [http://www.imdb.com/title/tt0108778/episodes?season=2
+        ''''Friends'''' (season 2) on IMDB]\n\n\n{{Friends}}\n{{ScreenActorsGuildAwards
+        EnsembleTVComedy 1994\u20131999}}\n\n{{DEFAULTSORT:Friends (Season 2)}}\n[[Category:Friends
+        seasons|02]]\n[[Category:1995 television seasons]]\n[[Category:1996 television
+        seasons]]\n[[Category:Friends (season 2) episodes| ]]"}]}}}}'
+    http_version: 
+  recorded_at: Tue, 21 Apr 2015 21:14:43 GMT
+recorded_with: VCR 2.9.3
