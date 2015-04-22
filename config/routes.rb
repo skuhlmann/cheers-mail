@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'home#index'
 
   get '/admin', to: 'admin/base_admin#index', as: :admin_index
+  post '/weekly_email/:id', to: 'admin/subscriptions#weekly_email', as: :weekly_email
 
   namespace :admin do
     resources :users, only: [:destroy, :update, :create, :new, :edit, :show]

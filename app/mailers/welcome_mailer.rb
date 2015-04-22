@@ -6,6 +6,6 @@ class WelcomeMailer < ActionMailer::Base
     @episode = subscription.random_episode
 
     mail(to: @subscription.email_address,
-         subject: "You've signup for Do You Remember That One Epsiode?")
+         subject: "You've signed up for Do You Remember That One Episode?")
   end
 end

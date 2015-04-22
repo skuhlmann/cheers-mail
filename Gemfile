@@ -15,6 +15,7 @@ gem 'unicorn'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
 gem 'foreigner'
+gem 'whenever'
 
 group :development, :test do
   gem 'nokogiri'

@@ -26,6 +26,12 @@ class Admin::SubscriptionsController < Admin::BaseAdminController
     redirect_to admin_subscriptions_path, notice: 'Subscription was successfully destroyed.'
   end
 
+  def weekly_email
+    set_subscription
+    EpisodeMailer.weekly_episode_email(@subscription).deliver
+    redirect_to admin_subscriptions_path, notice: 'Email sent'
+  end
+
   private
     def set_subscription
       @subscription = Subscription.find(params[:id])
