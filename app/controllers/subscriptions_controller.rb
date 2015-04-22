@@ -4,6 +4,7 @@ class SubscriptionsController < ApplicationController
     @subscription = Subscription.new(subscription_params)
     @subscription.series_ids = params[:series_ids]
     if @subscription.save
+      WelcomeMailer.new_subscription_email(@subscription).deliver
       redirect_to root_path, notice: "You've been subscribed."
     else
       redirect_to root_path, notice: 'There was an error while creating the subscription.'

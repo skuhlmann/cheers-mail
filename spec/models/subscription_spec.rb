@@ -32,14 +32,25 @@ RSpec.describe Subscription, :type => :model do
     expect(subscription).to_not be_valid
   end
 
-  it "return the most recent 3 subscriptions" do
-    first = Subscription.create(email_address: 'sam@email.com', name: "Sam")
-    second = Subscription.create(email_address: 'joe@email.com', name: "Joe")
-    third = Subscription.create(email_address: 'jim@email.com', name: "Jim")
-    fourth = Subscription.create(email_address: 'coll@email.com', name: "Coll")
+  it "returns a random episode from it's series" do
+    subscription = Subscription.create(email_address: 'sam@email.com', name: "Sam")
+    series = Series.create(name: "seinfeld", seasons: 2)
+    series_2 = Series.create(name: "cheers", seasons: 1)
+    subscription.series << series
+    subscription.series << series_2
+    subscription.save
+    50.times do
+      series.episodes << Episode.create(summary: Faker::Lorem.sentence, season: 2)
+      series_2.episodes << Episode.create(summary: Faker::Lorem.sentence, season: 1)
+    end
 
-    recent = Subscription.recent
-    expect(recent.count).to eq(3)
-    expect(recent[2]).to eq(fourth)
+    randoms = []
+    5.times do
+      randoms << subscription.random_episode
+    end
+
+    expect(randoms.uniq.count).to eq(5)
+    expect(randoms.first.class).to eq(Episode)
+    expect(randoms.first.series.subscriptions).to include(subscription)
   end
 end

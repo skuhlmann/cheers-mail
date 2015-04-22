@@ -9,4 +9,8 @@ class Subscription < ActiveRecord::Base
   def self.recent
     self.last(3)
   end
+
+  def random_episode
+    self.series.map { |series| series.random_episode }.sample
+  end
 end

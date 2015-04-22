@@ -14,4 +14,8 @@ class Series < ActiveRecord::Base
   def gather_episodes
     Episode.build_episodes(name, seasons, id)
   end
+
+  def random_episode
+    self.episodes.order("RANDOM()").first
+  end
 end

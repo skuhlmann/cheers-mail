@@ -1,0 +1,8 @@
+Thanks for signing up, <%= @subscription.name %>!
+Your favorite shows:
+<% @subscription.series.each do |series| %>
+  <%= series.name %>
+<% end %>
+Do you remember that one episode of <%= @episode.series.name %> when...
+<%= @episode.summary %>
+<%= link_to "Unsubscribe", unsubscribe_path %>

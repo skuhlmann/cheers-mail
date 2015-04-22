@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Thanks for signing up, <%= @subscription.name %>!</h1>
+    <p>Your favorite shows:</p>
+    <ul>
+      <% @subscription.series.each do |series| %>
+        <li><%= series.name %></li>
+      <% end %>
+    </ul>
+    <hr>
+    <p>Do you remember that one episode of <%= @episode.series.name %> when...
+    <%= @episode.summary %>
+    <hr>
+  <p><%= link_to "Unsubscribe", unsubscribe_path %></p>
+  </body>
+</html>
