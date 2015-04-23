@@ -64,9 +64,11 @@ Rails.application.configure do
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true
 
+  ActionMailer::Base.delivery_method = :smtp
+
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_USERNAME'],
+    :password => ENV['SENDGRID_PASSWORD'],
     :domain => 'example.com',
     :address => 'smtp.sendgrid.net',
     :port => 587,

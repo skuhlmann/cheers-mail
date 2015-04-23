@@ -13,4 +13,10 @@ class Subscription < ActiveRecord::Base
   def random_episode
     self.series.map { |series| series.random_episode }.sample
   end
+
+  def self.weekly_blast
+    all.each do |subscription|
+      EpisodeMailer.weekly_episode_email(subscription).deliver
+    end
+  end
 end
