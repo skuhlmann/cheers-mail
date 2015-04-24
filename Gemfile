@@ -16,6 +16,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
 gem 'foreigner'
 gem 'whenever', :require => false
+gem "twitter-bootstrap-rails"
 
 group :development, :test do
   gem 'nokogiri'

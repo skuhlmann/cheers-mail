@@ -1,0 +1,17 @@
+body {
+  background: #019386;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Titan One', cursive;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.headline {
+  color: #ffffff;
+  font-size: 60px;
+}
+
