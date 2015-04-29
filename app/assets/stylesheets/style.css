@@ -1,5 +1,8 @@
+/* ===========================
+	#base
+============================ */
 body {
-  background: #019386;
+  background: #E6B239;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -8,10 +11,48 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
 }
 
+/* ===========================
+	#resuables
+============================ */
+.center {
+  text-align: center;
+}
+
+
+/* ===========================
+	#page elements
+============================ */
 .headline {
-  color: #ffffff;
+  margin-top: 10%;
+  color: #FFFFFF;
   font-size: 60px;
 }
 
+.subhead {
+  margin-top: 10px;
+  font-weight: 700;
+  color: #665735;
+  font-size: 20px;
+}
+
+.instructions {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.intro-btn {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 370px;
+  border: 4px solid #fff;
+  display: inline-block;
+  color: #fff;
+  font-size: 33px;
+  margin: 0 15px;
+}

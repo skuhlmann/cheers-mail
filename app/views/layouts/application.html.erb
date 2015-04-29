@@ -2,18 +2,24 @@
 <html>
 <head>
   <title>CheersMail</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<% flash.each do |name, msg| -%>
-  <%= content_tag :div, msg %>
-<% end %>
-<% if current_user %>
-  <%= link_to "Log Out", logout_path, method: :delete %>
-<% end %>
-<%= yield %>
+
+<div class="container-fluid">
+
+  <% flash.each do |name, msg| -%>
+    <%= content_tag :div, msg %>
+  <% end %>
+  <% if current_user %>
+    <%= link_to "Log Out", logout_path, method: :delete %>
+  <% end %>
+
+  <%= yield %>
+
+</div>
 
 </body>
 </html>
