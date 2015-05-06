@@ -8,17 +8,25 @@
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="wrapper">
 
-  <% flash.each do |name, msg| -%>
-    <%= content_tag :div, msg %>
-  <% end %>
-  <% if current_user %>
-    <%= link_to "Log Out", logout_path, method: :delete %>
-  <% end %>
+  <div class="container-fluid">
 
-  <%= yield %>
+    <% flash.each do |name, msg| -%>
+      <%= content_tag :div, msg %>
+    <% end %>
+    <% if current_user %>
+      <%= link_to "Log Out", logout_path, method: :delete %>
+    <% end %>
 
+    <%= yield %>
+
+  </div>
+  <div class="push"></div>
+</div>
+
+<div class="footer">
+  <%= render "shared/footer" %>
 </div>
 
 </body>

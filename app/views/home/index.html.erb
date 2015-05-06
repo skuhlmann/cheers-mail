@@ -2,29 +2,25 @@
   <div class="col-md-6 col-md-offset-3">
     <h1 class="headline center">Do you remember that one episode?</h1>
 
-    <p class="subhead center">A Mailing List</p>
+    <p class="subhead center">a mailing list</p>
+    <p class="envelop center"><i class="fa fa-envelope"></i></p>
   </div>
 </div>
 
 <div class"row">
-  <div class="col-md-10 col-md-offset-1">
+  <div class="col-md-8 col-md-offset-2">
     <p class= "instructions center">Sign up to get occasional email messages with fond memories of your favorite old sitcoms.</p>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-4 col-md-offset-2">
+  <div class="col-md-4 col-md-offset-4">
     <%= render "shared/sample" %>
-  </div>
-
-  <div class="col-md-4">
-    <%= render "shared/subscribe_form", locals: { subscription: @subscription, series: @series } %>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <hr>
-    <%= link_to "Unsubscribe", unsubscribe_path %>
+  <div class="col-md-4 col-md-offset-4">
+    <%= render "shared/subscribe_form", locals: { subscription: @subscription, series: @series } %>
   </div>
 </div>

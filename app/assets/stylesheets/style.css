@@ -1,18 +1,41 @@
 /* ===========================
 	#base
 ============================ */
-body {
-  background: #E6B239;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Titan One', cursive;
+  color: #F3A108;
 }
 
 p {
   font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
-  color: #FFFFFF;
+  font-size: 12px;
+  color: grey;
+}
+
+a, a:hover, a:active, a:focus {
+  color: #DDE9CA;
+  text-decoration: none;
+}
+
+/* ===========================
+	#layout for footer
+============================ */
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+	height: 50px; /* .push must be the same height as .footer */
+  font-size: 10px;
 }
 
 /* ===========================
@@ -27,32 +50,63 @@ p {
 	#page elements
 ============================ */
 .headline {
-  margin-top: 10%;
-  color: #FFFFFF;
-  font-size: 60px;
+  margin-top: 20%;
+  font-size: 50px;
 }
 
 .subhead {
   margin-top: 10px;
-  font-weight: 700;
-  color: #665735;
-  font-size: 20px;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+.envelop {
+  margin-top: 10px;
+  font-size: 40px;
+  color: #DDE9CA;
 }
 
 .instructions {
-  font-size: 25px;
-  font-weight: 700;
-  margin-top: 60px;
+  font-size: 15px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 9px;
+  padding: 5px;
 }
 
 .intro-btn {
-  height: 60px;
-  line-height: 60px;
   text-align: center;
   width: 370px;
-  border: 4px solid #fff;
+  margin-bottom: 15px;
+  border: 4px solid #85C6A9;
   display: inline-block;
+  font-family: 'Titan One', cursive;
   color: #fff;
-  font-size: 33px;
-  margin: 0 15px;
+  background-color: #85C6A9;
+  font-size: 20px;
+  border-radius: 9px;
+  padding: 5px;
+}
+
+.step-box {
+  margin-bottom: 20px;
+}
+
+.step {
+  font-size: 18px;
+  color: #85C6A9;
+  font-family: 'Titan One', cursive;
+}
+
+.step-icon {
+  color: #DDE9CA;
+}
+
+.email-content {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: left;
 }
