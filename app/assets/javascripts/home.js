@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
   $("#subscribe").click(function(){
-   $("#subscribe-form").toggleClass('hidden');
+    $(".subscribe-form").slideToggle("slow");
   });
 
-  $("#sample").click(function(){
-   $("#sample-text").toggleClass('hidden');
+  $("#sample").click(function() {
+    $(".sample-text").slideToggle("slow");
   })
 
 });

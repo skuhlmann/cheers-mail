@@ -1,6 +1,6 @@
-<a href="#subs" id="subscribe" class="intro-btn">Alright! Subscribe me</a>
+<button id="subscribe" class="intro-btn">Alright! Subscribe me</button>
 
-  <div id="subscribe-form" class="hidden">
+  <div class="subscribe-form">
     <%= form_for(@subscription) do |f| %>
       <% if @subscription.errors.any? %>
         <div id="error_explanation">
