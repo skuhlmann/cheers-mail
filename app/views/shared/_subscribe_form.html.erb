@@ -16,12 +16,14 @@
       <% end %>
 
         <div class="form-group">
-          <%= f.text_field :email_address, placeholder: "Email Address", class: "form-control" %>
+          <%= f.text_field :email_address, placeholder: "Email Address (required)", class: "form-control" %>
         </div>
 
         <div class="form-group">
-          <%= f.text_field :name, placeholder: "Your Name", class: "form-control" %>
+          <%= f.text_field :name, placeholder: "Your Name (required)", class: "form-control" %>
         </div>
+
+        <hr>
 
         <p>Select your favorite shows:<p>
 
@@ -31,6 +33,14 @@
             <%= label_tag show.id, show.name %>
           </div>
         <% end %>
+
+        <hr>
+
+        <p>Don't see your favorite show? Let us know what it is and we'll try to find it:<p>
+
+        <div class="form-group">
+          <%= text_field_tag "series_request", nil, placeholder: "Sitcom name", class: "form-control" %>
+        </div>
 
         <div class="actions">
           <%= f.submit "Subscribe", class: "btn btn-default sub-btn" %>

@@ -68,4 +68,20 @@ describe "the subscriber user flow", type: :feature do
     expect(page).to have_content("You've been subscribed.")
     expect(mail.to.first).to eq("leonardo@example.com")
   end
+
+  it "can indicate a new series for subscription" do
+    visit root_path
+    page.fill_in('subscription_email_address', with: 'leonardo@example.com')
+    page.fill_in('subscription_name', with: 'Leo')
+    page.fill_in('series_request', with: "Three's Company")
+    page.click_button('Subscribe')
+
+    expect(page).to have_content("You've been subscribed.")
+    expect(page).to have_content("We are trying to find that series for you.")
+
+    request = SeriesRequest.last
+
+    expect(request.name).to eq("Three's Company")
+    expect(request.subscription.name).to eq("Leo")
+  end
 end

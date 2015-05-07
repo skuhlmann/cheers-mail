@@ -2,10 +2,12 @@ class SubscriptionsController < ApplicationController
 
   def create
     @subscription = Subscription.new(subscription_params)
-    @subscription.series_ids = params[:series_ids]
-    if @subscription.save
+    add_series(params, @subscription)
+    if @subscription.save && @subscription.series.present?
       WelcomeMailer.new_subscription_email(@subscription).deliver
       redirect_to root_path, notice: "You've been subscribed."
+    elsif @subscription.save && @subscription.series.blank?
+      redirect_to root_path, notice: "You've been subscribed. We are trying to find that series for you."
     else
       redirect_to root_path, notice: 'There was an error while creating the subscription.'
     end
@@ -28,5 +30,14 @@ class SubscriptionsController < ApplicationController
   private
     def subscription_params
       params.require(:subscription).permit(:name, :email_address)
+    end
+
+    def add_series(params, subscription)
+      subscription.series_ids = params[:series_ids]
+      unless params[:series_request] == ""
+        request = SeriesRequest.new
+        request.subscription = subscription
+        request.name = params[:series_request]
+      end
     end
 end
