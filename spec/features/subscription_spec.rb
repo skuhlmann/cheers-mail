@@ -13,7 +13,7 @@ describe "the subscriber user flow", type: :feature do
     page.fill_in('subscription_email_address', with: 'leonardo@example.com')
     page.fill_in('subscription_name', with: 'Leo')
     page.check('series_ids[]')
-    page.click_button('Create Subscription')
+    page.click_button('Subscribe')
 
     expect(series.subscriptions.first.name).to eq('Leo')
     expect(page).to have_content("You've been subscribed.")
@@ -23,7 +23,7 @@ describe "the subscriber user flow", type: :feature do
     visit root_path
     page.fill_in('subscription_email_address', with: 'leonardo@example.com')
     page.fill_in('subscription_name', with: 'Leo')
-    page.click_button('Create Subscription')
+    page.click_button('Subscribe')
 
     expect(Subscription.count).to eq(0)
   end
@@ -34,7 +34,7 @@ describe "the subscriber user flow", type: :feature do
     subscription.save
 
     visit root_path
-    page.click_link('Unsubscribe')
+    page.click_link('UNSUBSCRIBE')
     expect(current_path).to eq('/unsubscribe')
     page.fill_in('subscription_email_address', with: 'coll@example.com')
     page.click_button('Unsubscribe me')
@@ -44,7 +44,7 @@ describe "the subscriber user flow", type: :feature do
 
   it "cannnot unsubscribe from the list if the email doesn't exist" do
     visit root_path
-    page.click_link('Unsubscribe')
+    page.click_link('UNSUBSCRIBE')
     expect(current_path).to eq('/unsubscribe')
     page.fill_in('subscription_email_address', with: 'joebob@example.com')
     page.click_button('Unsubscribe me')
@@ -61,7 +61,7 @@ describe "the subscriber user flow", type: :feature do
     page.fill_in('subscription_email_address', with: 'leonardo@example.com')
     page.fill_in('subscription_name', with: 'Leo')
     page.check('series_ids[]')
-    page.click_button('Create Subscription')
+    page.click_button('Subscribe')
 
     mail = ActionMailer::Base.deliveries.last
 

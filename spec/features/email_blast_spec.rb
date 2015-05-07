@@ -3,6 +3,7 @@ require 'rails_helper'
 describe "the email blast", type: :feature do
 
   it "sends a weekly email to all current subscribers" do
+    ActionMailer::Base.deliveries.clear
     series = Series.create(name: "cheers", seasons: 1)
     episode = Episode.create(summary: "lorem ipsum", season: 1)
     series.episodes << episode

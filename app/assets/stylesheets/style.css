@@ -133,3 +133,11 @@ html, body {
   font-size: 10px;
   text-align: left;
 }
+
+.flash {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #85C6A9;
+  font-family: 'Titan One', cursive;
+}

@@ -1,7 +1,8 @@
 <button id="subscribe" class="intro-btn">Alright! Subscribe me</button>
 
   <div class="subscribe-form">
-    <%= form_for(@subscription) do |f| %>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">      <%= form_for(@subscription) do |f| %>
       <% if @subscription.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@subscription.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -14,29 +15,27 @@
         </div>
       <% end %>
 
-      <div class="field">
-        <%= f.label :email_address %><br>
-        <%= f.text_field :email_address %>
-      </div>
-
-      <div class="field">
-        <%= f.label :name %>
-        <%= f.text_field :name %>
-      </div>
-
-      Select your favorite shows:
-
-      <% @series.each do |show| %>
-        <div class="field">
-          <%= check_box_tag "series_ids[]", show.id %>
-          <%= label_tag show.id, show.name %>
+        <div class="form-group">
+          <%= f.text_field :email_address, placeholder: "Email Address", class: "form-control" %>
         </div>
-      <% end %>
 
-      <div class="actions">
-        <%= f.submit %>
+        <div class="form-group">
+          <%= f.text_field :name, placeholder: "Your Name", class: "form-control" %>
+        </div>
+
+        <p>Select your favorite shows:<p>
+
+        <% @series.each do |show| %>
+          <div class="checkbox-inline">
+            <%= check_box_tag "series_ids[]", show.id %>
+            <%= label_tag show.id, show.name %>
+          </div>
+        <% end %>
+
+        <div class="actions">
+          <%= f.submit "Subscribe", class: "btn btn-default sub-btn" %>
+        </div>
+    <%   end %>
       </div>
-    <% end %>
+    </div>
   </div>
-<a name="subs"></a>
-
