@@ -17,5 +17,6 @@ module CheersMail
   class Application < Rails::Application
     config.serve_static_assets = true
     config.assets.version = '1.1'
+    config.action_mailer.default_url_options = { host: 'thatoneepisode.us' }
   end
 end
