@@ -10,10 +10,13 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require twitter-bootstrap-static/bootstrap
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
-@import url('//fonts.googleapis.com/css?family=Titan+One');
-@import url('//fonts.googleapis.com/css?family=Arvo:400,700');
-// @import url('//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic');
-@import url('//fonts.googleapis.com/css?family=Corben:bold');
+
+@import url(http://fonts.googleapis.com/css?family=Titan+One);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Corben:bold);

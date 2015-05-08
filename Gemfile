@@ -16,6 +16,7 @@ gem 'httparty'
 gem 'foreigner'
 gem 'whenever', :require => false
 gem "twitter-bootstrap-rails"
+gem "font-awesome-rails"
 
 group :development, :test do
   gem 'nokogiri'
