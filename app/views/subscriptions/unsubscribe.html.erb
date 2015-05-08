@@ -1,7 +1,13 @@
-<h1>Unsubscribe</h1>
+<div class="row">
+  <div class="col-md-6 center-block center">
+    <h1>Do you remeber that one episode?</h1>
+    <p class="instructions center">You want us to unsubscribe you from the mailing list?</p>
 
-<%= form_for @subscription, url: {action: "destroy"}, html: {method: :delete} do |f| %>
-  <%= f.label(:email_address, "Email Address") %>
-  <%= f.text_field(:email_address) %>
-  <%= f.submit "Unsubscribe me" %>
-<% end %>
+    <%= form_for @subscription, url: {action: "destroy"}, html: {method: :delete} do |f| %>
+      <div class="form-group">
+        <%= f.text_field :email_address, placeholder: "Email Address", class: "form-control" %>
+      </div>
+      <%= f.submit "Unsubscribe me", class: "btn btn-default sub-btn" %>
+    <% end %>
+  </div>
+</div>
