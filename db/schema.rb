@@ -32,8 +32,11 @@ ActiveRecord::Schema.define(version: 20150507203742) do
   end
 
   create_table "series_requests", force: true do |t|
-    t.string  "name"
-    t.integer "subscription_id"
+    t.string   "name"
+    t.integer  "subscription_id"
+    t.boolean  "fulfilled",       default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "series_subscriptions", force: true do |t|

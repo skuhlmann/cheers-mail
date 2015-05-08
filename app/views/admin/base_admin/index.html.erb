@@ -22,6 +22,30 @@
 
 <%= link_to "View full subscription list", admin_subscriptions_path %>
 
+<h2>Latest Series Requests</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Series Name</th>
+      <th>Subsciber Email address</th>
+      <th>Date added</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @series_requests.each do |request| %>
+    <tr>
+      <td><%= request.name %> (request)</td>
+      <td><%= request.subscription.email_address %></td>
+      <td><%= request.created_at.strftime("%B %d, %Y") %></td>
+      <td>
+        <%= link_to "#{request.name} request fulfilled", admin_series_request_path(request), method: "PUT"  %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
 <hr>
 <h2>Current Series</h2>
 <ul>

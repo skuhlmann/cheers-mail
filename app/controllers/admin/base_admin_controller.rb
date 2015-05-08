@@ -18,5 +18,6 @@ class Admin::BaseAdminController < ActionController::Base
     @users = User.all
     @recent_subscriptions = Subscription.recent
     @series = Series.order(name: :asc)
+    @series_requests = SeriesRequest.unfulfilled.includes(:subscription)
   end
 end
