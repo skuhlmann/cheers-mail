@@ -44,6 +44,9 @@ GEM
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     chronic (0.10.2)
+    clockwork (1.2.0)
+      activesupport
+      tzinfo
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -207,6 +210,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   capybara
+  clockwork
   coffee-rails (~> 4.0.0)
   database_cleaner
   dotenv-rails
