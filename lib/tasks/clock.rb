@@ -7,5 +7,5 @@ module Clockwork
     puts "Running #{job}"
   end
 
-  every(1.week, 'weekly.job', :at => 'Sunday 12:20') { Subscription.weekly_blast }
+  every(1.week, 'weekly.job', :at => 'Thursday 17:20') { Subscription.weekly_blast }
 end
