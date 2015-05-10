@@ -26,7 +26,7 @@
         <hr>
 
         <p>Select your favorite show(s):<p>
-        <div class="series">
+        <div class="series form-group">
           <% @series.each do |show| %>
             <div class="checkbox-inline">
               <%= check_box_tag "series_ids[]", show.id %>
