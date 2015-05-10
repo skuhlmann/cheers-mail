@@ -1,5 +1,5 @@
 class EpisodeMailer < ActionMailer::Base
-  default from: "DoYouRemember@ThatOneEpisode.us"
+  default from: "Dude@ThatOneEpisode.us"
 
   def weekly_episode_email(subscription)
     @subscription = subscription
