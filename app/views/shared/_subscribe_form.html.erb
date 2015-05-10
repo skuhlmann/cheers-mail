@@ -26,13 +26,14 @@
         <hr>
 
         <p>Select your favorite show(s):<p>
-
-        <% @series.each do |show| %>
-          <div class="checkbox-inline">
-            <%= check_box_tag "series_ids[]", show.id %>
-            <%= label_tag show.id, show.name %>
-          </div>
-        <% end %>
+        <div class="series">
+          <% @series.each do |show| %>
+            <div class="checkbox-inline">
+              <%= check_box_tag "series_ids[]", show.id %>
+              <%= label_tag show.id, show.name %>
+            </div>
+          <% end %>
+        </div>
 
         <p>Don't see your favorite show? Let us know what it is and we'll try to find it:<p>
 
