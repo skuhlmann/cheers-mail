@@ -1,7 +1,7 @@
 class Admin::SubscriptionsController < Admin::BaseAdminController
 
   def index
-    @subscriptions = Subscription.all
+    @subscriptions = Subscription.all.includes(:series)
     @subscription = Subscription.new
     @series = Series.order(:name)
   end

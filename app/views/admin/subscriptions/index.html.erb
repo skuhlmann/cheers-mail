@@ -9,6 +9,8 @@
           <th>Name</th>
           <th>Email address</th>
           <th>Date Added</th>
+          <th>Series</th>
+          <th></th>
           <th></th>
         </tr>
       </thead>
@@ -18,6 +20,11 @@
         <td><%= subscription.name %></td>
         <td><%= subscription.email_address %></td>
         <td><%= subscription.created_at.strftime("%B %d, %Y") %></td>
+        <td>
+          <% subscription.series.each do |series| %>
+            <p><%= series.name %>
+          <% end %>
+        </td>
         <td><%= button_to "Trigger weekly email to #{subscription.name}", weekly_email_path(subscription), method: :post %></td>
         <td><%= button_to 'Delete', admin_subscription_path(subscription), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
