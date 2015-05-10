@@ -1,9 +1,12 @@
-<h1><%= @series.name %> :: Admin</h1>
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
 
-<% unless @series.episodes.empty? %>
-  <h2>Episode content</h2>
-  <% @episodes.each do |episode| %>
-    <div>
+    <h1><%= @series.name %> :: Admin</h1>
+
+    <% unless @series.episodes.empty? %>
+      <h2>Episode content</h2>
+    <% @episodes.each do |episode| %>
+      <div>
       <p>Season: <%= episode.season %></p>
       <p>Summary: <%= episode.summary %></p>
       <%= link_to "Edit episode summary", edit_admin_episode_path(episode) %>
@@ -11,6 +14,8 @@
 
     </div>
   <% end %>
-<% else %>
-  <p>We couldn't find any episodes for this series</p>
-<% end %>
+  <% else %>
+      <p>We couldn't find any episodes for this series</p>
+  <% end %>
+  </div>
+</div>

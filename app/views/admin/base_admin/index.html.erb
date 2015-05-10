@@ -1,81 +1,85 @@
-<h1>Admin Homepage</h1>
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1">
+    <h1>Admin Homepage</h1>
 
-<h2>Recent Subscriptions</h2>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email address</th>
-      <th>Date added</th>
-    </tr>
-  </thead>
-  <tbody>
-  <% @recent_subscriptions.each do |subscription| %>
-    <tr>
-      <td><%= subscription.name %></td>
-      <td><%= subscription.email_address %></td>
-      <td><%= subscription.created_at.strftime("%B %d, %Y") %></td>
-    </tr>
-  <% end %>
-  </tbody>
-</table>
+    <h2>Recent Subscriptions</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email address</th>
+          <th>Date added</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @recent_subscriptions.each do |subscription| %>
+        <tr>
+        <td><%= subscription.name %></td>
+        <td><%= subscription.email_address %></td>
+        <td><%= subscription.created_at.strftime("%B %d, %Y") %></td>
+      </tr>
+    <% end %>
+      </tbody>
+    </table>
 
-<%= link_to "View full subscription list", admin_subscriptions_path %>
+    <%= link_to "View full subscription list", admin_subscriptions_path %>
 
-<h2>Latest Series Requests</h2>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Series Name</th>
-      <th>Subsciber Email address</th>
-      <th>Date added</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-  <% @series_requests.each do |request| %>
-    <tr>
-      <td><%= request.name %> (request)</td>
-      <td><%= request.subscription.email_address %></td>
-      <td><%= request.created_at.strftime("%B %d, %Y") %></td>
-      <td>
-        <%= link_to "#{request.name} request fulfilled", admin_series_request_path(request), method: "PUT"  %>
-      </td>
-    </tr>
-  <% end %>
-  </tbody>
-</table>
+    <h2>Latest Series Requests</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Series Name</th>
+          <th>Subsciber Email address</th>
+          <th>Date added</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @series_requests.each do |request| %>
+        <tr>
+        <td><%= request.name %> (request)</td>
+        <td><%= request.subscription.email_address %></td>
+        <td><%= request.created_at.strftime("%B %d, %Y") %></td>
+        <td>
+          <%= link_to "#{request.name} request fulfilled", admin_series_request_path(request), method: "PUT"  %>
+        </td>
+      </tr>
+    <% end %>
+      </tbody>
+    </table>
 
-<hr>
-<h2>Current Series</h2>
-<ul>
-  <% @series.each do |series| %>
-    <li><%= series.name %> | <%= link_to "View #{series.name} episodes", admin_series_path(series) %></li>
-  <% end %>
-</ul>
+    <hr>
+    <h2>Current Series</h2>
+    <ul>
+      <% @series.each do |series| %>
+        <li><%= series.name %> | <%= link_to "View #{series.name} episodes", admin_series_path(series) %></li>
+    <% end %>
+    </ul>
 
-<%= link_to "Add a new series", new_admin_series_path %>
+    <%= link_to "Add a new series", new_admin_series_path %>
 
-<hr>
-<h2>Users</h2>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Email address</th>
-      <th>Admin</th>
-      <th colspan="2"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
+    <hr>
+    <h2>Users</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Email address</th>
+          <th>Admin</th>
+          <th colspan="2"></th>
+        </tr>
+      </thead>
+      <tbody>
+      <% @users.each do |user| %>
+        <tr>
         <td><%= user.email_address %></td>
         <td><%= user.admin %></td>
         <td><%= link_to 'Edit', edit_admin_user_path(user) %></td>
         <td><%= link_to 'Delete', admin_user_path(user), method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-  </tbody>
-</table>
+      </tbody>
+    </table>
 
-<%= link_to 'New User', new_admin_user_path %>
+    <%= link_to 'New User', new_admin_user_path %>
+  </div>
+</div>
