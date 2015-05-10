@@ -8,7 +8,7 @@ You know when your friend is all, "Hey man, do you remember that episode of Sein
 
 Clone That One Episode to your local machine with:
 
-  $ git clone git@github.com:skuhlmann/salad-days.git
+  $ git clone git@github.com:skuhlmann/cheers-mail.git
 
 Install gems:
 
