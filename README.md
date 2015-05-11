@@ -1,4 +1,5 @@
 ## That One Episode :: Sitcom Mailer App
+[![Circle CI](https://circleci.com/gh/skuhlmann/cheers-mail.svg?style=svg)](https://circleci.com/gh/skuhlmann/cheers-mail)
 
 You know when your friend is all, "Hey man, do you remember that episode of Seinfeld when Kramer and Newman make sausage in Jerry's apartment?". Well, this app is meant to be that friend.
 
