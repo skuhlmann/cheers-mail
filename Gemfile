@@ -15,7 +15,6 @@ gem 'unicorn'
 gem 'bcrypt', '~> 3.1.7'
 gem 'httparty'
 gem 'foreigner'
-gem 'whenever', :require => false
 gem 'clockwork'
 gem "twitter-bootstrap-rails"
 gem "font-awesome-rails"
