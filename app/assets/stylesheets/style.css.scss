@@ -30,11 +30,11 @@ html, body {
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto -70px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
 
 .footer, .push {
-	height: 70px; /* .push must be the same height as .footer */
+	height: 50px; /* .push must be the same height as .footer */
   font-size: 10px;
 }
 
