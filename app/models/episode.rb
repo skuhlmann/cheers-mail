@@ -6,17 +6,18 @@ class Episode < ActiveRecord::Base
     if single_page.nil?
       1.upto(seasons) do |season|
         title = "#{name}_(season_#{season})"
-        descriptions = wiki.collect_page_episodes(title)
-        descriptions.each do |description|
-          build_from_wikipedia(description, season, series_id)
-        end
+        assemble_episodes(wiki, title, season, series_id)
       end
     else
       title = "List_of_#{name}_episodes"
-      descriptions = wiki.collect_list_episodes(title)
-      descriptions.each do |description|
-        build_from_wikipedia(description, "Undetermined", series_id)
-      end
+      assemble_episodes(wiki, title, "Undetermined", series_id)
+    end
+  end
+
+  def self.assemble_episodes(wiki, title, season, series_id)
+    descriptions = wiki.collect_page_episodes(title)
+    descriptions.each do |description|
+      build_from_wikipedia(description, season, series_id)
     end
   end
 
