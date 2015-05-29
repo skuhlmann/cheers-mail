@@ -26,7 +26,6 @@ class Episode < ActiveRecord::Base
       episode.summary = description
       episode.season = season
       episode.series_id = series_id
-      if season == "Undetermined" then episode.single_page = true end
     end
   end
 end
