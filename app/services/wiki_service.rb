@@ -11,7 +11,7 @@ class WikiService
                       }
   end
 
-  def collect_data(titles)
+  def collect_page_episodes(titles)
     default_params[:titles] = titles
     summaries(responses).map { |summary| summary.split("\n")
                                                 .first.gsub(/[\]}=\/{|*+\\\[<>]/, "") }

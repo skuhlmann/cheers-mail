@@ -1,13 +1,21 @@
 class Episode < ActiveRecord::Base
   belongs_to :series
 
-  def self.build_episodes(name, seasons, series_id)
+  def self.build_episodes(name, seasons, series_id, single_page)
     wiki = WikiService.new
-    1.upto(seasons) do |season|
-      title = "#{name}_(season_#{season})"
-      descriptions = wiki.collect_data(title)
+    if single_page.nil?
+      1.upto(seasons) do |season|
+        title = "#{name}_(season_#{season})"
+        descriptions = wiki.collect_page_episodes(title)
+        descriptions.each do |description|
+          build_from_wikipedia(description, season, series_id)
+        end
+      end
+    else
+      title = "List_of_#{name}_episodes"
+      descriptions = wiki.collect_list_episodes(title)
       descriptions.each do |description|
-        build_from_wikipedia(description, season, series_id)
+        build_from_wikipedia(description, "Undetermined", series_id)
       end
     end
   end
@@ -17,6 +25,7 @@ class Episode < ActiveRecord::Base
       episode.summary = description
       episode.season = season
       episode.series_id = series_id
+      if season == "Undetermined" then episode.single_page = true end
     end
   end
 end
