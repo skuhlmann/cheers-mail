@@ -60,24 +60,6 @@ describe 'the admin user flow', type: :feature do
     expect(mail.subject).to eq("Do You Remember That One Episode of Cheers?")
   end
 
-  it "can add a new series" do
-    visit admin_index_path
-    page.click_link('Add a new series')
-
-    expect(current_path).to eq(new_admin_series_path)
-    VCR.use_cassette("admin_series_friends") do
-      page.fill_in('series_name', with: "Friends")
-      page.fill_in('series_seasons', with: "2")
-      page.click_button("Create Series")
-
-      series = Series.last
-
-      expect(current_path).to eq(admin_series_path(series))
-      expect(page).to have_content("Friends")
-      expect(page).to have_content("Joey needs to practice kissing guys")
-    end
-  end
-
   it "can edit existing episode content" do
     visit admin_index_path
     page.click_link("View Cheers episodes")

@@ -22,6 +22,10 @@
       <%= f.label :seasons %><br>
       <%= f.number_field :seasons %>
     </div>
+    <div class="field">
+      <%= check_box_tag "single_page" %>
+      <%= label_tag "Single Page Episodes?" %>
+    </div>
     <div class="actions">
       <%= f.submit %>
     </div>

@@ -11,8 +11,8 @@ class Series < ActiveRecord::Base
     self.name = name.titleize
   end
 
-  def gather_episodes
-    Episode.build_episodes(name, seasons, id)
+  def gather_episodes(single_page)
+    Episode.build_episodes(name, seasons, id, single_page)
   end
 
   def random_episode

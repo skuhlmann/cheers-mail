@@ -11,7 +11,7 @@ class Admin::SeriesController < Admin::BaseAdminController
   def create
     @series = Series.create(series_params)
     if @series.save
-      @series.gather_episodes
+      @series.gather_episodes(params[:single_page])
       redirect_to admin_series_path(@series), notice: "Series was created, please check episode content shortly."
     else
       render :new, notice: "There was an error"

@@ -1,0 +1,715 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&rvprop=content&titles=List_of_Curb%20Your%20Enthusiasm_episodes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Powered-By:
+      - HHVM/3.6.1
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto,Cookie
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1960866069, 3748247449
+      Via:
+      - 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '15599'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Fri, 29 May 2015 19:40:57 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp1067 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Denver:39.7525:-104.9995:v4; Path=/; Domain=.wikipedia.org
+      - WMF-Last-Access=29-May-2015;Path=/;HttpOnly;Expires=Tue, 30 Jun 2015 12:00:00
+        GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"query":{"normalized":[{"from":"List_of_Curb Your Enthusiasm_episodes","to":"List
+        of Curb Your Enthusiasm episodes"}],"pages":{"531823":{"pageid":531823,"ns":0,"title":"List
+        of Curb Your Enthusiasm episodes","revisions":[{"contentformat":"text/x-wiki","contentmodel":"wikitext","*":"{{DISPLAYTITLE:List
+        of ''''Curb Your Enthusiasm'''' episodes}}\nThe [[HBO]] television series
+        ''''[[Curb Your Enthusiasm]]'''' premiered with an hour-long special on October
+        17, 1999. It was followed by a ten-episode first season that began airing
+        on HBO on October 15, 2000.<ref>{{Cite web|url=http://www.tvguide.com/tvshows/curb-enthusiasm/cast/100103|title=Curb
+        Your Enthusiasm: Cast & Details|work=TV Guide|accessdate=June 13, 2011}}</ref>\n\n{{TOC
+        right}}\n\n==Series overview==\n<onlyinclude>{| class=\"wikitable\" style=\"text-align:center\"\n|-\n!
+        style=\"padding: 0px 8px\" colspan=\"2\" rowspan=\"2\" | Season\n! style=\"padding:
+        0px 8px\" rowspan=\"2\" | Episodes\n! style=\"padding: 0px 8px\" colspan=\"2\"
+        | Originally aired \n|-\n! First aired\n! Last aired\n|-\n| style=\"width:
+        5px\" bgcolor=\"FFFFFF\"|\n| [[List of Curb Your Enthusiasm episodes#Season
+        1 (2000)|1]]\n| 10\n| {{Start date|2000|10|15}}\n| {{End date|2000|12|17}}
+        \n|-\n| style=\"width: 5px\" bgcolor=\"001155\"|\n| [[List of Curb Your Enthusiasm
+        episodes#Season 2 (2001)|2]]\n| 10\n| style=\"padding: 0px 8px\" | {{Start
+        date|2001|9|23}}\n| {{Start date|2001|11|25}} \n|-\n| style=\"width: 5px\"
+        bgcolor=\"DDDDDD\"|\n| [[List of Curb Your Enthusiasm episodes#Season 3 (2002)|3]]\n|
+        10\n| {{Start date|2002|9|15}}\n| {{End date|2002|11|17}} \n|-\n| style=\"width:
+        5px\" bgcolor=\"0099CC\"|\n| [[List of Curb Your Enthusiasm episodes#Season
+        4 (2004)|4]]\n| 10\n| {{Start date|2004|1|4}}\n| {{End date|2004|3|14}} \n|-\n|
+        style=\"width: 5px\" bgcolor=\"FFEE99\"|\n| [[List of Curb Your Enthusiasm
+        episodes#Season 5 (2005)|5]]\n| 10\n| {{Start date|2005|9|25}}\n| {{End date|2005|12|4}}
+        \n|-\n| style=\"width: 5px\" bgcolor=\"992211\"|\n| [[List of Curb Your Enthusiasm
+        episodes#Season 6 (2007)|6]]\n| 10\n| {{Start date|2007|9|9}}\n| {{End date|2007|11|11}}
+        \n|-\n| style=\"width: 5px\" bgcolor=\"3D3F43\"|\n| [[List of Curb Your Enthusiasm
+        episodes#Season 7 (2009)|7]]\n| 10\n| {{Start date|2009|9|20}}\n| {{End date|2009|11|22}}
+        \n|-\n| style=\"width: 5px\" bgcolor=\"111111\"|\n| [[List of Curb Your Enthusiasm
+        episodes#Season 8 (2011)|8]]\n| 10\n| {{Start date|2011|7|10}}\n| style=\"padding:
+        0px 8px\" | {{End date|2011|9|11}} \n|-\n|}</onlyinclude>\n\n==Episodes==\n===HBO
+        special (1999)===\n{| class=\"wikitable plainrowheaders\" style=\"width:100%\"\n|-style=\"color:black\"\n!
+        |Title\n! |Directed by\n! |Story by\n! |Original air date\n{{Episode list\n
+        |Title=Larry David: Curb Your Enthusiasm\n |OriginalAirDate={{Start date|1999|10|17}}\n
+        |DirectedBy=[[Robert B. Weide]]\n |WrittenBy=[[Larry David]]\n |ShortSummary=In
+        the HBO special upon which the series was based, Larry approaches HBO about
+        having his own hour-long HBO special. After a long hiatus, Larry begins performing
+        stand-up comedy again in order to prepare for the special. However, hours
+        away from the show''s scheduled filming, Larry becomes nervous and lies to
+        the HBO executives about the illness of his nonexistent stepfather in order
+        to get the special canceled.\n}}\n|}\n\n===Season 1 (2000)===\nThe first season
+        introduces us to Larry''s post-''''Seinfeld'''' world, where he is wealthy,
+        has a loving wife, a best friend, and also manages to offend everyone around
+        him. It is not long into the series though that we realize that Larry David
+        is his own worst enemy. He is accused of having an adultery-implying erection
+        because of his extremely baggy trousers that bunch up when he sits down; feuding
+        with a shoe salesman; getting blamed for a newspaper typo after submitting
+        an obituary for Cheryl''s aunt; reacting offensively to drinking from his
+        friend''s mother''s glass; and unintentionally causing someone to believe
+        that his uncle is an incestuous pedophile. Although this season has no major
+        plot line, there is a small plot of Larry trying to obtain a bracelet to give
+        to Cheryl and another small two-episode plot involving Larry and Cheryl trying
+        to have a wire that runs through their backyard removed.\n{| class=\"wikitable
+        plainrowheaders\" style=\"width:100%\"\n|-style=\"color:black\"\n! style=\"background:
+        #FFFFFF;\"|No. in<br />series\n! style=\"background: #FFFFFF;\"|No. in<br
+        />season\n! style=\"background: #FFFFFF;\"|Title\n! style=\"background: #FFFFFF;\"|Directed
+        by\n! style=\"background: #FFFFFF;\"|Story by\n! style=\"background: #FFFFFF;\"|Original
+        air date\n{{Episode list\n |EpisodeNumber=1\n |EpisodeNumber2=1\n |Title=The
+        Pants Tent\n |OriginalAirDate={{Start date|2000|10|15}}\n |DirectedBy=[[Robert
+        B. Weide]]\n |WrittenBy=[[Larry David]]\n |ShortSummary=Larry''s baggy new
+        pants create awkward misunderstandings among Larry, Cheryl ([[Cheryl Hines]]),
+        and her friend ([[Robin Ruzan]]). A movie-theater argument with a female ''stranger''
+        ([[Sofia Milos]]) leads to tensions between Larry and his best friend ([[Richard
+        Lewis (comedian)|Richard Lewis]]). Larry jokingly refers to Cheryl as \"Hitler\"
+        during a car speakerphone conversation with Jeff ([[Jeff Garlin]]) and his
+        attempts to hide it from her--and to appease Jeff''s Holocaust-sensitive parents
+        (Mina Kolb, [[Louis Nye]])--backfire disastrously. [[Kathy Griffin]] makes
+        a cameo appearance.\n |LineColor=FFFFFF\n}}\n{{Episode list\n |EpisodeNumber=2\n
+        |EpisodeNumber2=2\n |Title=Ted and Mary\n |OriginalAirDate={{Start date|2000|10|22}}\n
+        |DirectedBy=[[David Steinberg]]\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        and Cheryl spend quality time with new celebrity friends [[Ted Danson]] and
+        [[Mary Steenburgen]] and Larry goes shopping with Mary''s mother ([[Anne Haney]]);
+        Larry''s shoes are stolen at the bowling alley and he confronts the thief.
+        \n |LineColor=FFFFFF\n}}\n{{Episode list\n |EpisodeNumber=3\n |EpisodeNumber2=3\n
+        |Title=Porno Gil\n |OriginalAirDate={{Start date|2000|10|29}}\n |DirectedBy=Robert
+        B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry and Cheryl are invited
+        to retired porn star Gil Bang''s ([[Bob Odenkirk]]) dinner party. In the hospital
+        after a routine checkup, Jeff says he needs emergency bypass surgery and asks
+        Larry to hide his porn collection from Susie ([[Susie Essman]]) in case something
+        happens to him. But when Larry is enjoying this stash--starring Gil--near
+        the end, it''s Jeff''s folks who catch him.\n |LineColor=FFFFFF\n}}\n{{Episode
+        list\n |EpisodeNumber=4\n |EpisodeNumber2=4\n |Title=The Bracelet\n |OriginalAirDate={{Start
+        date|2000|11|5}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry wants to buy a bracelet for Cheryl; Larry and Richard
+        Lewis help a blind man ([[Patrick Kerr]]) move into his apartment.\n |LineColor=FFFFFF\n}}\n{{Episode
+        list\n |EpisodeNumber=5\n |EpisodeNumber2=5\n |Title=Interior Decorator\n
+        |OriginalAirDate={{Start date|2000|11|12}}\n |DirectedBy=[[Andy Ackerman]]\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry keeps missing appointments with
+        [[Diane Keaton]]; Larry is angered by the operations of his doctor''s office,
+        and he also tangles with Diane Keaton''s Interior Decorator.\n |LineColor=FFFFFF\n}}\n{{Episode
+        list\n |EpisodeNumber=6\n |EpisodeNumber2=6\n |Title=The Wire\n |OriginalAirDate={{Start
+        date|2000|11|19}}\n |DirectedBy=[[Larry Charles]]\n |WrittenBy=Larry David\n
+        |ShortSummary=To bury a telephone wire, Larry must befriend his next-door
+        neighbors, the Weinstocks ([[Wayne Federman]], [[Lucy Webb]]), who ask to
+        meet [[Julia Louis-Dreyfus]].\n |LineColor=FFFFFF\n}}\n{{Episode list\n |EpisodeNumber=7\n
+        |EpisodeNumber2=7\n |Title=AAMCO\n |OriginalAirDate={{Start date|2000|11|26}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Cheryl
+        holds a dinner party; Larry test-drives Jeff''s car and disastrously mistakes
+        the trademark double-horn sound-effect in an [[AAMCO]] radio commercial for
+        a real horn.\n |LineColor=FFFFFF\n}}\n{{Episode list\n |EpisodeNumber=8\n
+        |EpisodeNumber2=8\n |Title=Beloved Aunt\n |OriginalAirDate={{Start date|2000|12|3}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Cheryl''s
+        parents ([[Paul Dooley]], [[Julie Payne (post-1960s actress)|Julie Payne]])
+        ask Larry to write an [[obituary]] for Cheryl''s aunt, then blame him for
+        a horrifying typographical error in the piece.\n |LineColor=FFFFFF\n}}\n{{Episode
+        list\n |EpisodeNumber=9\n |EpisodeNumber2=9\n |Title=Affirmative Action\n
+        |OriginalAirDate={{Start date|2000|12|10}}\n |DirectedBy=[[Bryan Gordon]]\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry makes an inappropriate humorous
+        remark to an African American doctor; Larry and Cheryl travel across L.A.
+        to retrieve a prescription.\n |LineColor=FFFFFF\n}}\n{{Episode list\n |EpisodeNumber=10\n
+        |EpisodeNumber2=10\n |Title=The Group\n |OriginalAirDate={{Start date|2000|12|17}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Jeff
+        offers Cheryl a role in ''''[[The Vagina Monologues]]''''; Larry runs into
+        an old girlfriend ([[Melanie Smith (actress)|Melanie Smith]]) who asks him
+        to go to an [[incest]] survivors group with her--which is led by the director
+        of the show ([[Laraine Newman]]).\n |LineColor=FFFFFF\n}}\n|}\n\n===Season
+        2 (2001)===\nLarry David pursues a new television project, first with [[Jason
+        Alexander]], and then [[Julia Louis-Dreyfus]]. Based on Alexander''s frustration
+        with his own post-''''Seinfeld'''' career/life, the premise is about an actor
+        who starred in a megahit sitcom who finds it difficult to maintain a steady
+        career afterward because of the public''s perception of typecasting. Larry
+        pitches the idea to various networks, but eventually ends up alienating or
+        offending everyone he makes a deal with, and anyone else attached to the project.\n{|
+        class=\"wikitable plainrowheaders\" style=\"width:100%\"\n|-style=\"color:white\"\n!
+        style=\"background: #001155;\"|No. in<br />series\n! style=\"background: #001155;\"|No.
+        in<br />season\n! style=\"background: #001155;\"|Title\n! style=\"background:
+        #001155;\"|Directed by\n! style=\"background: #001155;\"|Story by\n! style=\"background:
+        #001155;\"|Original air date\n{{Episode list\n |EpisodeNumber=11\n |EpisodeNumber2=1\n
+        |Title=The Car Salesman\n |OriginalAirDate={{Start date|2001|9|23}}\n |DirectedBy=[[Robert
+        B. Weide]]\n |WrittenBy=[[Larry David]]\n |ShortSummary=Larry experimentally
+        decides to take a job as a car salesman. Larry and [[Jason Alexander]] contemplate
+        making a new TV series about an actor who can''t find work because he is [[Typecasting
+        (acting)|typecast]] as his character from a hit television show.\n |LineColor=001154\n}}\n{{Episode
+        list\n |EpisodeNumber=12\n |EpisodeNumber2=2\n |Title=Thor\n |OriginalAirDate={{Start
+        date|2001|9|30}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=After being bullied during a misunderstanding on the road, Larry
+        tries to get revenge when he learns it was professional wrestler Thor Olson
+        ([[Deron McBee]]). Larry helps Jeff move out as he is splitting up with Susie.
+        Larry tries to meet with Jason Alexander about their new show, but the two
+        break up after getting into an argument about where they should have the meeting.\n
+        |LineColor=001154\n}}\n{{Episode list\n |EpisodeNumber=13\n |EpisodeNumber2=3\n
+        |Title=Trick or Treat\n |OriginalAirDate={{Start date|2001|10|7}}\n |DirectedBy=[[Larry
+        Charles]]\n |WrittenBy=Larry David\n |ShortSummary=Larry refuses to give candy
+        to un-costumed teenagers on Halloween, so they toilet-paper his house and
+        spray-paint \"Bald Asshole\" across his front door. Larry attends a handicapped
+        friend''s movie premiere and gets in trouble for whistling [[Siegfried Idyll|Wagner]].\n
+        |LineColor=001154\n}}\n{{Episode list\n |EpisodeNumber=14\n |EpisodeNumber2=4\n
+        |Title=The Shrimp Incident\n |OriginalAirDate={{Start date|2001|10|14}}\n
+        |DirectedBy=[[David Steinberg]]\n |WrittenBy=Larry David\n |ShortSummary=[[Julia
+        Louis-Dreyfus]] wants to pitch the show to HBO; Larry suspects [[HBO]] executive
+        Allan Wasserman of stealing shrimp from his Chinese food.\n |LineColor=001154\n}}\n{{Episode
+        list\n |EpisodeNumber=15\n |EpisodeNumber2=5\n |Title=The Thong\n |OriginalAirDate={{Start
+        date|2001|10|21}}\n |DirectedBy=[[Jeff Garlin]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry wants to discontinue his counseling when he sees his therapist
+        ([[John Pleshette]]) in a thong; [[Rob Reiner]] convinces Larry to do a lunch
+        as a prize in a \"[[List of fictional diseases#In television|Groat''s syndrome]]\"
+        charity auction, but he offends the winner when he starts eating first.\n
+        |LineColor=001154\n}}\n{{Episode list\n |EpisodeNumber=16\n |EpisodeNumber2=6\n
+        |Title=The Acupuncturist\n |OriginalAirDate={{Start date|2001|10|28}}\n |DirectedBy=[[Bryan
+        Gordon]]\n |WrittenBy=Larry David\n |ShortSummary=Larry lends $5,000 to an
+        old friend and offers another $5,000 to his [[acupuncturist]] ([[Keone Young]])
+        if he can cure his neck problems.\n |LineColor=001154\n}}\n{{Episode list\n
+        |EpisodeNumber=17\n |EpisodeNumber2=7\n |Title=The Doll\n |OriginalAirDate={{Start
+        date|2001|11|4}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry and Julia successfully pitch the show to [[American Broadcasting
+        Company|ABC]]. Larry traumatizes the executive''s daughter by cutting her
+        expensive doll''s hair off, then makes things worse by stealing the same doll''s
+        head from Sammy''s collection.\n |LineColor=001154\n}}\n{{Episode list\n |EpisodeNumber=18\n
+        |EpisodeNumber2=8\n |Title=Shaq\n |OriginalAirDate={{Start date|2001|11|11}}\n
+        |DirectedBy=[[Dean Parisot]]\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        accidentally trips [[Shaquille O''Neal]] at a [[Los Angeles Lakers|Lakers]]
+        basketball game, which suddenly seems to give him good luck.\n |LineColor=001154\n}}\n{{Episode
+        list\n |EpisodeNumber=19\n |EpisodeNumber2=9\n |Title=The Baptism\n |OriginalAirDate={{Start
+        date|2001|11|18}}\n |DirectedBy=[[Keith Truesdell]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry and Cheryl run into a score of problems as they travel
+        to attend her sister''s Jewish fianc\u00e9''s baptism simply because Larry
+        misplaced the plane tickets; Richard Lewis accuses Larry of stealing his outgoing
+        answering-machine greeting.\n |LineColor=001154\n}}\n{{Episode list\n |EpisodeNumber=20\n
+        |EpisodeNumber2=10\n |Title=The Massage\n |OriginalAirDate={{Start date|2001|11|25}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        and Julia make a final attempt to pitch the show with [[CBS]]. Larry and Cheryl
+        have a night out, but Larry gets arrested for bringing food to his driver.\n
+        |LineColor=001154\n}}\n|}\n\n===Season 3 (2002)===\nLarry joins a restaurant
+        venture with a group of investors, among them are [[Ted Danson]] and [[Michael
+        York (actor)|Michael York]]. A few sub-plots involve Larry being cast in a
+        [[Martin Scorsese]] movie, an on again, off again feud with Stu and Susan
+        Braudy and Larry getting a pubic hair stuck in his throat.\n{| class=\"wikitable
+        plainrowheaders\" style=\"width:100%\"\n|-style=\"color:black\"\n! style=\"background:
+        #DDDDDD;\"|No. in<br />series\n! style=\"background: #DDDDDD;\"|No. in<br
+        />season\n! style=\"background: #DDDDDD;\"|Title\n! style=\"background: #DDDDDD;\"|Directed
+        by\n! style=\"background: #DDDDDD;\"|Story by\n! style=\"background: #DDDDDD;\"|Original
+        air date\n|-\n{{Episode list\n |EpisodeNumber=21\n |EpisodeNumber2=1\n |Title=Chet''s
+        Shirt\n |OriginalAirDate={{Start date|2002|9|15}}\n |DirectedBy=[[Robert B.
+        Weide]]\n |WrittenBy=[[Larry David]]\n |ShortSummary=Larry becomes obsessed
+        with a shirt he sees in a dead friend''s picture; Larry and Jeff become investors
+        in a swanky new restaurant with [[Ted Danson]] and [[Michael York (actor)|Michael
+        York]].\n |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=22\n |EpisodeNumber2=2\n
+        |Title=The Benadryl Brownie\n |OriginalAirDate={{Start date|2002|9|22}}\n
+        |DirectedBy=[[Larry Charles]]\n |WrittenBy=Larry David\n |ShortSummary=Larry''s
+        first cell phone call leads to an allergic reaction involving [[Richard Lewis
+        (comedian)|Richard Lewis]]''s [[Christian Science|Christian Scientist]] girlfriend.\n
+        |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=23\n |EpisodeNumber2=3\n
+        |Title=Club Soda and Salt\n |OriginalAirDate={{Start date|2002|9|29}}\n |DirectedBy=Robert
+        B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry learns a restaurant
+        tip about stains while searching for a new chef for the soon-to-be-opened
+        restaurant; Larry becomes tennis partners with Cheryl when he becomes jealous
+        of her current partner, Brad.\n |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=24\n
+        |EpisodeNumber2=4\n |Title=The Nanny from Hell\n |OriginalAirDate={{Start
+        date|2002|10|6}}\n |DirectedBy=Larry Charles\n |WrittenBy=Larry David\n |ShortSummary=Jeff
+        and Susie get back together after Jeff finds out that Susie is pregnant; Larry
+        gets a restaurant investor''s nanny ([[Cheri Oteri]])--who used to work at
+        [[Six Flags Magic Mountain]] [[Looney Tunes]] Lodge--fired when he convinces
+        her to let him use the investor''s private bathroom.\n |LineColor=DDDDDD\n}}\n{{Episode
+        list\n |EpisodeNumber=25\n |EpisodeNumber2=5\n |Title=The Terrorist Attack\n
+        |OriginalAirDate={{Start date|2002|10|13}}\n |DirectedBy=Robert B. Weide\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry gets caught in the middle of
+        a feud between Paul and Mindy Reiser ([[Paul Reiser]], Linda Bates) and Susan
+        and Steve Braudy ([[Amy Aquino]], [[Don Stark]]). [[Wanda Sykes]] warns Larry
+        and Cheryl that there will be a terrorist attack in L.A. the weekend they
+        will be holding an [[Natural Resources Defense Council|NRDC]] benefit with
+        [[Alanis Morissette]].\n |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=26\n
+        |EpisodeNumber2=6\n |Title=The Special Section\n |OriginalAirDate={{Start
+        date|2002|10|20}}\n |DirectedBy=[[Bryan Gordon]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry''s mother dies, which he uses as an excuse to get out
+        of situations; Larry is angered when his mother''s remains are put in a special
+        section of the cemetery and teams up with his father ([[Shelley Berman]]),
+        cousin ([[Richard Kind]]), and Jeff to put it right.\n |LineColor=DDDDDD\n}}\n{{Episode
+        list\n |EpisodeNumber=27\n |EpisodeNumber2=7\n |Title=The Corpse Sniffing
+        Dog\n |OriginalAirDate={{Start date|2002|10|27}}\n |DirectedBy=[[Andy Ackerman]]\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry talks the Greens'' daughter into
+        giving their dog away after Jeff starts suffering from terrible allergies;
+        later he has to devise a plan to get the dog back.\n |LineColor=DDDDDD\n}}\n{{Episode
+        list\n |EpisodeNumber=28\n |EpisodeNumber2=8\n |Title=Krazee-Eyez Killa\n
+        |OriginalAirDate={{Start date|2002|11|3}}\n |DirectedBy=Robert B. Weide\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry befriends Wanda''s fianc\u00e9,
+        a rapper ([[Chris Williams (actor)|Chris Williams]]), and searches L.A. for
+        a jacket he urgently needs for the re-shoot of an upcoming [[Martin Scorsese]]
+        film.\n |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=29\n |EpisodeNumber2=9\n
+        |Title=Mary, Joseph, and Larry\n |OriginalAirDate={{Start date|2002|11|10}}\n
+        |DirectedBy=[[David Steinberg]]\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        begins having problems with his housekeeper Dora; Cheryl invites her family
+        home for the holidays.\n |LineColor=DDDDDD\n}}\n{{Episode list\n |EpisodeNumber=30\n
+        |EpisodeNumber2=10\n |Title=The Grand Opening\n |OriginalAirDate={{Start date|2002|11|17}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=With
+        the restaurant opening in days, Larry manages to fire the chef, accidentally
+        break a food critic''s thumbs, and hire a new chef who has [[Tourette syndrome]].
+        \n |LineColor=DDDDDD\n}}\n|}\n\n===Season 4 (2004)===\nLarry works with [[Mel
+        Brooks]], [[Ben Stiller]], [[Cady Huffman]] and [[David Schwimmer]] to star
+        on [[Broadway theatre|Broadway]] in ''''[[The Producers (musical)|The Producers]]''''.
+        Larry also struggles to fulfill his wife''s tenth anniversary present to him
+        \u2013 a one-time-only act of adultery.\n{| class=\"wikitable plainrowheaders\"
+        style=\"width:100%\"\n|-style=\"color:black\"\n! style=\"background: #0099CC;\"|No.
+        in<br />series\n! style=\"background: #0099CC;\"|No. in<br />season\n! style=\"background:
+        #0099CC;\"|Title\n! style=\"background: #0099CC;\"|Directed by\n! style=\"background:
+        #0099CC;\"|Story by\n! style=\"background: #0099CC;\"|Original air date\n|-\n{{Episode
+        list\n |EpisodeNumber=31\n |EpisodeNumber2=1\n |Title=Mel''s Offer\n |OriginalAirDate={{Start
+        date|2004|1|4}}\n |DirectedBy=[[Larry Charles]]\n |WrittenBy=[[Larry David]]\n
+        |ShortSummary=Larry is offered the lead role in [[Mel Brooks]]'' musical,
+        ''''[[The Producers (musical)|The Producers]]''''. Larry reminds Cheryl of
+        an anniversary gift she had promised him 10 years earlier.\n |LineColor=0099CC\n}}\n{{Episode
+        list\n |EpisodeNumber=32\n |EpisodeNumber2=2\n |Title=Ben''s Birthday Party\n
+        |OriginalAirDate={{Start date|2004|1|11}}\n |DirectedBy=[[Robert B. Weide]]\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry is reunited with his blind friend
+        Michael; the Davids are invited to [[Ben Stiller]]''s birthday dinner.\n |LineColor=0099CC\n}}\n{{Episode
+        list\n |EpisodeNumber=33\n |EpisodeNumber2=3\n |Title=The Blind Date\n |OriginalAirDate={{Start
+        date|2004|1|18}}\n |DirectedBy=Larry Charles\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        sets up Michael on a \"blind\" date with a veiled [[Muslim]] woman ([[Moon
+        Zappa]]); Jeff admits to Larry that he fantasized about Cheryl.\n |LineColor=0099CC\n}}\n{{Episode
+        list\n |EpisodeNumber=34\n |EpisodeNumber2=4\n |Title=The Weatherman\n |OriginalAirDate={{Start
+        date|2004|1|25}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=A weatherman''s wrong forecast angers Larry; Larry scares the
+        Greenes'' daughter with a hideous photograph of his tooth [[Dental plaque|plaque]].\n
+        |LineColor=0099CC\n}}\n{{Episode list\n |EpisodeNumber=35\n |EpisodeNumber2=5\n
+        |Title=The 5 Wood\n |OriginalAirDate={{Start date|2004|2|1}}\n |DirectedBy=[[Bryan
+        Gordon]]\n |WrittenBy=Larry David\n |ShortSummary=Larry faces termination
+        from his country club if his locker is not cleaned; Larry steals a golf club
+        from a deceased person''s casket.\n |LineColor=0099CC\n}}\n{{Episode list\n
+        |EpisodeNumber=36\n |EpisodeNumber2=6\n |Title=The Car Pool Lane\n |OriginalAirDate={{Start
+        date|2004|2|8}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        hires a prostitute ([[Kym Whitley]]) to be a passenger in his car so he can
+        use the HOV lane while driving to a Los Angeles Dodgers game on time, and
+        he also attempts to get [[medicinal marijuana]] for his father. Marty Funkhouser
+        ([[Bob Einstein]]) refuses to give away his dead father''s baseball ticket.\n
+        |LineColor=0099CC\n}}\n{{Episode list\n |EpisodeNumber=37\n |EpisodeNumber2=7\n
+        |Title=The Surrogate\n |OriginalAirDate={{Start date|2004|2|22}}\n |DirectedBy=Larry
+        Charles\n |WrittenBy=Larry David\n |ShortSummary=Larry wears a heart monitor
+        to get a clean bill of health for his lead role in ''''The Producers'''' but
+        finds himself in stressing situations such as racial encounters and dealings
+        with [[David Schwimmer]]''s father. \n |LineColor=0099CC\n}}\n{{Episode list\n
+        |EpisodeNumber=38\n |EpisodeNumber2=8\n |Title=Wandering Bear\n |OriginalAirDate={{Start
+        date|2004|2|29}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry''s purchase of an adult video causes trouble when his
+        longtime assistant Antoinette becomes unstable after breaking up with a boyfriend.
+        Larry gets some herbal remedies from his gardener, Wandering Bear.\n |LineColor=0099CC\n}}\n{{Episode
+        list\n |EpisodeNumber=39\n |EpisodeNumber2=9\n |Title=The Survivor\n |OriginalAirDate={{Start
+        date|2004|3|7}}\n |DirectedBy=Larry Charles\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        receives a tempting offer from a [[Hasidic]] dry cleaner ([[Gina Gershon]]);
+        Larry and Cheryl plan to celebrate their 10th anniversary with a vow renewal.
+        Due to a misunderstanding, the Rabbi conducting the ceremony brings a \"[[Survivor
+        (U.S. TV series)|Survivor]]\" ([[Colby Donaldson]] from the TV series) to
+        a social occasion and Larry''s father brings a [[Holocaust survivor]], leading
+        to an argument between the two over who is the \"true Survivor.\"\n |LineColor=0099CC\n}}\n{{Episode
+        list\n |EpisodeNumber=40\n |EpisodeNumber2=10\n |Title=Opening Night\n |OriginalAirDate={{Start
+        date|2004|3|14}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry opens on Broadway with ''''The Producers'''' and forgets
+        his lines during the performance; Cheryl reminds Larry to cash in on his present
+        before \"midnight\" of the opening. [[Stephen Colbert]] has a cameo appearance
+        as an irate audience member; [[Jerry Seinfeld]] has a short cameo in the audience.\n
+        |LineColor=0099CC\n}}\n|}\n\n===Season 5 (2005)===\nLarry''s friend, comedian
+        [[Richard Lewis (comedian)|Richard Lewis]], is in dire need of a [[kidney
+        transplant]] operation. Purely out of paranoid guilt, Larry offers one of
+        his own to Richard if Richard cannot find a suitable donor in time. Larry
+        then makes many concerted, ridiculous efforts to find Richard a kidney donor.
+        Larry explores the possibility that he may have been adopted, because of a
+        potentially misunderstood word his father said (and no longer remembers) while
+        in the hospital \u2014 Larry hires a private investigator ([[Mekhi Phifer]])
+        to look into it. Eventually, he discovers the \"truth\" and visits his potential
+        biological family, where he learns that he could be Gentile. His new faith
+        in Christianity makes him agree to donating Richard his kidney.\n{| class=\"wikitable
+        plainrowheaders\" style=\"width:100%\"\n|-style=\"color:black\"\n! style=\"background:
+        #FFEE99;\"|No. in<br />series\n! style=\"background: #FFEE99;\"|No. in<br
+        />season\n! style=\"background: #FFEE99;\"|Title\n! style=\"background: #FFEE99;\"|Directed
+        by\n! style=\"background: #FFEE99;\"|Story by\n! style=\"background: #FFEE99;\"|Original
+        air date\n|-\n{{Episode list\n |EpisodeNumber=41\n |EpisodeNumber2=1\n |Title=The
+        Larry David Sandwich\n |OriginalAirDate={{Start date|2005|9|25}}\n |DirectedBy=[[Robert
+        B. Weide]]\n |WrittenBy=[[Larry David]]\n |ShortSummary=Larry is changed by
+        a near-death experience and a revelation about his father; on the lighter
+        side, he finds that an unappetizing sandwich was named after him.\n |LineColor=
+        FFEE99\n}}\n{{Episode list\n |EpisodeNumber=42\n |EpisodeNumber2=2\n |Title=The
+        Bowtie\n |OriginalAirDate={{Start date|2005|10|2}}\n |DirectedBy=[[Larry Charles]]\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry hires a [[private investigator]]
+        to find out if he is adopted. He himself adopts a dog which Wanda thinks is
+        [[racist]] because of its strong reaction to her when she visits.\n |LineColor=
+        FFEE99\n}}\n{{Episode list\n |EpisodeNumber=43\n |EpisodeNumber2=3\n |Title=The
+        Christ Nail\n |OriginalAirDate={{Start date|2005|10|9}}\n |DirectedBy=Robert
+        B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry buys his housekeeper
+        a bra and is saved from the wrath of her vengeful husband by [[orthotics]]
+        and a special nail.\n |LineColor= FFEE99\n}}\n{{Episode list\n |EpisodeNumber=44\n
+        |EpisodeNumber2=4\n |Title=Kamikaze Bingo\n |OriginalAirDate={{Start date|2005|10|16}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        dishonors an art dealer at a Japanese restaurant and accuses a nursing-home
+        resident of a Bingo fix.\n |LineColor= FFEE99\n}}\n{{Episode list\n |EpisodeNumber=45\n
+        |EpisodeNumber2=5\n |Title=Lewis Needs a Kidney\n |OriginalAirDate={{Start
+        date|2005|10|30}}\n |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n
+        |ShortSummary=When [[Richard Lewis (comedian)|Richard Lewis]] needs a [[kidney
+        transplant]], Larry and Jeff debate on how far they are willing to go to help
+        him.\n |LineColor= FFEE99\n}}\n{{Episode list\n |EpisodeNumber=46\n |EpisodeNumber2=6\n
+        |Title=The Smoking Jacket\n |OriginalAirDate={{Start date|2005|11|6}}\n |DirectedBy=[[David
+        Steinberg]]\n |WrittenBy=Larry David\n |ShortSummary=On his birthday, Larry
+        makes two wishes that eventually come true. One involves a visit to [[Hugh
+        Hefner]]''s [[Playboy Mansion]]. While there, Larry swaps \"[[smoking jacket]]s\"
+        with a living legend.\n |LineColor= FFEE99\n}}\n{{Episode list\n |EpisodeNumber=47\n
+        |EpisodeNumber2=7\n |Title=The Seder\n |OriginalAirDate={{Start date|2005|11|13}}\n
+        |DirectedBy=Robert B. Weide\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        and Cheryl hold a [[Passover Seder]] for friends and family. Larry befriends
+        a [[sex offender]] ([[Rob Corddry]]) and winds up inviting him to the Seder,
+        which causes a lot of awkwardness among the other guests. Larry accuses another
+        guest of stealing his morning paper.\n |LineColor= FFEE99\n}}\n{{Episode list\n
+        |EpisodeNumber=48\n |EpisodeNumber2=8\n |Title=The Ski Lift\n |OriginalAirDate={{Start
+        date|2005|11|20}}\n |DirectedBy=Larry Charles\n |WrittenBy=Larry David\n |ShortSummary=Larry
+        and Jeff befriend the head of a kidney-transplant [[consortium]] in an attempt
+        to get Richard Lewis to the top of the hospital waiting list; Jeff and Susie
+        invite Larry and Cheryl to spend the weekend at their ski lodge; Larry learns
+        something about Jeff''s penis.\n |LineColor= FFEE99\n}}\n{{Episode list\n
+        |EpisodeNumber=49\n |EpisodeNumber2=9\n |Title=The Korean Bookie\n |OriginalAirDate={{Start
+        date|2005|11|27}}\n |DirectedBy=[[Bryan Gordon]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry pays off a debt and contemplates how to invest money from
+        a debt paid. He also suspects his bookie of eating Jeff''s dog, Oscar.\n |LineColor=
+        FFEE99\n}}\n{{Episode list\n |EpisodeNumber=50\n |EpisodeNumber2=10\n |Title=The
+        End\n |OriginalAirDate={{Start date|2005|12|4}}\n |DirectedBy=Larry Charles\n
+        |WrittenBy=Larry David\n |ShortSummary=Larry travels to Arizona to find his
+        birth parents and becomes a Christian, transforming his entire demeanor, and
+        donates his kidney to Richard Lewis. Larry dies and goes to heaven, but manages
+        to get in a fight with his guardian angels (played by [[Dustin Hoffman]] and
+        [[Sacha Baron Cohen]]) and meets his mother (played by [[Bea Arthur]]) and
+        is subsequently sent back into his body.\n |LineColor= FFEE99\n}}\n|}\n\n===Season
+        6 (2007)===\nCheryl and Larry shelter a New Orleans family named the Blacks
+        ([[Vivica A. Fox]] and [[J. B. Smoove]]) in their house after a hurricane
+        destroys the Blacks'' home. A distracted phone call between Larry and Cheryl
+        causes her to re-evaluate their marriage dynamic and they separate; Larry
+        thus returns to the dating scene.\n{| class=\"wikitable plainrowheaders\"
+        style=\"width:100%\"\n|-style=\"color:white\"\n! style=\"background: #992211;\"|No.
+        in<br />series\n! style=\"background: #992211;\"|No. in<br />season\n! style=\"background:
+        #992211;\"|Title\n! style=\"background: #992211;\"|Directed by\n! style=\"background:
+        #992211;\"|Story by\n! style=\"background: #992211;\"|Original air date\n|-\n{{Episode
+        list\n |EpisodeNumber=51\n |EpisodeNumber2=1\n |Title=Meet the Blacks\n |OriginalAirDate={{Start
+        date|2007|9|9}}\n |DirectedBy=[[Larry Charles]]\n |WrittenBy=[[Larry David]]\n
+        |ShortSummary=Cheryl talks Larry into taking in the Blacks, a New Orleans
+        family displaced by a hurricane; Larry invents an excuse for missing a party
+        which quickly catches on.\n |LineColor= 992211\n}}\n{{Episode list\n |EpisodeNumber=52\n
+        |EpisodeNumber2=2\n |Title=The Anonymous Donor\n |OriginalAirDate={{Start
+        date|2007|9|16}}\n |DirectedBy=[[Robert B. Weide]]\n |WrittenBy=Larry David\n
+        |ShortSummary=The Davids and the Blacks move into a new house; Larry has a
+        wing of a museum named after him but is upstaged by an anonymous donor. Larry
+        takes a sex-stained bedsheet to the dry-cleaners and finds that his shirt
+        has been picked up by someone else.\n |LineColor= 992211\n}}\n{{Episode list\n
+        |EpisodeNumber=53\n |EpisodeNumber2=3\n |Title=The Ida Funkhouser Roadside
+        Memorial\n |OriginalAirDate={{Start date|2007|9|23}}\n |DirectedBy=[[David
+        Mandel]]\n |WrittenBy=Larry David\n |ShortSummary=The David''s try to get
+        Loretta''s kids into an exclusive school with the Green''s daughter Sammy.
+        Larry winds up with a soiled 50$ bill no business will accept and detained
+        by people who abuse \"sampling privileges\". Marty Funkhauser''s mom has also
+        recently died, and Larry steals flowers and perfume from her roadside memorial.\n
+        |LineColor= 992211\n}}\n{{Episode list\n |EpisodeNumber=54\n |EpisodeNumber2=4\n
+        |Title=The Lefty Call\n |OriginalAirDate={{Start date|2007|9|30}}\n |DirectedBy=[[Alec
+        Berg]]\n |WrittenBy=Larry David\n |ShortSummary=Larry regrets getting [[Richard
+        Lewis (comedian)|Richard Lewis]]'' girlfriend Cha Cha ([[Tia Carrere]]) a
+        job near the office bathroom; a waiter gets into a doggy-bag dispute; and
+        Larry proves inept at \"talking lefty.\"\n |LineColor= 992211\n}}\n{{Episode
+        list\n |EpisodeNumber=55\n |EpisodeNumber2=5\n |Title=The Freak Book\n |OriginalAirDate={{Start
+        date|2007|10|7}}\n |DirectedBy=[[Bryan Gordon]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry attends [[Ted Danson]]''s birthday party but is bothered
+        by his chauffeur having to wait outside; a book about freaks, coupled with
+        the chauffeur''s incapacity, sets Larry up for a string of ejections involving
+        Danson, [[John McEnroe]], and a group of mourners.\n |LineColor= 992211\n}}\n{{Episode
+        list\n |EpisodeNumber=56\n |EpisodeNumber2=6\n |Title=The Rat Dog\n |OriginalAirDate={{Start
+        date|2007|10|14}}\n |DirectedBy=[[David Steinberg]]\n |WrittenBy=Larry David\n
+        |ShortSummary=Larry ruins Leon and Loretta''s respective job chances via an
+        accidental cellphone swap and a slow toaster. Larry also offends a deaf woman
+        over her dog which looks similar to a rat; and a ''massage-with-happy-ending''
+        gift to Larry''s dad causes confusion.\n |LineColor= 992211\n}}\n{{Episode
+        list\n |EpisodeNumber=57\n |EpisodeNumber2=7\n |Title=The TiVo Guy\n |OriginalAirDate={{Start
+        date|2007|10|21}}\n |DirectedBy=[[Jeff Schaffer]]\n |WrittenBy=Larry David\n
+        |ShortSummary=While on a flight that encounters dangerous weather, Cheryl
+        calls Larry, who has the TiVo guy ([[Kevin Heffernan (actor)|Kevin Heffernan]])
+        over. When Larry asks her to call him back, she turns to her male seatmate
+        for support. Eventually Cheryl leaves Larry and their mutual friends must
+        choose sides--nearly all of Larry''s friends choose Cheryl. Larry dates [[Lucy
+        Lawless]].\n |LineColor= 992211\n}}\n{{Episode list\n |EpisodeNumber=58\n
+        |EpisodeNumber2=8\n |Title=The N Word\n |OriginalAirDate={{Start date|2007|10|28}}\n
+        |DirectedBy=Tom Kramer\n |WrittenBy=Larry David\n |ShortSummary=Larry offends
+        Auntie Rae after an over-long hug. Jeff''s hospital stay for a \"snore job\"
+        opens up a new opportunity for Larry, who takes full advantage of it. Also:
+        after Larry hears a man use a racial slur offensive to African-Americans,
+        he can''t seem to say the word while relaying that story without having African-Americans
+        hear it. [[Brenda Strong]], [[Ben Stiller]], and [[Phil LaMarr]] guest-star.
+        \n |LineColor= 992211\n}}\n{{Episode list\n |EpisodeNumber=59\n |EpisodeNumber2=9\n
+        |Title=The Therapists\n |OriginalAirDate={{Start date|2007|11|4}}\n |DirectedBy=David
+        Mandel\n |WrittenBy=Larry David\n |ShortSummary=Larry alienates Cheryl by
+        following his therapist''s ([[Steve Coogan]]) advice; attempting to win her
+        back, he tries to curry favor with her therapist by staging a mugging attempt.
+        Marty Funkhouser collects money for a charity under false pretenses.\n |LineColor=
+        992211\n}}\n{{Episode list\n |EpisodeNumber=60\n |EpisodeNumber2=10\n |Title=The
+        Bat Mitzvah\n |OriginalAirDate={{Start date|2007|11|11}}\n |DirectedBy=Larry
+        Charles\n |WrittenBy=Larry David\n |ShortSummary=Larry \"recommends\" a former
+        ''''Seinfeld'''' director ([[Michael McKean]]) to Richard Lewis. As Jeff''s
+        daughter''s Bat Mitzvah ceremony approaches, he uses the opportunity to address
+        a malicious rumor. Larry sees Loretta in a new light.\n |LineColor= 992211\n}}\n|}\n\n===Season
+        7 (2009)===\nLarry and Loretta are now in a relationship, which Larry soon
+        realizes isn''t working for him.  Loretta is diagnosed with cancer and breaks
+        up with Larry because she thinks he''s cheating on her. She and the rest of
+        the family leave Larry''s home--except for Leon, who stays with him. When
+        Larry runs into Cheryl for the first time since last season, he learns that
+        she appreciated him more when he had a job, so he accepts NBC''s offer for
+        a ''''Seinfeld'''' reunion show to give her a part in it and win her back.
+        \n{| class=\"wikitable plainrowheaders\" style=\"width:100%\"\n|-style=\"color:white\"\n!
+        style=\"background: #3D3F43;\"|No. in<br />series\n! style=\"background: #3D3F43;\"|No.
+        in<br />season\n! style=\"background: #3D3F43;\"|Title\n! style=\"background:
+        #3D3F43;\"|Directed by\n! style=\"background: #3D3F43;\"|Story by\n! style=\"background:
+        #3D3F43;\"|Original air date\n! style=\"background: #3D3F43;\"|U.S. viewers<br
+        />(millions)\n|-\n{{Episode list\n |EpisodeNumber=61\n |EpisodeNumber2=1\n
+        |Title=Funkhouser''s Crazy Sister\n |OriginalAirDate={{Start date|2009|9|20}}\n
+        |DirectedBy=[[Larry Charles]]\n |WrittenBy=[[Larry David]]\n |Viewers=1.10<ref>{{Cite
+        web|url=http://tvbythenumbers.zap2it.com/2009/09/22/curb-your-enthusiasm-bored-to-death-pull-tiny-numbers-compared-to-true-blood/28089|title=''''Curb
+        Your Enthusiasm'''' & ''''Bored to Death'''' pull tiny numbers compared to
+        ''''True Blood''''|work=TV by the Numbers|last=Seidman|first=Robert|date=September
+        22, 2009|accessdate=November 3, 2010}}</ref>\n |ShortSummary=With Loretta
+        sick and awaiting the results of a biopsy, Larry attempts to break it off
+        with her before the results come back. Meanwhile, Jeff has an unusual encounter
+        with Marty Funkhouser''s mentally unstable sister, Bam Bam ([[Catherine O''Hara]]).\n
+        |LineColor=3D3F43\n}}\n{{Episode list\n |EpisodeNumber=62\n |EpisodeNumber2=2\n
+        |Title=Vehicular Fellatio\n |OriginalAirDate={{Start date|2009|9|27}}\n |DirectedBy=[[Alec
+        Berg]]\n |WrittenBy=Larry David\n |Viewers=<div style=\"color: grey;\"><small>N/A</small></div>\n
+        |ShortSummary=Larry enlists the help of a doctor who''s renowned for encouraging
+        cancer patients to remove themselves from bad relationships, to end things
+        with Loretta. Meanwhile, he''s repulsed by [[Richard Lewis (comedian)|Richard
+        Lewis]]'' new girlfriend after he finds out she gave Richard a [[oral sex|blowjob]]
+        in the car.\n |LineColor=3D3F43\n}}\n{{Episode list\n |EpisodeNumber=63\n
+        |EpisodeNumber2=3\n |Title=The Reunion\n |OriginalAirDate={{Start date|2009|10|04}}\n
+        |DirectedBy=[[Jeff Schaffer]]\n |WrittenBy=Larry David\n |Viewers=1.60<ref>{{Cite
+        web|url=http://tvbythenumbers.zap2it.com/2009/10/06/hbo-and-showtime-curb-your-enthusiasm-gets-seinfeld-boost-entourage-finale-draws-2-5-million/29703|title=HBO
+        and Showtime: ''''Curb Your Enthusiasm'''' gets \"Seinfeld\" boost; ''''Entourage''''
+        finale draws 2.5 million|work=TV by the Numbers|last=Seidman|first=Robert|date=October
+        6, 2009|accessdate=November 3, 2010}}</ref>\n |ShortSummary=After years of
+        resistance, Larry agrees to do a ''''[[Seinfeld]]'''' reunion special when
+        he realizes that giving Cheryl a major role might get her to take him back;
+        Larry has another run-in with Susie after he supposedly saves her life by
+        identifying that she has [[Lyme disease]].\n |LineColor=3D3F43\n}}\n{{Episode
+        list\n |EpisodeNumber=64\n |EpisodeNumber2=4\n |Title=The Hot Towel\n |OriginalAirDate={{Start
+        date|2009|10|11}}\n |DirectedBy=Alec Berg\n |WrittenBy=Larry David\n |Viewers=<div
+        style=\"color: grey;\"><small>N/A</small></div>\n |ShortSummary=Larry burns
+        his hand on an airplane hot towel, which affects his bra-unhooking technique
+        and leads to his doctor reluctantly giving Larry his home phone number, which
+        Larry proceeds to accidentally abuse. Meanwhile, he''s less than impressed
+        when his expensive anniversary gift to [[Ted Danson]] and [[Mary Steenburgen]]
+        is shunned in favor of Jeff and Susie''s daughter Sammy''s gift \"from the
+        heart\", especially when they invite Jeff and Susie--but not him--to the restaurant
+        from which he got the gift. [[Christian Slater]] guest stars.\n |LineColor=3D3F43\n}}\n{{Episode
+        list\n |EpisodeNumber=65\n |EpisodeNumber2=5\n |Title=Denise Handicap <!--
+        Do not change to \"Denise Handicapped\". The official HBO site is incorrect.
+        The DVD lists the episode as being called \"Denise Handicap\". -->\n |OriginalAirDate={{Start
+        date|2009|10|18}}\n |DirectedBy=[[David Mandel]]\n |WrittenBy=Larry David\n
+        |Viewers=<div style=\"color: grey;\"><small>N/A</small></div>\n |ShortSummary=Larry
+        begins dating a disabled woman, Denise, who requires a wheelchair. They plan
+        to attend a [[Kim Chee Yun]] recital being held by Larry''s friends, but Larry
+        can''t contact his new date after Susie throws his [[BlackBerry]] into the
+        ocean.\n |LineColor=3D3F43\n}}\n{{Episode list\n |EpisodeNumber=66\n |EpisodeNumber2=6\n
+        |Title=The Bare Midriff\n |OriginalAirDate={{Start date|2009|10|25}}\n |DirectedBy=Larry
+        Charles\n |WrittenBy=Larry David\n |Viewers=<div style=\"color: grey;\"><small>N/A</small></div>\n
+        |ShortSummary=Larry and Jerry have problems with their assistant ([[Jillian
+        Bell]]), who always wears clothes that expose her large stomach. Larry continuously
+        offends Richard Lewis and inadvertently causes a \"miracle\" to occur.\n |LineColor=3D3F43\n}}\n{{Episode
+        list\n |EpisodeNumber=67\n |EpisodeNumber2=7\n |Title=The Black Swan\n |OriginalAirDate={{Start
+        date|2009|11|01}}\n |DirectedBy=[[Bryan Gordon]]\n |WrittenBy=Larry David\n
+        |Viewers=0.98<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2009/11/03/dexter-sets-another-series-high-beats-mad-men/32488|title=''''Dexter''''
+        sets another series high, beats ''''Mad Men''''|work=TV by the Numbers|last=Seidman|first=Robert|date=November
+        3, 2009|accessdate=November 3, 2010}}</ref>\n |ShortSummary=Larry repeatedly
+        runs into trouble at his golf club when he is blamed for two deaths, protests
+        an unorthodox tipping policy, and forgets to turn off his BlackBerry. He also
+        seeks to correct a spelling mistake on his mother''s gravestone, and makes
+        a generous gift to his cousin Andy with unfortunate results.\n |LineColor=3D3F43\n}}\n{{Episode
+        list\n |EpisodeNumber=68\n |EpisodeNumber2=8\n |Title=Officer Krupke\n |OriginalAirDate={{Start
+        date|2009|11|08}}\n |DirectedBy=[[David Steinberg]]\n |WrittenBy=Larry David\n
+        |Viewers=<div style=\"color: grey;\"><small>N/A</small></div>\n |ShortSummary=Larry
+        is forced to embrace his feminine side to cover for Jeff. Cheryl competes
+        for a ''''Seinfeld'''' role. Larry loses his pants at [[Banana Republic (clothing
+        retailer)|Banana Republic]]. A law officer has an unusual name. [[John Schneider
+        (television actor)|John Schneider]] and [[Elisabeth Shue]] guest star as a
+        couple who make Cheryl an [[Threesome|indecent proposal]]. A bearded [[Ben
+        Affleck]] has an uncredited cameo role exiting Banana Republic.\n |LineColor=3D3F43\n}}\n{{Episode
+        list\n |EpisodeNumber=69\n |EpisodeNumber2=9\n |Title=The Table Read\n |OriginalAirDate={{Start
+        date|2009|11|15}}\n |DirectedBy=Larry Charles\n |WrittenBy=Larry David\n |Viewers=1.26<ref>{{Cite
+        web|url=http://tvbythenumbers.zap2it.com/2009/11/18/sunday-cable-finals-world-war-ii-in-hd-beats-curbed-dexter-prisoner-and-californication/33993|title=Sunday
+        cable finals: ''''World War II'''' in HD beats ''''Curbed'''', ''''Dexter'''',
+        ''''Prisoner'''' and ''''Californication''''|work=TV by the Numbers|last=Seidman|first=Robert|date=November
+        18, 2009|accessdate=November 3, 2010}}</ref> \n |ShortSummary=At the ''''Seinfeld''''
+        reunion table read, Larry befriends a 9-year-old who later constantly text-messages
+        him. To calm [[Michael Richards]]'' nerves, Leon poses as a man who had battled
+        [[List of fictional diseases#In television|Groat''s Disease]]. [[Jerry Seinfeld]]
+        and Marty Funkhouser bond over a joke. Larry regrets lending his pen to [[Jason
+        Alexander]]. Many ''''Seinfeld'''' supporting actors are shown rehearsing
+        their roles in the reunion special, including [[Steve Hytner]] ([[Kenny Bania]]),
+        [[Estelle Harris]] ([[Estelle Costanza]]), and [[Wayne Knight]] ([[Newman
+        (Seinfeld)|Newman]]).\n |LineColor=3D3F43\n}}\n{{Episode list\n |EpisodeNumber=70\n
+        |EpisodeNumber2=10\n |Title=[[Seinfeld (Curb Your Enthusiasm)|Seinfeld]]\n
+        |OriginalAirDate={{Start date|2009|11|22}}\n |DirectedBy=Jeff Schaffer<br
+        />[[Andy Ackerman]] (''''Seinfeld'''' segment)\n |WrittenBy=Larry David\n
+        |Viewers=1.33<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2009/11/24/sunday-cable-ratings-curb-bows-out-with-1-334-million-dexter-holding-most-of-its-audience/34546|title=Sunday
+        Cable Ratings: \"Curb\" bows out with 1.334 million; \"Dexter\" holding most
+        of its audience|work=TV by the Numbers|last=Seidman|first=Robert|date=November
+        24, 2009|accessdate=November 3, 2010}}</ref>\n |ShortSummary=Larry is hopeful
+        that his plan is working when Cheryl invites him over to review the ''''Seinfeld''''
+        reunion script. But when an attempt to right a wronged Mocha Joe causes Larry
+        to miss the date, Cheryl turns to Jason Alexander for coaching.\n |LineColor=3D3F43\n}}\n|}\n\n===Season
+        8 (2011)===\nLarry finalizes his divorce with Cheryl and enjoys life as a
+        single man. In order to avoid a charity gig, he goes with Jeff and Susie on
+        a three month trip to New York City, where he soon reunites with Leon.\n{|
+        class=\"wikitable plainrowheaders\" style=\"width:100%\"\n|-style=\"color:white\"\n!
+        style=\"background: #111111;\"|No. in<br />series\n! style=\"background: #111111;\"|No.
+        in<br />season\n! style=\"background: #111111;\"|Title\n! style=\"background:
+        #111111;\"|Directed by\n! style=\"background: #111111;\"|Story by\n! style=\"background:
+        #111111;\"|Original air date\n! style=\"background: #111111;\"|U.S. viewers<br
+        />(millions)\n|-\n{{Episode list\n |EpisodeNumber=71\n |EpisodeNumber2=1\n
+        |Title=The Divorce\n |OriginalAirDate={{Start date|2011|7|10}}\n |DirectedBy=[[David
+        Steinberg]]\n |WrittenBy=[[Larry David]], [[Alec Berg]], [[David Mandel]]
+        & [[Jeff Schaffer]]\n |Viewers=1.71<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2011/07/12/sunday-cable-ratings-true-blood-bounces-back-falling-skies-steady-womens-world-cup-in-plain-sight-the-glades-more/97748/|title=Sunday
+        Cable Ratings: ''True Blood'' Bounces Back, ''Falling Skies'' Steady + Women''s
+        World Cup, ''In Plain Sight,'' ''The Glades'' & More|work=TV by the Numbers|last=Seidman|first=Robert|date=July
+        12, 2011|accessdate=July 12, 2011}}</ref>\n |ShortSummary=Larry has second
+        thoughts about his lawyer and also rethinks a Girl-Scout cookie order from
+        a sports-team owner''s daughter.\n |LineColor=111111\n}}\n{{Episode list\n
+        |EpisodeNumber=72\n |EpisodeNumber2=2\n |Title=The Safe House\n |OriginalAirDate={{Start
+        date|2011|7|17}}\n |DirectedBy=[[Bryan Gordon]]\n |WrittenBy=Larry David,
+        Alec Berg, David Mandel & Jeff Schaffer\n |Viewers=1.91<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2011/07/19/sunday-cable-ratings-true-blood-slips-falling-skies-steady-breaking-bad-leverage-in-plain-sight-the-glades-more/98316/|title=Sunday
+        Cable Ratings: ''True Blood'' Slips , ''Falling Skies'' Steady + ''Breaking
+        Bad,'' ''Leverage,'' ''In Plain Sight,'' ''The Glades'' & More|work=TV by
+        the Numbers|last=Seidman|first=Robert|date=July 19, 2011|accessdate=July 19,
+        2011}}</ref>\n |ShortSummary=Leon endures a case of mistaken identity; Larry
+        helps women in abusive relationships; Richard Lewis gets involved with a burlesque
+        performer ([[Jan Anderson (actress)|Jan Anderson]]).\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=73\n |EpisodeNumber2=3\n |Title=Palestinian Chicken\n
+        |OriginalAirDate={{Start date|2011|7|24}}\n |DirectedBy=[[Robert B. Weide]]\n
+        |WrittenBy=Larry David, Alec Berg, David Mandel & Jeff Schaffer\n |Viewers=2.37<ref>{{Cite
+        web|url=http://tvbythenumbers.zap2it.com/2011/07/26/sunday-cable-ratings-true-blood-rises-falling-skies-steady-kardashians-entourage-breaking-bad-leverage-the-glades-much-more/98882/|title=Sunday
+        Cable Ratings: ''True Blood'' Rises, ''Falling Skies'' Steady + Kardashians,
+        ''Entourage,'' ''Breaking Bad,'' ''Leverage,'' ''The Glades'' & Much More|work=TV
+        by the Numbers|last=Seidman|first=Robert|date=July 26, 2011|accessdate=July
+        26, 2011}}</ref>\n |ShortSummary=Larry relishes his role as a \"social assassin\"
+        until it becomes a liability with his friends, on the golf course, and at
+        a Palestinian restaurant.\n |LineColor=111111\n}}\n{{Episode list\n |EpisodeNumber=74\n
+        |EpisodeNumber2=4\n |Title=The Smiley Face\n |OriginalAirDate={{Start date|2011|7|31}}\n
+        |DirectedBy=Jeff Schaffer\n |WrittenBy=Larry David, Alec Berg, David Mandel
+        & Jeff Schaffer\n |Viewers=2.10<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2011/08/02/sunday-cable-ratings-true-blood-shark-week-falling-skies-in-plain-sight-breaking-bad-leverage-much-more/99356/
+        |title=Sunday Cable Ratings: ''True Blood,'' Shark Week , ''Falling Skies,''
+        ''In Plain Sight,'' ''Breaking Bad,'' ''Leverage,'' & Much More |work=TV by
+        the Numbers |last=Seidman |first=Robert |date=August 2, 2011 |accessdate=August
+        2, 2011}}</ref>\n |ShortSummary=Larry challenges the rules of dating and rethinks
+        a decision regarding a new workplace neighbor. Meanwhile, Jeff invents an
+        ill-advised excuse to get out of a dining engagement.\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=75\n |EpisodeNumber2=5\n |Title=Vow of Silence\n |OriginalAirDate={{Start
+        date|2011|8|7}}\n |DirectedBy=Alec Berg\n |WrittenBy=Larry David, Alec Berg,
+        David Mandel & Jeff Schaffer\n |Viewers=2.05<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2011/08/09/sunday-cable-ratings-true-blood-kardashians-falling-skies-in-plain-sight-breaking-bad-much-more/99945/
+        |title=Sunday Cable Ratings: ''True Blood,'' Kardashians, ''Falling Skies,''
+        ''In Plain Sight,'' ''Breaking Bad,'' & Much More |work=TV by the Numbers
+        |last=Seidman |first=Robert |date=August 9, 2011 |accessdate=August 9, 2011}}</ref>\n
+        |ShortSummary=A failed alibi has trans-national consequences; the Greenes''
+        dog is denied a last meal; Larry confronts poor parking and a buffet-line
+        \"cut-and chat\"; the silence vow is broken.\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=76\n |EpisodeNumber2=6\n |Title=The Hero\n |OriginalAirDate={{Start
+        date|2011|8|14}}\n |DirectedBy=Alec Berg\n |WrittenBy=Larry David, Alec Berg,
+        David Mandel & Jeff Schaffer\n |Viewers=2.31<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2011/08/16/sunday-cable-ratings-true-blood-rises-leads-night-kardashians-entourage-leverage-breaking-bad-much-more/100471/
+        |title=Sunday Cable Ratings: ''True Blood'' Rises, Leads Night + Kardashians,
+        ''Entourage,'' ''Leverage,'' ''Breaking Bad,'' & Much More |work=TV by the
+        Numbers |last=Seidman |first=Robert |date=August 16, 2011 |accessdate=August
+        16, 2011}}</ref>\n |ShortSummary=Larry plays the hero in the sky and underground;
+        Jeff''s courtship of [[Ricky Gervais]] is sabotaged by a nosy waiter.\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=77\n |EpisodeNumber2=7\n |Title=The Bi-Sexual\n |OriginalAirDate={{Start
+        date|2011|8|21}}\n |DirectedBy=David Mandel\n |WrittenBy=Larry David, Alec
+        Berg, David Mandel & Jeff Schaffer\n |Viewers=2.08<ref>{{cite web |url=http://tvbythenumbers.zap2it.com/2011/08/23/sunday-cable-true-blood-kardashians-entourage-lead-breaking-bad-glee-project-much-more/101035/
+        |title= Sunday Cable Ratings: True Blood, Kardashians, Entourage Lead, Breaking
+        Bad, Glee Project Much More |work=TV by the Numbers |last=Seidman |first=Robert
+        |date=August 23, 2011 |accessdate=August 23, 2011}}</ref>\n |ShortSummary=Larry
+        competes with [[Rosie O''Donnell]] for the same woman, explores the nuances
+        of Japanese bows, and refuses lunch with an LA acquaintance.\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=78\n |EpisodeNumber2=8\n |Title=Car Periscope\n |OriginalAirDate={{Start
+        date|2011|8|28}}\n |DirectedBy=David Mandel\n |WrittenBy=Larry David, Alec
+        Berg, David Mandel & Jeff Schaffer\n |Viewers=1.87<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2011/08/30/sunday-cable-video-music-awards-true-blood-kardashians-entourage-breaking-bad-leverage-much-more/101800/|title=Sunday
+        Cable : ''Video Music Awards,'' ''True Blood,'' ''Kardashians,'' ''Entourage,''
+        ''Breaking Bad,'' ''Leverage'' & Much More|work=TV by the Numbers|last=Gorman|first=Bill|date=August
+        30, 2011|accessdate=August 31, 2011}}</ref>\n |ShortSummary=Larry and Jeff
+        weigh an investment opportunity; Wanda Sykes preempts Larry''s training schedule;
+        [[Cheyenne Jackson]] guest-stars as Larry''s personal trainer. The plot element
+        around the one-armed man is a playful reference to the television series ''''[[The
+        Fugitive (TV series)|The Fugitive]]''''.\n |LineColor=111111\n}}\n{{Episode
+        list\n |EpisodeNumber=79\n |EpisodeNumber2=9\n |Title=Mister Softee\n |OriginalAirDate={{Start
+        date|2011|9|4}}\n |DirectedBy=[[Larry Charles]]\n |WrittenBy=Larry David,
+        Alec Berg, David Mandel & Jeff Schaffer\n |Viewers=1.43<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2011/09/07/sunday-cable-true-blood-drops-kardashians-finale-jumps-entourage-breaking-bad-curb-much-more/102799/|title=Sunday
+        Cable: ''True Blood'' Drops, ''Kardashians'' Finale Jumps, ''Entourage,''
+        ''Breaking Bad,'' ''Curb'' & Much More|work=TV by the Numbers|last=Gorman|first=Bill|date=September
+        7, 2011|accessdate=September 7, 2011}}</ref>\n |ShortSummary=An ice-cream
+        truck triggers a painful childhood memory for Larry that impacts a softball
+        title game, a therapist''s fees, Bill Buckner''s legacy, and his new girlfriend''s
+        travel preferences.\n |LineColor=111111\n}}\n {{Episode list\n |EpisodeNumber=80\n
+        |EpisodeNumber2=10\n |Title=Larry vs. Michael J. Fox\n |OriginalAirDate={{Start
+        date|2011|9|11}}\n |DirectedBy=Alec Berg\n |WrittenBy=Larry David, Alec Berg,
+        David Mandel & Jeff Schaffer\n |Viewers=2.04<ref>{{Cite web|url=http://tvbythenumbers.zap2it.com/2011/09/13/sunday-cable-true-blood-bounces-back-entourage-finale-leaps-plus-breaking-bad-curb-housewives-nj-more/103434/|title=Sunday
+        Cable Ratings: ''True Blood'' Rises, Leads Night + Kardashians, ''Entourage,''
+        ''Leverage,'' ''Breaking Bad,'' & Much More|work=TV by the Numbers|last=Gorman|first=Bill|date=September
+        13, 2011|accessdate=September 13, 2011}}</ref>\n |ShortSummary=Larry accuses
+        his neighbor, [[Michael J. Fox]], of harassment; Jeff takes a bullet for Susie;
+        Larry gives a controversial gift to Jennifer''s son.\n |LineColor=111111\n}}\n|}\n\n==References==\n{{reflist|30em}}\n\n==External
+        links==\n* [http://www.hbo.com/curb-your-enthusiasm/episodes/index.html Episode
+        guide at HBO]\n* {{Imdb episodes|0264235|Curb Your Enthusiasm}}\n* {{Tv.com
+        episodes|curb-your-enthusiasm|3720|Curb Your Enthusiasm}}\n\n{{Curb Your Enthusiasm}}\n\n{{DEFAULTSORT:Curb
+        Your Enthusiasm}}\n[[Category:Curb Your Enthusiasm episodes| ]]\n[[Category:Lists
+        of American television series episodes]]\n[[Category:Lists of sitcom television
+        series episodes]]"}]}}}}'
+    http_version: 
+  recorded_at: Fri, 29 May 2015 19:40:57 GMT
+recorded_with: VCR 2.9.3
