@@ -6,6 +6,6 @@ $(document).ready(function() {
 
   $("#sample").click(function() {
     $(".sample-text").slideToggle("slow");
-  })
+  });
 
 });

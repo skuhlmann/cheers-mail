@@ -2,7 +2,8 @@
 
   <div class="subscribe-form">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">      <%= form_for(@subscription) do |f| %>
+      <div class="col-md-10 col-md-offset-1">
+        <%= form_for(@subscription, html: {id: "subscription"}) do |f| %>
       <% if @subscription.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@subscription.errors.count, "error") %> prohibited this user from being saved:</h2>
@@ -16,11 +17,13 @@
       <% end %>
 
         <div class="form-group">
-          <%= f.text_field :email_address, placeholder: "Email Address (required)", class: "form-control" %>
+          <%= f.text_field :email_address, placeholder: "Email Address (required)", class: "form-control", data: {
+            validation: "email", "validation-error-msg": "That doesn't look like a valid email address" }%>
         </div>
 
         <div class="form-group">
-          <%= f.text_field :name, placeholder: "Your Name (required)", class: "form-control" %>
+          <%= f.text_field :name, placeholder: "Your Name (required)", class: "form-control", data: {
+            validation: "required validate_max_length length1", "validation-error-msg": "Please enter a name"} %>
         </div>
 
         <hr>

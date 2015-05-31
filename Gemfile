@@ -18,6 +18,7 @@ gem 'foreigner'
 gem 'clockwork'
 gem "twitter-bootstrap-rails"
 gem "font-awesome-rails"
+gem "jquery-form-validator-rails"
 
 group :development, :test do
   gem 'nokogiri'
