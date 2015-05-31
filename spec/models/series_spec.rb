@@ -18,4 +18,17 @@ RSpec.describe Series, :type => :model do
     expect(new_series.name).to eq("Seinfeld")
     expect(another_series.name).to eq("Who's The Boss")
   end
+
+  it "destroys all of it's related episodes when it's detroyed" do
+    series.save
+    episode = Episode.create(summary: "lalala")
+    series.episodes << episode
+
+    expect(series.episodes.first).to eq(episode)
+    expect(Episode.count).to eq(1)
+
+    series.destroy
+
+    expect(Episode.count).to eq(0)
+  end
 end
