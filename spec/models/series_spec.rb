@@ -19,18 +19,16 @@ RSpec.describe Series, :type => :model do
     expect(another_series.name).to eq("Who's The Boss")
   end
 
-  it "returns a random episode from its episodes" do
-    series = Series.create(name: "seinfeld", seasons: 2)
-    100.times do
-      series.episodes << Episode.create(summary: Faker::Lorem.sentence, season: 2)
-    end
+  it "destroys all of it's related episodes when it's detroyed" do
+    series.save
+    episode = Episode.create(summary: "lalala")
+    series.episodes << episode
 
-    randoms = []
-    4.times do
-      randoms << series.random_episode
-    end
+    expect(series.episodes.first).to eq(episode)
+    expect(Episode.count).to eq(1)
 
-    expect(randoms.first.class).to be(Episode)
-    expect(randoms.uniq.count).to be(4)
+    series.destroy
+
+    expect(Episode.count).to eq(0)
   end
 end
