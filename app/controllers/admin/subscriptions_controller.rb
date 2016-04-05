@@ -32,6 +32,11 @@ class Admin::SubscriptionsController < Admin::BaseAdminController
     redirect_to admin_subscriptions_path, notice: 'Email sent'
   end
 
+  def weekly_blast
+    Subscription.weekly_blast
+    redirect_to admin_index_path, notice: 'Emails blasted'
+  end
+
   private
     def set_subscription
       @subscription = Subscription.find(params[:id])

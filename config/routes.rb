@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get '/admin', to: 'admin/base_admin#index', as: :admin_index
   post '/weekly_email/:id', to: 'admin/subscriptions#weekly_email', as: :weekly_email
+  post '/blaster/', to: 'admin/subscriptions#weekly_blast', as: :blast
 
   namespace :admin do
     resources :users, only: [:destroy, :update, :create, :new, :edit, :show]

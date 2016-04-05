@@ -83,4 +83,9 @@
 
     <%= link_to 'New User', new_admin_user_path %>
   </div>
+
+  <div class="col-xs-10 col-xs-offset-1">
+    <h2>Blast</h2>
+    <td><%= button_to "BLAST IT", blast_path, method: :post, data: { confirm: 'Are you sure?' } %></td>
+  </div>
 </div>
